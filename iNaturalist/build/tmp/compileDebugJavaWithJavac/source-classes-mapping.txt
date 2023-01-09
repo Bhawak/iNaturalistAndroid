@@ -1,0 +1,1181 @@
+org/inaturalist/android/GuideTaxonActivity.java
+ org.inaturalist.android.GuideTaxonActivity
+ org.inaturalist.android.GuideTaxonActivity$1
+ org.inaturalist.android.GuideTaxonActivity$2
+ org.inaturalist.android.GuideTaxonActivity$3
+ org.inaturalist.android.GuideTaxonActivity$GalleryPhotoAdapter
+ org.inaturalist.android.GuideTaxonActivity$TaxonReceiver
+ org.inaturalist.android.GuideTaxonActivity$URLSpanNoUnderline
+uk/co/senab/photoview/PhotoViewAttacher.java
+ uk.co.senab.photoview.PhotoViewAttacher
+ uk.co.senab.photoview.PhotoViewAttacher$1
+ uk.co.senab.photoview.PhotoViewAttacher$2
+ uk.co.senab.photoview.PhotoViewAttacher$AnimatedZoomRunnable
+ uk.co.senab.photoview.PhotoViewAttacher$FlingRunnable
+ uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener
+ uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener
+ uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener
+org/inaturalist/android/UserActivitiesAdapter.java
+ org.inaturalist.android.UserActivitiesAdapter
+ org.inaturalist.android.UserActivitiesAdapter$1
+ org.inaturalist.android.UserActivitiesAdapter$2
+ org.inaturalist.android.UserActivitiesAdapter$3
+ org.inaturalist.android.UserActivitiesAdapter$4
+ org.inaturalist.android.UserActivitiesAdapter$5
+ org.inaturalist.android.UserActivitiesAdapter$CircleTransform
+ org.inaturalist.android.UserActivitiesAdapter$ClickSpan
+ org.inaturalist.android.UserActivitiesAdapter$IOnUpdateViewed
+ org.inaturalist.android.UserActivitiesAdapter$ObservationReceiver
+ org.inaturalist.android.UserActivitiesAdapter$OnClickListener
+org/inaturalist/android/CommentsIdsAdapter.java
+ org.inaturalist.android.CommentsIdsAdapter
+ org.inaturalist.android.CommentsIdsAdapter$1
+ org.inaturalist.android.CommentsIdsAdapter$2
+ org.inaturalist.android.CommentsIdsAdapter$3
+ org.inaturalist.android.CommentsIdsAdapter$3$1
+ org.inaturalist.android.CommentsIdsAdapter$3$2
+ org.inaturalist.android.CommentsIdsAdapter$4
+ org.inaturalist.android.CommentsIdsAdapter$4$1
+ org.inaturalist.android.CommentsIdsAdapter$5
+ org.inaturalist.android.CommentsIdsAdapter$6
+ org.inaturalist.android.CommentsIdsAdapter$7
+ org.inaturalist.android.CommentsIdsAdapter$8
+ org.inaturalist.android.CommentsIdsAdapter$9
+ org.inaturalist.android.CommentsIdsAdapter$OnIDAdded
+org/inaturalist/android/ProjectUserAdapter.java
+ org.inaturalist.android.ProjectUserAdapter
+org/inaturalist/android/BaseTab.java
+ org.inaturalist.android.BaseTab
+ org.inaturalist.android.BaseTab$1
+ org.inaturalist.android.BaseTab$2
+ org.inaturalist.android.BaseTab$3
+ org.inaturalist.android.BaseTab$4
+ org.inaturalist.android.BaseTab$5
+ org.inaturalist.android.BaseTab$ProjectsReceiver
+uk/co/senab/photoview/log/LoggerDefault.java
+ uk.co.senab.photoview.log.LoggerDefault
+org/inaturalist/android/DefaultLicensesFragment.java
+ org.inaturalist.android.DefaultLicensesFragment
+uk/co/senab/photoview/gestures/CupcakeGestureDetector.java
+ uk.co.senab.photoview.gestures.CupcakeGestureDetector
+org/inaturalist/android/ObservationGridAdapter.java
+ org.inaturalist.android.ObservationGridAdapter
+ org.inaturalist.android.ObservationGridAdapter$1
+org/inaturalist/android/LocationChooserActivity.java
+ org.inaturalist.android.LocationChooserActivity
+ org.inaturalist.android.LocationChooserActivity$1
+ org.inaturalist.android.LocationChooserActivity$1$1
+ org.inaturalist.android.LocationChooserActivity$1$2
+ org.inaturalist.android.LocationChooserActivity$10
+ org.inaturalist.android.LocationChooserActivity$11
+ org.inaturalist.android.LocationChooserActivity$12
+ org.inaturalist.android.LocationChooserActivity$13
+ org.inaturalist.android.LocationChooserActivity$13$1
+ org.inaturalist.android.LocationChooserActivity$14
+ org.inaturalist.android.LocationChooserActivity$15
+ org.inaturalist.android.LocationChooserActivity$15$1
+ org.inaturalist.android.LocationChooserActivity$16
+ org.inaturalist.android.LocationChooserActivity$17
+ org.inaturalist.android.LocationChooserActivity$18
+ org.inaturalist.android.LocationChooserActivity$19
+ org.inaturalist.android.LocationChooserActivity$2
+ org.inaturalist.android.LocationChooserActivity$3
+ org.inaturalist.android.LocationChooserActivity$4
+ org.inaturalist.android.LocationChooserActivity$4$1
+ org.inaturalist.android.LocationChooserActivity$5
+ org.inaturalist.android.LocationChooserActivity$6
+ org.inaturalist.android.LocationChooserActivity$7
+ org.inaturalist.android.LocationChooserActivity$8
+ org.inaturalist.android.LocationChooserActivity$9
+org/inaturalist/android/SignInTask.java
+ org.inaturalist.android.SignInTask
+ org.inaturalist.android.SignInTask$1
+ org.inaturalist.android.SignInTask$2
+ org.inaturalist.android.SignInTask$3
+ org.inaturalist.android.SignInTask$SignInTaskStatus
+org/inaturalist/android/MissionsOnboardingActivity.java
+ org.inaturalist.android.MissionsOnboardingActivity
+ org.inaturalist.android.MissionsOnboardingActivity$1
+org/inaturalist/android/BaseGuideXMLParser.java
+ org.inaturalist.android.BaseGuideXMLParser
+org/inaturalist/android/NewMessageActivity.java
+ org.inaturalist.android.NewMessageActivity
+ org.inaturalist.android.NewMessageActivity$1
+ org.inaturalist.android.NewMessageActivity$PostMessageReceiver
+org/inaturalist/android/BaseFragmentActivity.java
+ org.inaturalist.android.BaseFragmentActivity
+ org.inaturalist.android.BaseFragmentActivity$1
+ org.inaturalist.android.BaseFragmentActivity$10
+ org.inaturalist.android.BaseFragmentActivity$11
+ org.inaturalist.android.BaseFragmentActivity$12
+ org.inaturalist.android.BaseFragmentActivity$13
+ org.inaturalist.android.BaseFragmentActivity$14
+ org.inaturalist.android.BaseFragmentActivity$15
+ org.inaturalist.android.BaseFragmentActivity$16
+ org.inaturalist.android.BaseFragmentActivity$17
+ org.inaturalist.android.BaseFragmentActivity$18
+ org.inaturalist.android.BaseFragmentActivity$19
+ org.inaturalist.android.BaseFragmentActivity$2
+ org.inaturalist.android.BaseFragmentActivity$20
+ org.inaturalist.android.BaseFragmentActivity$21
+ org.inaturalist.android.BaseFragmentActivity$22
+ org.inaturalist.android.BaseFragmentActivity$23
+ org.inaturalist.android.BaseFragmentActivity$24
+ org.inaturalist.android.BaseFragmentActivity$3
+ org.inaturalist.android.BaseFragmentActivity$4
+ org.inaturalist.android.BaseFragmentActivity$5
+ org.inaturalist.android.BaseFragmentActivity$6
+ org.inaturalist.android.BaseFragmentActivity$7
+ org.inaturalist.android.BaseFragmentActivity$8
+ org.inaturalist.android.BaseFragmentActivity$9
+ org.inaturalist.android.BaseFragmentActivity$NotificationCountsReceiver
+ org.inaturalist.android.BaseFragmentActivity$PlaceDetailsReceiver
+ org.inaturalist.android.BaseFragmentActivity$UserDetailsReceiver
+org/inaturalist/android/ThirdPartyDataSharingFragment.java
+ org.inaturalist.android.ThirdPartyDataSharingFragment
+ org.inaturalist.android.ThirdPartyDataSharingFragment$1
+ org.inaturalist.android.ThirdPartyDataSharingFragment$2
+org/inaturalist/android/DeleteAccount.java
+ org.inaturalist.android.DeleteAccount
+ org.inaturalist.android.DeleteAccount$1
+ org.inaturalist.android.DeleteAccount$DeleteAccountReceiver
+org/inaturalist/android/GuideTaxonFilter.java
+ org.inaturalist.android.GuideTaxonFilter
+org/inaturalist/android/MissionDetails.java
+ org.inaturalist.android.MissionDetails
+ org.inaturalist.android.MissionDetails$1
+ org.inaturalist.android.MissionDetails$2
+ org.inaturalist.android.MissionDetails$3
+ org.inaturalist.android.MissionDetails$4
+ org.inaturalist.android.MissionDetails$5
+ org.inaturalist.android.MissionDetails$6
+ org.inaturalist.android.MissionDetails$NearbyObservationsReceiver
+ org.inaturalist.android.MissionDetails$ObservationsPagerAdapter
+ org.inaturalist.android.MissionDetails$ObservationsPagerAdapter$1
+ org.inaturalist.android.MissionDetails$TaxonReceiver
+org/inaturalist/android/AboutLicensesActivity.java
+ org.inaturalist.android.AboutLicensesActivity
+org/inaturalist/android/UserIdentificationsAdapter.java
+ org.inaturalist.android.UserIdentificationsAdapter
+ org.inaturalist.android.UserIdentificationsAdapter$1
+org/inaturalist/android/FeaturedProjectsTab.java
+ org.inaturalist.android.FeaturedProjectsTab
+org/inaturalist/android/UserProfile.java
+ org.inaturalist.android.UserProfile
+ org.inaturalist.android.UserProfile$1
+ org.inaturalist.android.UserProfile$10
+ org.inaturalist.android.UserProfile$11
+ org.inaturalist.android.UserProfile$12
+ org.inaturalist.android.UserProfile$13
+ org.inaturalist.android.UserProfile$2
+ org.inaturalist.android.UserProfile$3
+ org.inaturalist.android.UserProfile$4
+ org.inaturalist.android.UserProfile$5
+ org.inaturalist.android.UserProfile$6
+ org.inaturalist.android.UserProfile$7
+ org.inaturalist.android.UserProfile$8
+ org.inaturalist.android.UserProfile$9
+ org.inaturalist.android.UserProfile$UserDetailsReceiver
+uk/co/senab/photoview/log/Logger.java
+ uk.co.senab.photoview.log.Logger
+org/inaturalist/android/ExploreSearchActivity.java
+ org.inaturalist.android.ExploreSearchActivity
+ org.inaturalist.android.ExploreSearchActivity$1
+ org.inaturalist.android.ExploreSearchActivity$1$1
+ org.inaturalist.android.ExploreSearchActivity$2
+ org.inaturalist.android.ExploreSearchActivity$3
+ org.inaturalist.android.ExploreSearchActivity$3$1
+ org.inaturalist.android.ExploreSearchActivity$4
+ org.inaturalist.android.ExploreSearchActivity$4$1
+ org.inaturalist.android.ExploreSearchActivity$5
+ org.inaturalist.android.ExploreSearchActivity$6
+ org.inaturalist.android.ExploreSearchActivity$TaxonSearchReceiver
+org/inaturalist/android/PlaceSearchActivity.java
+ org.inaturalist.android.PlaceSearchActivity
+ org.inaturalist.android.PlaceSearchActivity$1
+ org.inaturalist.android.PlaceSearchActivity$2
+ org.inaturalist.android.PlaceSearchActivity$3
+ org.inaturalist.android.PlaceSearchActivity$3$1
+ org.inaturalist.android.PlaceSearchActivity$4
+ org.inaturalist.android.PlaceSearchActivity$4$1
+ org.inaturalist.android.PlaceSearchActivity$5
+ org.inaturalist.android.PlaceSearchActivity$PlaceSearchReceiver
+uk/co/senab/photoview/gestures/EclairGestureDetector.java
+ uk.co.senab.photoview.gestures.EclairGestureDetector
+org/inaturalist/android/PullToRefreshGridViewExtended.java
+ org.inaturalist.android.PullToRefreshGridViewExtended
+org/inaturalist/android/MessageThreadAdapter.java
+ org.inaturalist.android.MessageThreadAdapter
+ org.inaturalist.android.MessageThreadAdapter$1
+ org.inaturalist.android.MessageThreadAdapter$ViewHolder
+org/inaturalist/android/TaxonSearchActivity.java
+ org.inaturalist.android.TaxonSearchActivity
+ org.inaturalist.android.TaxonSearchActivity$1
+ org.inaturalist.android.TaxonSearchActivity$2
+ org.inaturalist.android.TaxonSearchActivity$TaxonAutoCompleteAdapter
+ org.inaturalist.android.TaxonSearchActivity$TaxonAutoCompleteAdapter$1
+ org.inaturalist.android.TaxonSearchActivity$TaxonAutoCompleteAdapter$2
+ org.inaturalist.android.TaxonSearchActivity$TaxonAutoCompleteAdapter$3
+ org.inaturalist.android.TaxonSearchActivity$TaxonAutoCompleteAdapter$4
+ org.inaturalist.android.TaxonSearchActivity$TaxonAutoCompleteAdapter$5
+org/inaturalist/android/TimePickerFragment.java
+ org.inaturalist.android.TimePickerFragment
+ org.inaturalist.android.TimePickerFragment$OnDateChange
+org/inaturalist/android/ObservationUtils.java
+ org.inaturalist.android.ObservationUtils
+org/inaturalist/android/RecordSoundActivity.java
+ org.inaturalist.android.RecordSoundActivity
+ org.inaturalist.android.RecordSoundActivity$1
+ org.inaturalist.android.RecordSoundActivity$2
+ org.inaturalist.android.RecordSoundActivity$3
+ org.inaturalist.android.RecordSoundActivity$4
+ org.inaturalist.android.RecordSoundActivity$5
+ org.inaturalist.android.RecordSoundActivity$6
+uk/co/senab/photoview/HackyViewPager.java
+ uk.co.senab.photoview.HackyViewPager
+ uk.co.senab.photoview.HackyViewPager$OnSwipeOutListener
+org/inaturalist/android/TaxonAdapter.java
+ org.inaturalist.android.TaxonAdapter
+org/inaturalist/android/UTFPosition.java
+ org.inaturalist.android.UTFPosition
+org/inaturalist/android/DataQualityItem.java
+ org.inaturalist.android.DataQualityItem
+org/inaturalist/android/TaxonTagPhotosViewer.java
+ org.inaturalist.android.TaxonTagPhotosViewer
+ org.inaturalist.android.TaxonTagPhotosViewer$TagPicsPagerAdapter
+ org.inaturalist.android.TaxonTagPhotosViewer$TagPicsPagerAdapter$1
+org/inaturalist/android/TaxonomyAdapter.java
+ org.inaturalist.android.TaxonomyAdapter
+ org.inaturalist.android.TaxonomyAdapter$1
+ org.inaturalist.android.TaxonomyAdapter$2
+ org.inaturalist.android.TaxonomyAdapter$3
+ org.inaturalist.android.TaxonomyAdapter$4
+ org.inaturalist.android.TaxonomyAdapter$TaxonomyListener
+org/inaturalist/android/WebActivity.java
+ org.inaturalist.android.WebActivity
+ org.inaturalist.android.WebActivity$1
+ org.inaturalist.android.WebActivity$2
+ org.inaturalist.android.WebActivity$3
+org/inaturalist/android/BindingAdapterUtils.java
+ org.inaturalist.android.BindingAdapterUtils
+ org.inaturalist.android.BindingAdapterUtils$1
+org/inaturalist/android/IdentificationActivity.java
+ org.inaturalist.android.IdentificationActivity
+ org.inaturalist.android.IdentificationActivity$1
+ org.inaturalist.android.IdentificationActivity$2
+org/inaturalist/android/GridViewExtended.java
+ org.inaturalist.android.GridViewExtended
+org/inaturalist/android/BetterCursor.java
+ org.inaturalist.android.BetterCursor
+org/inaturalist/android/SoundRecorder.java
+ org.inaturalist.android.SoundRecorder
+ org.inaturalist.android.SoundRecorder$1
+ org.inaturalist.android.SoundRecorder$OnRecordingStatus
+ org.inaturalist.android.SoundRecorder$RecordWaveTask
+ org.inaturalist.android.SoundRecorder$RecordWaveTask$1
+org/inaturalist/android/NetworkSettings.java
+ org.inaturalist.android.NetworkSettings
+ org.inaturalist.android.NetworkSettings$1
+ org.inaturalist.android.NetworkSettings$2
+ org.inaturalist.android.NetworkSettings$3
+org/inaturalist/android/ObservationEditor.java
+ org.inaturalist.android.ObservationEditor
+ org.inaturalist.android.ObservationEditor$1
+ org.inaturalist.android.ObservationEditor$10
+ org.inaturalist.android.ObservationEditor$11
+ org.inaturalist.android.ObservationEditor$12
+ org.inaturalist.android.ObservationEditor$13
+ org.inaturalist.android.ObservationEditor$14
+ org.inaturalist.android.ObservationEditor$15
+ org.inaturalist.android.ObservationEditor$16
+ org.inaturalist.android.ObservationEditor$17
+ org.inaturalist.android.ObservationEditor$18
+ org.inaturalist.android.ObservationEditor$19
+ org.inaturalist.android.ObservationEditor$2
+ org.inaturalist.android.ObservationEditor$2$1
+ org.inaturalist.android.ObservationEditor$20
+ org.inaturalist.android.ObservationEditor$21
+ org.inaturalist.android.ObservationEditor$22
+ org.inaturalist.android.ObservationEditor$23
+ org.inaturalist.android.ObservationEditor$24
+ org.inaturalist.android.ObservationEditor$25
+ org.inaturalist.android.ObservationEditor$26
+ org.inaturalist.android.ObservationEditor$27
+ org.inaturalist.android.ObservationEditor$28
+ org.inaturalist.android.ObservationEditor$29
+ org.inaturalist.android.ObservationEditor$3
+ org.inaturalist.android.ObservationEditor$30
+ org.inaturalist.android.ObservationEditor$31
+ org.inaturalist.android.ObservationEditor$32
+ org.inaturalist.android.ObservationEditor$32$1
+ org.inaturalist.android.ObservationEditor$33
+ org.inaturalist.android.ObservationEditor$34
+ org.inaturalist.android.ObservationEditor$35
+ org.inaturalist.android.ObservationEditor$35$1
+ org.inaturalist.android.ObservationEditor$36
+ org.inaturalist.android.ObservationEditor$37
+ org.inaturalist.android.ObservationEditor$37$1
+ org.inaturalist.android.ObservationEditor$38
+ org.inaturalist.android.ObservationEditor$39
+ org.inaturalist.android.ObservationEditor$39$1
+ org.inaturalist.android.ObservationEditor$4
+ org.inaturalist.android.ObservationEditor$40
+ org.inaturalist.android.ObservationEditor$41
+ org.inaturalist.android.ObservationEditor$41$1
+ org.inaturalist.android.ObservationEditor$42
+ org.inaturalist.android.ObservationEditor$42$1
+ org.inaturalist.android.ObservationEditor$42$2
+ org.inaturalist.android.ObservationEditor$43
+ org.inaturalist.android.ObservationEditor$44
+ org.inaturalist.android.ObservationEditor$45
+ org.inaturalist.android.ObservationEditor$46
+ org.inaturalist.android.ObservationEditor$47
+ org.inaturalist.android.ObservationEditor$48
+ org.inaturalist.android.ObservationEditor$49
+ org.inaturalist.android.ObservationEditor$5
+ org.inaturalist.android.ObservationEditor$50
+ org.inaturalist.android.ObservationEditor$51
+ org.inaturalist.android.ObservationEditor$52
+ org.inaturalist.android.ObservationEditor$53
+ org.inaturalist.android.ObservationEditor$54
+ org.inaturalist.android.ObservationEditor$55
+ org.inaturalist.android.ObservationEditor$56
+ org.inaturalist.android.ObservationEditor$6
+ org.inaturalist.android.ObservationEditor$7
+ org.inaturalist.android.ObservationEditor$7$1
+ org.inaturalist.android.ObservationEditor$8
+ org.inaturalist.android.ObservationEditor$8$1
+ org.inaturalist.android.ObservationEditor$9
+ org.inaturalist.android.ObservationEditor$DatePickerFragment
+ org.inaturalist.android.ObservationEditor$GalleryCursorAdapter
+ org.inaturalist.android.ObservationEditor$GalleryCursorAdapter$1
+ org.inaturalist.android.ObservationEditor$MarginItemDecoration
+ org.inaturalist.android.ObservationEditor$TaxonReceiver
+ org.inaturalist.android.ObservationEditor$TimePickerFragment
+ org.inaturalist.android.ObservationEditor$ViewHolder
+org/inaturalist/android/NearByGuidesTab.java
+ org.inaturalist.android.NearByGuidesTab
+org/inaturalist/android/ProjectNews.java
+ org.inaturalist.android.ProjectNews
+ org.inaturalist.android.ProjectNews$1
+ org.inaturalist.android.ProjectNews$ProjectNewsReceiver
+org/inaturalist/android/GuideTaxonXML.java
+ org.inaturalist.android.GuideTaxonXML
+org/inaturalist/android/MessagesThreadActivity.java
+ org.inaturalist.android.MessagesThreadActivity
+ org.inaturalist.android.MessagesThreadActivity$1
+ org.inaturalist.android.MessagesThreadActivity$MessagesReceiver
+ org.inaturalist.android.MessagesThreadActivity$MuteUserReceiver
+ org.inaturalist.android.MessagesThreadActivity$PostFlagReceiver
+ org.inaturalist.android.MessagesThreadActivity$PostMessageReceiver
+org/inaturalist/android/Project.java
+ org.inaturalist.android.Project
+org/inaturalist/android/ProjectDetails.java
+ org.inaturalist.android.ProjectDetails
+ org.inaturalist.android.ProjectDetails$1
+ org.inaturalist.android.ProjectDetails$2
+ org.inaturalist.android.ProjectDetails$3
+ org.inaturalist.android.ProjectDetails$4
+ org.inaturalist.android.ProjectDetails$4$1
+ org.inaturalist.android.ProjectDetails$4$2
+ org.inaturalist.android.ProjectDetails$4$3
+ org.inaturalist.android.ProjectDetails$4$4
+ org.inaturalist.android.ProjectDetails$5
+ org.inaturalist.android.ProjectDetails$6
+ org.inaturalist.android.ProjectDetails$7
+ org.inaturalist.android.ProjectDetails$8
+ org.inaturalist.android.ProjectDetails$9
+ org.inaturalist.android.ProjectDetails$ProjectDetailsPageAdapter
+ org.inaturalist.android.ProjectDetails$ProjectDetailsPageAdapter$1
+ org.inaturalist.android.ProjectDetails$ProjectDetailsPageAdapter$2
+ org.inaturalist.android.ProjectDetails$ProjectDetailsPageAdapter$3
+ org.inaturalist.android.ProjectDetails$ProjectDetailsPageAdapter$4
+ org.inaturalist.android.ProjectDetails$ProjectDetailsReceiver
+org/inaturalist/android/MissionDetailsMapActivity.java
+ org.inaturalist.android.MissionDetailsMapActivity
+ org.inaturalist.android.MissionDetailsMapActivity$1
+ org.inaturalist.android.MissionDetailsMapActivity$2
+ org.inaturalist.android.MissionDetailsMapActivity$3
+org/inaturalist/android/ExploreSearchFilters.java
+ org.inaturalist.android.ExploreSearchFilters
+org/inaturalist/android/CompareSuggestionActivity.java
+ org.inaturalist.android.CompareSuggestionActivity
+ org.inaturalist.android.CompareSuggestionActivity$1
+ org.inaturalist.android.CompareSuggestionActivity$10
+ org.inaturalist.android.CompareSuggestionActivity$11
+ org.inaturalist.android.CompareSuggestionActivity$12
+ org.inaturalist.android.CompareSuggestionActivity$13
+ org.inaturalist.android.CompareSuggestionActivity$2
+ org.inaturalist.android.CompareSuggestionActivity$3
+ org.inaturalist.android.CompareSuggestionActivity$4
+ org.inaturalist.android.CompareSuggestionActivity$5
+ org.inaturalist.android.CompareSuggestionActivity$6
+ org.inaturalist.android.CompareSuggestionActivity$7
+ org.inaturalist.android.CompareSuggestionActivity$8
+ org.inaturalist.android.CompareSuggestionActivity$9
+ org.inaturalist.android.CompareSuggestionActivity$TaxonReceiver
+org/inaturalist/android/BaseProjectsTab.java
+ org.inaturalist.android.BaseProjectsTab
+org/inaturalist/android/FileUtils.java
+ org.inaturalist.android.FileUtils
+org/inaturalist/android/ObservationPhotoEditor.java
+ org.inaturalist.android.ObservationPhotoEditor
+uk/co/senab/photoview/gestures/VersionedGestureDetector.java
+ uk.co.senab.photoview.gestures.VersionedGestureDetector
+org/inaturalist/android/SoundPlayer.java
+ org.inaturalist.android.SoundPlayer
+ org.inaturalist.android.SoundPlayer$1
+ org.inaturalist.android.SoundPlayer$2
+ org.inaturalist.android.SoundPlayer$OnPlayerStatusChange
+org/inaturalist/android/OnboardingActivity.java
+ org.inaturalist.android.OnboardingActivity
+ org.inaturalist.android.OnboardingActivity$1
+ org.inaturalist.android.OnboardingActivity$2
+ org.inaturalist.android.OnboardingActivity$3
+ org.inaturalist.android.OnboardingActivity$4
+ org.inaturalist.android.OnboardingActivity$5
+ org.inaturalist.android.OnboardingActivity$6
+ org.inaturalist.android.OnboardingActivity$6$1
+org/inaturalist/android/AboutActivity.java
+ org.inaturalist.android.AboutActivity
+org/inaturalist/android/MissionsActivity.java
+ org.inaturalist.android.MissionsActivity
+ org.inaturalist.android.MissionsActivity$1
+ org.inaturalist.android.MissionsActivity$2
+ org.inaturalist.android.MissionsActivity$3
+ org.inaturalist.android.MissionsActivity$4
+ org.inaturalist.android.MissionsActivity$5
+ org.inaturalist.android.MissionsActivity$5$1
+ org.inaturalist.android.MissionsActivity$CategoriesAdapter
+ org.inaturalist.android.MissionsActivity$MissionsReceiver
+org/inaturalist/android/DataQualityAdapter.java
+ org.inaturalist.android.DataQualityAdapter
+ org.inaturalist.android.DataQualityAdapter$1
+ org.inaturalist.android.DataQualityAdapter$2
+ org.inaturalist.android.DataQualityAdapter$OnDataQualityActions
+org/inaturalist/android/MentionsAutoComplete.java
+ org.inaturalist.android.MentionsAutoComplete
+ org.inaturalist.android.MentionsAutoComplete$1
+ org.inaturalist.android.MentionsAutoComplete$2
+ org.inaturalist.android.MentionsAutoComplete$3
+ org.inaturalist.android.MentionsAutoComplete$4
+ org.inaturalist.android.MentionsAutoComplete$UserMentionsAdapter
+ org.inaturalist.android.MentionsAutoComplete$UserSearchReceiver
+org/inaturalist/android/PinnedLocationSearchActivity.java
+ org.inaturalist.android.PinnedLocationSearchActivity
+ org.inaturalist.android.PinnedLocationSearchActivity$1
+org/inaturalist/android/databinding/TaxonPageBinding.java
+ org.inaturalist.android.databinding.TaxonPageBinding
+org/inaturalist/android/UserActivity.java
+ org.inaturalist.android.UserActivity
+ org.inaturalist.android.UserActivity$1
+ org.inaturalist.android.UserActivity$2
+ org.inaturalist.android.UserActivity$ActivityPageAdapter
+ org.inaturalist.android.UserActivity$ActivityPageAdapter$1
+ org.inaturalist.android.UserActivity$NewsReceiver
+org/inaturalist/android/SyncFailedException.java
+ org.inaturalist.android.SyncFailedException
+org/inaturalist/android/databinding/ObservationViewerBinding.java
+ org.inaturalist.android.databinding.ObservationViewerBinding
+org/inaturalist/android/MyTabFactory.java
+ org.inaturalist.android.MyTabFactory
+org/inaturalist/android/NewsArticle.java
+ org.inaturalist.android.NewsArticle
+ org.inaturalist.android.NewsArticle$1
+ org.inaturalist.android.NewsArticle$2
+ org.inaturalist.android.NewsArticle$3
+org/inaturalist/android/PhotosViewPagerAdapter.java
+ org.inaturalist.android.PhotosViewPagerAdapter
+ org.inaturalist.android.PhotosViewPagerAdapter$1
+ org.inaturalist.android.PhotosViewPagerAdapter$2
+org/inaturalist/android/ProfilePhotoViewer.java
+ org.inaturalist.android.ProfilePhotoViewer
+ org.inaturalist.android.ProfilePhotoViewer$ProfilePhotoPagerAdapter
+ org.inaturalist.android.ProfilePhotoViewer$ProfilePhotoPagerAdapter$1
+org/inaturalist/android/TabsAdapter.java
+ org.inaturalist.android.TabsAdapter
+ org.inaturalist.android.TabsAdapter$TabInfo
+org/inaturalist/android/TaxonActivity.java
+ org.inaturalist.android.TaxonActivity
+ org.inaturalist.android.TaxonActivity$1
+ org.inaturalist.android.TaxonActivity$2
+ org.inaturalist.android.TaxonActivity$3
+ org.inaturalist.android.TaxonActivity$3$1
+ org.inaturalist.android.TaxonActivity$3$2
+ org.inaturalist.android.TaxonActivity$4
+ org.inaturalist.android.TaxonActivity$5
+ org.inaturalist.android.TaxonActivity$6
+ org.inaturalist.android.TaxonActivity$7
+ org.inaturalist.android.TaxonActivity$7$1
+ org.inaturalist.android.TaxonActivity$8
+ org.inaturalist.android.TaxonActivity$9
+ org.inaturalist.android.TaxonActivity$HistogramReceiver
+ org.inaturalist.android.TaxonActivity$MonthAxisFormatter
+ org.inaturalist.android.TaxonActivity$SeasonabilityPagerAdapter
+ org.inaturalist.android.TaxonActivity$TaxonBoundsReceiver
+ org.inaturalist.android.TaxonActivity$TaxonPhotosPagerAdapter
+ org.inaturalist.android.TaxonActivity$TaxonPhotosPagerAdapter$1
+ org.inaturalist.android.TaxonActivity$TaxonPhotosPagerAdapter$2
+ org.inaturalist.android.TaxonActivity$TaxonPhotosPagerAdapter$3
+ org.inaturalist.android.TaxonActivity$TaxonReceiver
+org/inaturalist/android/ExploreActivity.java
+ org.inaturalist.android.ExploreActivity
+ org.inaturalist.android.ExploreActivity$1
+ org.inaturalist.android.ExploreActivity$10
+ org.inaturalist.android.ExploreActivity$11
+ org.inaturalist.android.ExploreActivity$12
+ org.inaturalist.android.ExploreActivity$13
+ org.inaturalist.android.ExploreActivity$14
+ org.inaturalist.android.ExploreActivity$15
+ org.inaturalist.android.ExploreActivity$16
+ org.inaturalist.android.ExploreActivity$17
+ org.inaturalist.android.ExploreActivity$18
+ org.inaturalist.android.ExploreActivity$19
+ org.inaturalist.android.ExploreActivity$2
+ org.inaturalist.android.ExploreActivity$3
+ org.inaturalist.android.ExploreActivity$4
+ org.inaturalist.android.ExploreActivity$5
+ org.inaturalist.android.ExploreActivity$6
+ org.inaturalist.android.ExploreActivity$7
+ org.inaturalist.android.ExploreActivity$8
+ org.inaturalist.android.ExploreActivity$9
+ org.inaturalist.android.ExploreActivity$AnnotationsReceiver
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$1
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$1$1
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$1$2
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$1$3
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$1$4
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$2
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$3
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$4
+ org.inaturalist.android.ExploreActivity$ExplorePagerAdapter$5
+ org.inaturalist.android.ExploreActivity$ExploreResultsReceiver
+ org.inaturalist.android.ExploreActivity$LocationReceiver
+ org.inaturalist.android.ExploreActivity$LocationReceiver$1
+org/inaturalist/android/AllGuidesTab.java
+ org.inaturalist.android.AllGuidesTab
+org/inaturalist/android/PlaceAdapter.java
+ org.inaturalist.android.PlaceAdapter
+org/inaturalist/android/BaseGuidesTab.java
+ org.inaturalist.android.BaseGuidesTab
+org/inaturalist/android/DefaultLicensesActivity.java
+ org.inaturalist.android.DefaultLicensesActivity
+org/inaturalist/android/MultipleChoiceAdapter.java
+ org.inaturalist.android.MultipleChoiceAdapter
+ org.inaturalist.android.MultipleChoiceAdapter$1
+uk/co/senab/photoview/scrollerproxy/GingerScroller.java
+ uk.co.senab.photoview.scrollerproxy.GingerScroller
+uk/co/senab/photoview/scrollerproxy/PreGingerScroller.java
+ uk.co.senab.photoview.scrollerproxy.PreGingerScroller
+org/inaturalist/android/MyPageAdapter.java
+ org.inaturalist.android.MyPageAdapter
+org/inaturalist/android/AboutFragment.java
+ org.inaturalist.android.AboutFragment
+ org.inaturalist.android.AboutFragment$1
+org/inaturalist/android/ObservationCursorAdapter.java
+ org.inaturalist.android.ObservationCursorAdapter
+ org.inaturalist.android.ObservationCursorAdapter$1
+ org.inaturalist.android.ObservationCursorAdapter$2
+ org.inaturalist.android.ObservationCursorAdapter$BitmapWorkerTask
+ org.inaturalist.android.ObservationCursorAdapter$DelegatingConstraintViewGroup
+ org.inaturalist.android.ObservationCursorAdapter$GetAdditionalObsReceiver
+ org.inaturalist.android.ObservationCursorAdapter$OnLoadingMoreResultsListener
+ org.inaturalist.android.ObservationCursorAdapter$ViewHolder
+org/inaturalist/android/LicenseUtils.java
+ org.inaturalist.android.LicenseUtils
+ org.inaturalist.android.LicenseUtils$OnLicenseChosen
+org/inaturalist/android/PlaceUtils.java
+ org.inaturalist.android.PlaceUtils
+com/ptashek/widgets/datetimepicker/DateTimePicker.java
+ com.ptashek.widgets.datetimepicker.DateTimePicker
+org/inaturalist/android/NewMessageSelectUserActivity.java
+ org.inaturalist.android.NewMessageSelectUserActivity
+ org.inaturalist.android.NewMessageSelectUserActivity$1
+ org.inaturalist.android.NewMessageSelectUserActivity$1$1
+ org.inaturalist.android.NewMessageSelectUserActivity$2
+ org.inaturalist.android.NewMessageSelectUserActivity$UserSearchReceiver
+org/inaturalist/android/ObservationSound.java
+ org.inaturalist.android.ObservationSound
+org/inaturalist/android/ProjectObservation.java
+ org.inaturalist.android.ProjectObservation
+org/inaturalist/android/MissionsPagerAdapter.java
+ org.inaturalist.android.MissionsPagerAdapter
+ org.inaturalist.android.MissionsPagerAdapter$1
+org/inaturalist/android/DataBindingTriggerClass.java
+ org.inaturalist.android.DataBindingTriggerClass
+org/inaturalist/android/BetterJSONObject.java
+ org.inaturalist.android.BetterJSONObject
+org/inaturalist/android/PastLicensesFragment.java
+ org.inaturalist.android.PastLicensesFragment
+org/inaturalist/android/ScrollableMapFragment.java
+ org.inaturalist.android.ScrollableMapFragment
+ org.inaturalist.android.ScrollableMapFragment$OnTouchListener
+ org.inaturalist.android.ScrollableMapFragment$TouchableWrapper
+org/inaturalist/android/ObservationSearchActivity.java
+ org.inaturalist.android.ObservationSearchActivity
+ org.inaturalist.android.ObservationSearchActivity$1
+ org.inaturalist.android.ObservationSearchActivity$1$1
+ org.inaturalist.android.ObservationSearchActivity$2
+ org.inaturalist.android.ObservationSearchActivity$SearchResultsReceiver
+ org.inaturalist.android.ObservationSearchActivity$SearchResultsReceiver$1
+org/inaturalist/android/LocationChooserPlaceAdapter.java
+ org.inaturalist.android.LocationChooserPlaceAdapter
+org/inaturalist/android/INaturalistService.java
+ org.inaturalist.android.INaturalistService
+ org.inaturalist.android.INaturalistService$1
+ org.inaturalist.android.INaturalistService$10
+ org.inaturalist.android.INaturalistService$11
+ org.inaturalist.android.INaturalistService$12
+ org.inaturalist.android.INaturalistService$13
+ org.inaturalist.android.INaturalistService$13$1
+ org.inaturalist.android.INaturalistService$14
+ org.inaturalist.android.INaturalistService$15
+ org.inaturalist.android.INaturalistService$16
+ org.inaturalist.android.INaturalistService$17
+ org.inaturalist.android.INaturalistService$18
+ org.inaturalist.android.INaturalistService$18$1
+ org.inaturalist.android.INaturalistService$19
+ org.inaturalist.android.INaturalistService$19$1
+ org.inaturalist.android.INaturalistService$2
+ org.inaturalist.android.INaturalistService$20
+ org.inaturalist.android.INaturalistService$3
+ org.inaturalist.android.INaturalistService$4
+ org.inaturalist.android.INaturalistService$5
+ org.inaturalist.android.INaturalistService$6
+ org.inaturalist.android.INaturalistService$7
+ org.inaturalist.android.INaturalistService$8
+ org.inaturalist.android.INaturalistService$9
+ org.inaturalist.android.INaturalistService$AuthenticationException
+ org.inaturalist.android.INaturalistService$IOnLocation
+ org.inaturalist.android.INaturalistService$IOnTimezone
+ org.inaturalist.android.INaturalistService$LoginType
+org/inaturalist/android/ObservationViewerActivity.java
+ org.inaturalist.android.ObservationViewerActivity
+ org.inaturalist.android.ObservationViewerActivity$1
+ org.inaturalist.android.ObservationViewerActivity$10
+ org.inaturalist.android.ObservationViewerActivity$11
+ org.inaturalist.android.ObservationViewerActivity$11$1
+ org.inaturalist.android.ObservationViewerActivity$11$2
+ org.inaturalist.android.ObservationViewerActivity$11$3
+ org.inaturalist.android.ObservationViewerActivity$12
+ org.inaturalist.android.ObservationViewerActivity$13
+ org.inaturalist.android.ObservationViewerActivity$14
+ org.inaturalist.android.ObservationViewerActivity$15
+ org.inaturalist.android.ObservationViewerActivity$16
+ org.inaturalist.android.ObservationViewerActivity$17
+ org.inaturalist.android.ObservationViewerActivity$18
+ org.inaturalist.android.ObservationViewerActivity$19
+ org.inaturalist.android.ObservationViewerActivity$19$1
+ org.inaturalist.android.ObservationViewerActivity$19$2
+ org.inaturalist.android.ObservationViewerActivity$2
+ org.inaturalist.android.ObservationViewerActivity$20
+ org.inaturalist.android.ObservationViewerActivity$21
+ org.inaturalist.android.ObservationViewerActivity$22
+ org.inaturalist.android.ObservationViewerActivity$23
+ org.inaturalist.android.ObservationViewerActivity$23$1
+ org.inaturalist.android.ObservationViewerActivity$24
+ org.inaturalist.android.ObservationViewerActivity$25
+ org.inaturalist.android.ObservationViewerActivity$26
+ org.inaturalist.android.ObservationViewerActivity$27
+ org.inaturalist.android.ObservationViewerActivity$28
+ org.inaturalist.android.ObservationViewerActivity$29
+ org.inaturalist.android.ObservationViewerActivity$3
+ org.inaturalist.android.ObservationViewerActivity$30
+ org.inaturalist.android.ObservationViewerActivity$31
+ org.inaturalist.android.ObservationViewerActivity$32
+ org.inaturalist.android.ObservationViewerActivity$33
+ org.inaturalist.android.ObservationViewerActivity$34
+ org.inaturalist.android.ObservationViewerActivity$4
+ org.inaturalist.android.ObservationViewerActivity$5
+ org.inaturalist.android.ObservationViewerActivity$6
+ org.inaturalist.android.ObservationViewerActivity$7
+ org.inaturalist.android.ObservationViewerActivity$8
+ org.inaturalist.android.ObservationViewerActivity$9
+ org.inaturalist.android.ObservationViewerActivity$9$1
+ org.inaturalist.android.ObservationViewerActivity$9$2
+ org.inaturalist.android.ObservationViewerActivity$9$3
+ org.inaturalist.android.ObservationViewerActivity$9$4
+ org.inaturalist.android.ObservationViewerActivity$9$5
+ org.inaturalist.android.ObservationViewerActivity$9$6
+ org.inaturalist.android.ObservationViewerActivity$AttributesReceiver
+ org.inaturalist.android.ObservationViewerActivity$ChangeAttributesReceiver
+ org.inaturalist.android.ObservationViewerActivity$DownloadObservationReceiver
+ org.inaturalist.android.ObservationViewerActivity$DownloadObservationReceiver$1
+ org.inaturalist.android.ObservationViewerActivity$DownloadObservationReceiver$2
+ org.inaturalist.android.ObservationViewerActivity$ObservationFollowReceiver
+ org.inaturalist.android.ObservationViewerActivity$ObservationReceiver
+ org.inaturalist.android.ObservationViewerActivity$ObservationReceiver$1
+ org.inaturalist.android.ObservationViewerActivity$ObservationReceiver$2
+ org.inaturalist.android.ObservationViewerActivity$ObservationReceiver$3
+ org.inaturalist.android.ObservationViewerActivity$ObservationSubscriptionsReceiver
+ org.inaturalist.android.ObservationViewerActivity$PhotosViewPagerAdapter
+ org.inaturalist.android.ObservationViewerActivity$PhotosViewPagerAdapter$1
+ org.inaturalist.android.ObservationViewerActivity$PhotosViewPagerAdapter$2
+ org.inaturalist.android.ObservationViewerActivity$PhotosViewPagerAdapter$3
+ org.inaturalist.android.ObservationViewerActivity$onDisagreement
+uk/co/senab/photoview/log/LogManager.java
+ uk.co.senab.photoview.log.LogManager
+uk/co/senab/photoview/gestures/OnGestureListener.java
+ uk.co.senab.photoview.gestures.OnGestureListener
+org/inaturalist/android/ProjectNewsAdapter.java
+ org.inaturalist.android.ProjectNewsAdapter
+ org.inaturalist.android.ProjectNewsAdapter$1
+ org.inaturalist.android.ProjectNewsAdapter$2
+org/inaturalist/android/GPSEncoder.java
+ org.inaturalist.android.GPSEncoder
+org/inaturalist/android/BuildConfig.java
+ org.inaturalist.android.BuildConfig
+org/inaturalist/android/AboutLicensesAdapter.java
+ org.inaturalist.android.AboutLicensesAdapter
+ org.inaturalist.android.AboutLicensesAdapter$ViewHolder
+org/inaturalist/android/PastLicensesActivity.java
+ org.inaturalist.android.PastLicensesActivity
+org/inaturalist/android/DatePickerFragment.java
+ org.inaturalist.android.DatePickerFragment
+ org.inaturalist.android.DatePickerFragment$OnDateChange
+org/inaturalist/android/MultilineEditText.java
+ org.inaturalist.android.MultilineEditText
+org/inaturalist/android/LocationDetailsActivity.java
+ org.inaturalist.android.LocationDetailsActivity
+ org.inaturalist.android.LocationDetailsActivity$1
+org/inaturalist/android/UserSpeciesAdapter.java
+ org.inaturalist.android.UserSpeciesAdapter
+ org.inaturalist.android.UserSpeciesAdapter$1
+org/inaturalist/android/SwipeableLinearLayout.java
+ org.inaturalist.android.SwipeableLinearLayout
+ org.inaturalist.android.SwipeableLinearLayout$SwipeListener
+org/inaturalist/android/UserAdapter.java
+ org.inaturalist.android.UserAdapter
+ org.inaturalist.android.UserAdapter$1
+ org.inaturalist.android.UserAdapter$UserClickListener
+ org.inaturalist.android.UserAdapter$ViewHolder
+org/inaturalist/android/ImageUtils.java
+ org.inaturalist.android.ImageUtils
+org/inaturalist/android/GuideXML.java
+ org.inaturalist.android.GuideXML
+ org.inaturalist.android.GuideXML$1
+uk/co/senab/photoview/scrollerproxy/ScrollerProxy.java
+ uk.co.senab.photoview.scrollerproxy.ScrollerProxy
+org/inaturalist/android/databinding/ExploreSearchBinding.java
+ org.inaturalist.android.databinding.ExploreSearchBinding
+org/inaturalist/android/ObservationListActivity.java
+ org.inaturalist.android.ObservationListActivity
+ org.inaturalist.android.ObservationListActivity$1
+ org.inaturalist.android.ObservationListActivity$2
+ org.inaturalist.android.ObservationListActivity$3
+ org.inaturalist.android.ObservationListActivity$ConnectivityBroadcastReceiver
+ org.inaturalist.android.ObservationListActivity$NewsReceiver
+ org.inaturalist.android.ObservationListActivity$ObservationSyncProgressReceiver
+ org.inaturalist.android.ObservationListActivity$ObservationsPageAdapter
+ org.inaturalist.android.ObservationListActivity$SyncCompleteReceiver
+ org.inaturalist.android.ObservationListActivity$UserDetailsReceiver
+uk/co/senab/photoview/gestures/FroyoGestureDetector.java
+ uk.co.senab.photoview.gestures.FroyoGestureDetector
+ uk.co.senab.photoview.gestures.FroyoGestureDetector$1
+org/inaturalist/android/NearByProjectsTab.java
+ org.inaturalist.android.NearByProjectsTab
+org/inaturalist/android/LoginSignupActivity.java
+ org.inaturalist.android.LoginSignupActivity
+ org.inaturalist.android.LoginSignupActivity$1
+ org.inaturalist.android.LoginSignupActivity$10
+ org.inaturalist.android.LoginSignupActivity$11
+ org.inaturalist.android.LoginSignupActivity$12
+ org.inaturalist.android.LoginSignupActivity$13
+ org.inaturalist.android.LoginSignupActivity$14
+ org.inaturalist.android.LoginSignupActivity$15
+ org.inaturalist.android.LoginSignupActivity$16
+ org.inaturalist.android.LoginSignupActivity$17
+ org.inaturalist.android.LoginSignupActivity$18
+ org.inaturalist.android.LoginSignupActivity$18$1
+ org.inaturalist.android.LoginSignupActivity$19
+ org.inaturalist.android.LoginSignupActivity$2
+ org.inaturalist.android.LoginSignupActivity$3
+ org.inaturalist.android.LoginSignupActivity$4
+ org.inaturalist.android.LoginSignupActivity$5
+ org.inaturalist.android.LoginSignupActivity$6
+ org.inaturalist.android.LoginSignupActivity$7
+ org.inaturalist.android.LoginSignupActivity$8
+ org.inaturalist.android.LoginSignupActivity$9
+ org.inaturalist.android.LoginSignupActivity$UserRegisterReceiver
+org/inaturalist/android/ExpandedBottomSheetDialog.java
+ org.inaturalist.android.ExpandedBottomSheetDialog
+ org.inaturalist.android.ExpandedBottomSheetDialog$1
+org/inaturalist/android/databinding/ObservationConfirmationBinding.java
+ org.inaturalist.android.databinding.ObservationConfirmationBinding
+org/inaturalist/android/TaxonMapActivity.java
+ org.inaturalist.android.TaxonMapActivity
+ org.inaturalist.android.TaxonMapActivity$1
+ org.inaturalist.android.TaxonMapActivity$1$1
+org/inaturalist/android/UserObservationAdapter.java
+ org.inaturalist.android.UserObservationAdapter
+ org.inaturalist.android.UserObservationAdapter$1
+org/inaturalist/android/AnnotationsAdapter.java
+ org.inaturalist.android.AnnotationsAdapter
+ org.inaturalist.android.AnnotationsAdapter$1
+ org.inaturalist.android.AnnotationsAdapter$2
+ org.inaturalist.android.AnnotationsAdapter$3
+ org.inaturalist.android.AnnotationsAdapter$3$1
+ org.inaturalist.android.AnnotationsAdapter$4
+ org.inaturalist.android.AnnotationsAdapter$5
+ org.inaturalist.android.AnnotationsAdapter$6
+ org.inaturalist.android.AnnotationsAdapter$7
+ org.inaturalist.android.AnnotationsAdapter$8
+ org.inaturalist.android.AnnotationsAdapter$OnAnnotationActions
+org/inaturalist/android/TutorialFragment.java
+ org.inaturalist.android.TutorialFragment
+ org.inaturalist.android.TutorialFragment$1
+ org.inaturalist.android.TutorialFragment$2
+org/inaturalist/android/LoggingUtils.java
+ org.inaturalist.android.LoggingUtils
+ org.inaturalist.android.LoggingUtils$1
+org/inaturalist/android/AnalyticsClient.java
+ org.inaturalist.android.AnalyticsClient
+ org.inaturalist.android.AnalyticsClient$1
+org/inaturalist/android/databinding/ExploreFiltersBinding.java
+ org.inaturalist.android.databinding.ExploreFiltersBinding
+org/inaturalist/android/ProjectDetailsAbout.java
+ org.inaturalist.android.ProjectDetailsAbout
+org/inaturalist/android/License.java
+ org.inaturalist.android.License
+org/inaturalist/android/AndroidStateBundlers.java
+ org.inaturalist.android.AndroidStateBundlers
+ org.inaturalist.android.AndroidStateBundlers$BetterJSONListBundler
+ org.inaturalist.android.AndroidStateBundlers$BetterJSONObjectBundler
+ org.inaturalist.android.AndroidStateBundlers$JSONArrayBundler
+ org.inaturalist.android.AndroidStateBundlers$JSONListBundler
+ org.inaturalist.android.AndroidStateBundlers$JSONObjectBundler
+ org.inaturalist.android.AndroidStateBundlers$ListBundler
+ org.inaturalist.android.AndroidStateBundlers$ListPairBundler
+ org.inaturalist.android.AndroidStateBundlers$SerializableBundler
+ org.inaturalist.android.AndroidStateBundlers$SetBundler
+ org.inaturalist.android.AndroidStateBundlers$UriBundler
+uk/co/senab/photoview/Compat.java
+ uk.co.senab.photoview.Compat
+org/inaturalist/android/FavoritesAdapter.java
+ org.inaturalist.android.FavoritesAdapter
+ org.inaturalist.android.FavoritesAdapter$1
+org/inaturalist/android/ProjectField.java
+ org.inaturalist.android.ProjectField
+org/inaturalist/android/JoinedProjectsTab.java
+ org.inaturalist.android.JoinedProjectsTab
+org/inaturalist/android/Observation.java
+ org.inaturalist.android.Observation
+org/inaturalist/android/ObservationPhotosViewer.java
+ org.inaturalist.android.ObservationPhotosViewer
+ org.inaturalist.android.ObservationPhotosViewer$1
+ org.inaturalist.android.ObservationPhotosViewer$2
+ org.inaturalist.android.ObservationPhotosViewer$3
+ org.inaturalist.android.ObservationPhotosViewer$IdPicsPagerAdapter
+ org.inaturalist.android.ObservationPhotosViewer$IdPicsPagerAdapter$1
+ org.inaturalist.android.ObservationPhotosViewer$IdPicsPagerAdapter$2
+ org.inaturalist.android.ObservationPhotosViewer$IdPicsPagerAdapter$3
+ org.inaturalist.android.ObservationPhotosViewer$IdPicsPagerAdapter$4
+ org.inaturalist.android.ObservationPhotosViewer$IdPicsPagerAdapter$OnZoomListener
+org/inaturalist/android/DataQualityAssessment.java
+ org.inaturalist.android.DataQualityAssessment
+ org.inaturalist.android.DataQualityAssessment$1
+ org.inaturalist.android.DataQualityAssessment$2
+ org.inaturalist.android.DataQualityAssessment$ChangeDataQualityMetricsReceiver
+ org.inaturalist.android.DataQualityAssessment$DataQualityMetricsReceiver
+ org.inaturalist.android.DataQualityAssessment$IdCanBeImprovedReceiver
+org/inaturalist/android/ObservationProvider.java
+ org.inaturalist.android.ObservationProvider
+ org.inaturalist.android.ObservationProvider$DatabaseHelper
+org/inaturalist/android/ItemSearchActivity.java
+ org.inaturalist.android.ItemSearchActivity
+ org.inaturalist.android.ItemSearchActivity$1
+ org.inaturalist.android.ItemSearchActivity$2
+org/inaturalist/android/OnSwipeTouchListener.java
+ org.inaturalist.android.OnSwipeTouchListener
+ org.inaturalist.android.OnSwipeTouchListener$1
+ org.inaturalist.android.OnSwipeTouchListener$GestureListener
+org/inaturalist/android/MyGuidesTab.java
+ org.inaturalist.android.MyGuidesTab
+org/inaturalist/android/GlobalExceptionHandler.java
+ org.inaturalist.android.GlobalExceptionHandler
+org/inaturalist/android/ThirdPartyDataSharingActivity.java
+ org.inaturalist.android.ThirdPartyDataSharingActivity
+org/inaturalist/android/GuideTaxonPhotoXML.java
+ org.inaturalist.android.GuideTaxonPhotoXML
+ org.inaturalist.android.GuideTaxonPhotoXML$1
+ org.inaturalist.android.GuideTaxonPhotoXML$PhotoSize
+ org.inaturalist.android.GuideTaxonPhotoXML$PhotoType
+org/inaturalist/android/iNaturalistGlideModule.java
+ org.inaturalist.android.iNaturalistGlideModule
+org/inaturalist/android/CancelSyncException.java
+ org.inaturalist.android.CancelSyncException
+org/inaturalist/android/NamespaceContextMap.java
+ org.inaturalist.android.NamespaceContextMap
+org/inaturalist/android/MessagesActivity.java
+ org.inaturalist.android.MessagesActivity
+ org.inaturalist.android.MessagesActivity$1
+ org.inaturalist.android.MessagesActivity$1$1
+ org.inaturalist.android.MessagesActivity$2
+ org.inaturalist.android.MessagesActivity$MessagesReceiver
+org/inaturalist/android/ProjectFieldValue.java
+ org.inaturalist.android.ProjectFieldValue
+uk/co/senab/photoview/scrollerproxy/IcsScroller.java
+ uk.co.senab.photoview.scrollerproxy.IcsScroller
+org/inaturalist/android/ProjectsActivity.java
+ org.inaturalist.android.ProjectsActivity
+ org.inaturalist.android.ProjectsActivity$1
+org/inaturalist/android/SettingsActivity.java
+ org.inaturalist.android.SettingsActivity
+org/inaturalist/android/RotateTransformation.java
+ org.inaturalist.android.RotateTransformation
+org/inaturalist/android/INatPlace.java
+ org.inaturalist.android.INatPlace
+org/inaturalist/android/ObservationSoundViewer.java
+ org.inaturalist.android.ObservationSoundViewer
+ org.inaturalist.android.ObservationSoundViewer$1
+org/inaturalist/android/MessageAdapter.java
+ org.inaturalist.android.MessageAdapter
+ org.inaturalist.android.MessageAdapter$1
+ org.inaturalist.android.MessageAdapter$MessageClickListener
+ org.inaturalist.android.MessageAdapter$ViewHolder
+org/inaturalist/android/UTFGrid.java
+ org.inaturalist.android.UTFGrid
+org/inaturalist/android/GuidesActivity.java
+ org.inaturalist.android.GuidesActivity
+ org.inaturalist.android.GuidesActivity$1
+org/inaturalist/android/databinding/CommentIdItemObsViewerBinding.java
+ org.inaturalist.android.databinding.CommentIdItemObsViewerBinding
+org/inaturalist/android/ProfileEditor.java
+ org.inaturalist.android.ProfileEditor
+ org.inaturalist.android.ProfileEditor$1
+ org.inaturalist.android.ProfileEditor$2
+ org.inaturalist.android.ProfileEditor$3
+ org.inaturalist.android.ProfileEditor$4
+ org.inaturalist.android.ProfileEditor$4$1
+ org.inaturalist.android.ProfileEditor$5
+ org.inaturalist.android.ProfileEditor$6
+ org.inaturalist.android.ProfileEditor$7
+ org.inaturalist.android.ProfileEditor$8
+ org.inaturalist.android.ProfileEditor$9
+ org.inaturalist.android.ProfileEditor$UserDetailsReceiver
+ org.inaturalist.android.ProfileEditor$UserUpdateReceiver
+org/inaturalist/android/TutorialActivity.java
+ org.inaturalist.android.TutorialActivity
+ org.inaturalist.android.TutorialActivity$1
+ org.inaturalist.android.TutorialActivity$2
+ org.inaturalist.android.TutorialActivity$TutorialAdapter
+org/inaturalist/android/DebugSettingsActivity.java
+ org.inaturalist.android.DebugSettingsActivity
+org/inaturalist/android/databinding/AnnotationBinding.java
+ org.inaturalist.android.databinding.AnnotationBinding
+org/inaturalist/android/TaxonSuggestionsActivity.java
+ org.inaturalist.android.TaxonSuggestionsActivity
+ org.inaturalist.android.TaxonSuggestionsActivity$1
+ org.inaturalist.android.TaxonSuggestionsActivity$2
+ org.inaturalist.android.TaxonSuggestionsActivity$3
+ org.inaturalist.android.TaxonSuggestionsActivity$4
+ org.inaturalist.android.TaxonSuggestionsActivity$5
+ org.inaturalist.android.TaxonSuggestionsActivity$6
+ org.inaturalist.android.TaxonSuggestionsActivity$TaxonReceiver
+ org.inaturalist.android.TaxonSuggestionsActivity$TaxonSuggestionsReceiver
+ org.inaturalist.android.TaxonSuggestionsActivity$TopResultsReceiver
+org/inaturalist/android/SerializableJSONArray.java
+ org.inaturalist.android.SerializableJSONArray
+org/inaturalist/android/DebugSettingsFragment.java
+ org.inaturalist.android.DebugSettingsFragment
+ org.inaturalist.android.DebugSettingsFragment$1
+ org.inaturalist.android.DebugSettingsFragment$1$1
+ org.inaturalist.android.DebugSettingsFragment$1$2
+ org.inaturalist.android.DebugSettingsFragment$2
+ org.inaturalist.android.DebugSettingsFragment$3
+ org.inaturalist.android.DebugSettingsFragment$DividerItemDecorationPreferences
+org/inaturalist/android/MissionsGridActivity.java
+ org.inaturalist.android.MissionsGridActivity
+ org.inaturalist.android.MissionsGridActivity$1
+ org.inaturalist.android.MissionsGridActivity$MissionsReceiver
+org/inaturalist/android/SettingsFragment.java
+ org.inaturalist.android.SettingsFragment
+ org.inaturalist.android.SettingsFragment$1
+ org.inaturalist.android.SettingsFragment$10
+ org.inaturalist.android.SettingsFragment$2
+ org.inaturalist.android.SettingsFragment$2$1
+ org.inaturalist.android.SettingsFragment$2$2
+ org.inaturalist.android.SettingsFragment$3
+ org.inaturalist.android.SettingsFragment$4
+ org.inaturalist.android.SettingsFragment$5
+ org.inaturalist.android.SettingsFragment$6
+ org.inaturalist.android.SettingsFragment$7
+ org.inaturalist.android.SettingsFragment$8
+ org.inaturalist.android.SettingsFragment$9
+org/inaturalist/android/ObservationPhoto.java
+ org.inaturalist.android.ObservationPhoto
+org/inaturalist/android/GuideDetails.java
+ org.inaturalist.android.GuideDetails
+ org.inaturalist.android.GuideDetails$1
+ org.inaturalist.android.GuideDetails$10
+ org.inaturalist.android.GuideDetails$11
+ org.inaturalist.android.GuideDetails$11$1
+ org.inaturalist.android.GuideDetails$12
+ org.inaturalist.android.GuideDetails$2
+ org.inaturalist.android.GuideDetails$3
+ org.inaturalist.android.GuideDetails$3$1
+ org.inaturalist.android.GuideDetails$3$2
+ org.inaturalist.android.GuideDetails$4
+ org.inaturalist.android.GuideDetails$5
+ org.inaturalist.android.GuideDetails$6
+ org.inaturalist.android.GuideDetails$7
+ org.inaturalist.android.GuideDetails$8
+ org.inaturalist.android.GuideDetails$9
+ org.inaturalist.android.GuideDetails$9$1
+ org.inaturalist.android.GuideDetails$9$1$1
+ org.inaturalist.android.GuideDetails$9$1$1$1
+ org.inaturalist.android.GuideDetails$GuideMenuItem
+ org.inaturalist.android.GuideDetails$GuideMenuListAdapter
+ org.inaturalist.android.GuideDetails$GuideMenuListAdapter$1
+ org.inaturalist.android.GuideDetails$GuideMenuListAdapter$2
+ org.inaturalist.android.GuideDetails$GuideMenuSection
+ org.inaturalist.android.GuideDetails$GuideMenuTag
+ org.inaturalist.android.GuideDetails$GuideTaxaReceiver
+ org.inaturalist.android.GuideDetails$GuideTaxaReceiver$1
+ org.inaturalist.android.GuideDetails$GuideTaxaReceiver$2
+ org.inaturalist.android.GuideDetails$TaxaListAdapter
+ org.inaturalist.android.GuideDetails$TaxaListAdapter$1
+uk/co/senab/photoview/DefaultOnDoubleTapListener.java
+ uk.co.senab.photoview.DefaultOnDoubleTapListener
+uk/co/senab/photoview/gestures/GestureDetector.java
+ uk.co.senab.photoview.gestures.GestureDetector
+uk/co/senab/photoview/IPhotoView.java
+ uk.co.senab.photoview.IPhotoView
+org/inaturalist/android/GuideTaxonSectionXML.java
+ org.inaturalist.android.GuideTaxonSectionXML
+org/inaturalist/android/CreditsActivity.java
+ org.inaturalist.android.CreditsActivity
+org/inaturalist/android/ProjectFieldViewer.java
+ org.inaturalist.android.ProjectFieldViewer
+ org.inaturalist.android.ProjectFieldViewer$1
+ org.inaturalist.android.ProjectFieldViewer$10
+ org.inaturalist.android.ProjectFieldViewer$11
+ org.inaturalist.android.ProjectFieldViewer$12
+ org.inaturalist.android.ProjectFieldViewer$2
+ org.inaturalist.android.ProjectFieldViewer$3
+ org.inaturalist.android.ProjectFieldViewer$4
+ org.inaturalist.android.ProjectFieldViewer$4$1
+ org.inaturalist.android.ProjectFieldViewer$5
+ org.inaturalist.android.ProjectFieldViewer$5$1
+ org.inaturalist.android.ProjectFieldViewer$6
+ org.inaturalist.android.ProjectFieldViewer$7
+ org.inaturalist.android.ProjectFieldViewer$8
+ org.inaturalist.android.ProjectFieldViewer$9
+ org.inaturalist.android.ProjectFieldViewer$FocusedListener
+ org.inaturalist.android.ProjectFieldViewer$ProjectFieldsResults
+ org.inaturalist.android.ProjectFieldViewer$TaxonReceiver
+org/inaturalist/android/LicenseListAdapter.java
+ org.inaturalist.android.LicenseListAdapter
+org/inaturalist/android/TaxonUtils.java
+ org.inaturalist.android.TaxonUtils
+org/inaturalist/android/ObservationProjectsViewer.java
+ org.inaturalist.android.ObservationProjectsViewer
+ org.inaturalist.android.ObservationProjectsViewer$1
+ org.inaturalist.android.ObservationProjectsViewer$ProjectAdapter
+ org.inaturalist.android.ObservationProjectsViewer$ProjectAdapter$1
+ org.inaturalist.android.ObservationProjectsViewer$ProjectAdapter$2
+org/inaturalist/android/SQLiteCursorFactory.java
+ org.inaturalist.android.SQLiteCursorFactory
+org/inaturalist/android/ExploreFiltersActivity.java
+ org.inaturalist.android.ExploreFiltersActivity
+ org.inaturalist.android.ExploreFiltersActivity$1
+ org.inaturalist.android.ExploreFiltersActivity$10
+ org.inaturalist.android.ExploreFiltersActivity$11
+ org.inaturalist.android.ExploreFiltersActivity$12
+ org.inaturalist.android.ExploreFiltersActivity$13
+ org.inaturalist.android.ExploreFiltersActivity$14
+ org.inaturalist.android.ExploreFiltersActivity$15
+ org.inaturalist.android.ExploreFiltersActivity$16
+ org.inaturalist.android.ExploreFiltersActivity$16$1
+ org.inaturalist.android.ExploreFiltersActivity$17
+ org.inaturalist.android.ExploreFiltersActivity$17$1
+ org.inaturalist.android.ExploreFiltersActivity$18
+ org.inaturalist.android.ExploreFiltersActivity$19
+ org.inaturalist.android.ExploreFiltersActivity$19$1
+ org.inaturalist.android.ExploreFiltersActivity$2
+ org.inaturalist.android.ExploreFiltersActivity$20
+ org.inaturalist.android.ExploreFiltersActivity$21
+ org.inaturalist.android.ExploreFiltersActivity$22
+ org.inaturalist.android.ExploreFiltersActivity$22$1
+ org.inaturalist.android.ExploreFiltersActivity$23
+ org.inaturalist.android.ExploreFiltersActivity$24
+ org.inaturalist.android.ExploreFiltersActivity$3
+ org.inaturalist.android.ExploreFiltersActivity$4
+ org.inaturalist.android.ExploreFiltersActivity$5
+ org.inaturalist.android.ExploreFiltersActivity$6
+ org.inaturalist.android.ExploreFiltersActivity$7
+ org.inaturalist.android.ExploreFiltersActivity$8
+ org.inaturalist.android.ExploreFiltersActivity$9
+ org.inaturalist.android.ExploreFiltersActivity$DatePickerFragment
+ org.inaturalist.android.ExploreFiltersActivity$IconicTaxonAdapter
+ org.inaturalist.android.ExploreFiltersActivity$IconicTaxonAdapter$1
+ org.inaturalist.android.ExploreFiltersActivity$IconicTaxonAdapter$IconicTaxonViewHolder
+ org.inaturalist.android.ExploreFiltersActivity$IconicTaxonAdapter$OnIconicTaxonSelected
+org/inaturalist/android/ActivityHelper.java
+ org.inaturalist.android.ActivityHelper
+ org.inaturalist.android.ActivityHelper$1
+ org.inaturalist.android.ActivityHelper$10
+ org.inaturalist.android.ActivityHelper$11
+ org.inaturalist.android.ActivityHelper$12
+ org.inaturalist.android.ActivityHelper$13
+ org.inaturalist.android.ActivityHelper$2
+ org.inaturalist.android.ActivityHelper$3
+ org.inaturalist.android.ActivityHelper$4
+ org.inaturalist.android.ActivityHelper$5
+ org.inaturalist.android.ActivityHelper$6
+ org.inaturalist.android.ActivityHelper$7
+ org.inaturalist.android.ActivityHelper$8
+ org.inaturalist.android.ActivityHelper$9
+ org.inaturalist.android.ActivityHelper$OnMultipleChoices
+ org.inaturalist.android.ActivityHelper$isListScrollable
+org/inaturalist/android/TaxonSuggestionAdapter.java
+ org.inaturalist.android.TaxonSuggestionAdapter
+ org.inaturalist.android.TaxonSuggestionAdapter$1
+ org.inaturalist.android.TaxonSuggestionAdapter$2
+ org.inaturalist.android.TaxonSuggestionAdapter$3
+ org.inaturalist.android.TaxonSuggestionAdapter$OnTaxonSuggestion
+org/inaturalist/android/HtmlUtils.java
+ org.inaturalist.android.HtmlUtils
+ org.inaturalist.android.HtmlUtils$1
+uk/co/senab/photoview/PhotoView.java
+ uk.co.senab.photoview.PhotoView
+org/inaturalist/android/DividerItemDecorationPreferences.java
+ org.inaturalist.android.DividerItemDecorationPreferences
+org/inaturalist/android/ProjectsAdapter.java
+ org.inaturalist.android.ProjectsAdapter
+ org.inaturalist.android.ProjectsAdapter$1
+ org.inaturalist.android.ProjectsAdapter$2
+ org.inaturalist.android.ProjectsAdapter$OnLoading
+org/inaturalist/android/LanguageListPreference.java
+ org.inaturalist.android.LanguageListPreference
+ org.inaturalist.android.LanguageListPreference$1
+ org.inaturalist.android.LanguageListPreference$CheckedItemAdapter
+org/inaturalist/android/INaturalistApp.java
+ org.inaturalist.android.INaturalistApp
+ org.inaturalist.android.INaturalistApp$1
+ org.inaturalist.android.INaturalistApp$2
+ org.inaturalist.android.INaturalistApp$3
+ org.inaturalist.android.INaturalistApp$4
+ org.inaturalist.android.INaturalistApp$5
+ org.inaturalist.android.INaturalistApp$6
+ org.inaturalist.android.INaturalistApp$7
+ org.inaturalist.android.INaturalistApp$8
+ org.inaturalist.android.INaturalistApp$INotificationCallback
+ org.inaturalist.android.INaturalistApp$OnDownloadFileProgress
+ org.inaturalist.android.INaturalistApp$OnLocationStatus
+ org.inaturalist.android.INaturalistApp$OnRequestPermissionResult
+org/inaturalist/android/ProjectSelectorActivity.java
+ org.inaturalist.android.ProjectSelectorActivity
+ org.inaturalist.android.ProjectSelectorActivity$1
+ org.inaturalist.android.ProjectSelectorActivity$2
+ org.inaturalist.android.ProjectSelectorActivity$ProjectAdapter
+ org.inaturalist.android.ProjectSelectorActivity$ProjectAdapter$1
+ org.inaturalist.android.ProjectSelectorActivity$ProjectAdapter$2
+ org.inaturalist.android.ProjectSelectorActivity$ProjectAdapter$3
+ org.inaturalist.android.ProjectSelectorActivity$ProjectAdapter$4
+ org.inaturalist.android.ProjectSelectorActivity$ProjectReceiver
+ org.inaturalist.android.ProjectSelectorActivity$ProjectReceiver$1
+ org.inaturalist.android.ProjectSelectorActivity$ProjectReceiver$2
+ org.inaturalist.android.ProjectSelectorActivity$ProjectReceiver$2$1
+ org.inaturalist.android.ProjectSelectorActivity$ProjectReceiver$3

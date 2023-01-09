@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="explore_order_by_items">
+        <item>Date Added</item>
+        <item>Date Observed</item>
+        <item>Date Updated</item>
+        <!--<item>Faves</item>-->
+        <item>Random</item>
+    </string-array>
+    <string-array name="explore_order_items">
+        <item>Descending</item>
+        <item>Ascending</item>
+    </string-array>
+    <string-array name="geoprivacy_items">
+        <item>Ανοιχτό</item>
+        <item>Κρυμμένο</item>
+        <item>Απόρρητο</item>
+    </string-array>
+    <string-array name="tutorial_descriptions">
+        <item>Εξερευνήστε και Συνδεθείτε με τη Φύση</item>
+        <item>Βγείτε έξω! Βρείτε κάτι άγριο και τραβήξτε μια καθαρή φωτογραφία πλήρους κάδρου.</item>
+        <item>Μοιραστείτε τις παρατηρήσεις σας με την κοινότητα του iNaturalist.</item>
+        <item>Επιστρέψτε αργότερα για σχόλια και προσδιορισμούς στις παρατηρήσεις σας!</item>
+        <item><![CDATA[<b>Επιστημονικά Βαθμονομημένες</b> παρατηρήσεις μοιράζονται με επιστήμονες για την καλύτερη κατανόηση και προστασία της φύσης.]]></item>
+    </string-array>
+    <string-array name="tutorial_titles">
+        <item/>
+        <item>Παρατηρήστε</item>
+        <item>Μοιραστείτε</item>
+        <item>Μάθετε</item>
+        <item>Συμβάλλετε</item>
+    </string-array>
+    <plurals name="are_you_sure_you_want_to_delete_observations">
+        <item quantity="one">Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή %1$d την παρατήρηση;</item>
+        <item quantity="other">Είστε σίγουροι ότι θέλετε να διαγράψετε αυτές τις %1$d παρατηρήσεις;</item>
+    </plurals>
+    <plurals name="delete_x_selected_observations">
+        <item quantity="one">Delete %1$d selected observation</item>
+        <item quantity="other">Delete %1$d selected observations</item>
+    </plurals>
+    <plurals name="included_in_projects">
+        <item quantity="one">Περιλαμβάνεται σε %1$d πρότζεκτ</item>
+        <item quantity="other">Περιλαμβάνεται σε %1$d προτζεκτ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d νέα ειδοποίηση</item>
+    <item quantity="other">%d νέες ειδοποιήσεις</item>
+  </plurals>
+    <plurals name="new_activities">
+        <item quantity="one">%1s new</item>
+        <item quantity="other">%1s new</item>
+    </plurals>
+    <plurals name="observation_count_all_caps">
+        <item quantity="one">%1$s ΠΑΡΑΤΗΡΗΣΗ</item>
+        <item quantity="other">%1$s ΠΑΡΑΤΗΡΗΣΕΙΣ</item>
+    </plurals>
+    <plurals name="sync_x_observations">
+        <item quantity="one">Συγχρονισμός %1$d παρατήρησης</item>
+        <item quantity="other">Συγχρονισμός %1$d παρατηρήσεων</item>
+    </plurals>
+    <plurals name="sync_x_selected_observations">
+        <item quantity="one">Sync %1$d selected observation</item>
+        <item quantity="other">Sync %1$d selected observations</item>
+    </plurals>
+    <plurals name="syncing_x_out_of_y_observations">
+        <item quantity="one">Συγχρονισμός%1$d της %2$d παρατήρησης...</item>
+        <item quantity="other">Συγχρονισμός%1$d των %2$d παρατηρήσεων...</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Εμφάνιση όλων"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Επιλέξτε μια εφαρμογή"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"διάστημα"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Κοινοποίηση σε"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Κοινοποίηση στην εφαρμογή <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string name="about_guide">Πληροφορίες</string>
+    <string name="about_guide_all_caps">ΠΛΗΡΟΦΟΡΙΕΣ</string>
+    <string name="about_licenses">About Licenses</string>
+    <string name="about_personal_information">About Personal Information</string>
+    <string name="about_project">Πληροφορίες</string>
+    <string name="about_project_all_caps">ΠΛΗΡΟΦΟΡΙΕΣ</string>
+    <string name="about_taxon_short">Πληροφορίες</string>
+    <string name="about_this_app">Πληροφορίες</string>
+    <string name="about_this_section">Σχετικά με αυτήν την ενότητα</string>
+    <string name="about_this_species">Πληροφορίες για το είδος</string>
+    <string name="active_filters">Active filters</string>
+    <string name="activity">Δραστηριότητα</string>
+    <string name="add">Προσθήκη</string>
+    <string name="add_comment">Προσθήκη σχολίου</string>
+    <string name="add_edit_remark">Προσθήκη/Επεξεργασία σχολίου</string>
+    <string name="add_id">Προσθήκη προσδιορισμού</string>
+    <string name="add_media_evidence">Add media evidence</string>
+    <string name="add_observation">Προσθήκη παρατήρησης</string>
+    <string name="add_to_projects">Προσθήκη σε πρότζεκτ</string>
+    <string name="aggregate">Συνάθροιση</string>
+    <string name="agree">Συμφωνώ</string>
+    <string name="agree2">Συμφωνώ</string>
+    <string name="agree_all_caps">ΣΥΜΦΩΝΩ</string>
+    <string name="agree_assessment_passes">Agree assessment passes</string>
+    <string name="airport">Αεροδρόμιο</string>
+    <string name="alert_message_use_argentinat">Το ArgentiNat είναι μέλος του Δικτύου iNaturalist στην Αργεντινή. Τα τοπικά ιδρύματα που υποστηρίζουν το ArgentiNat θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_biodiversity4all">Το Biodiversity4All είναι μέλος του Δικτύου iNaturalist στην Πορτογαλία. Τα τοπικά ιδρύματα που υποστηρίζουν το Biodiversity4All θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_inaturalist">Το κύριο Δίκτυο iNaturalist. Κάνοντας κλικ στο OK θα οριστεί η εφαρμογή σας ως μέρος του παγκόσμιου δικτύου iNaturalist.</string>
+    <string name="alert_message_use_inaturalistaustralia">Το iNaturalist Australia είναι μέλος του Δικτύου iNaturalist στην Αυστραλία. Τα τοπικά ιδρύματα που υποστηρίζουν το iNaturalist Australia θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_inaturalistcanada">Το iNaturalist Canada είναι μέλος του Δικτύου iNaturalist στον Καναδά. Τα τοπικά ιδρύματα που υποστηρίζουν το iNaturalist Canada θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_inaturalistcl">iNaturalist Chile is a member of the iNaturalist Network in Chile. Local institutions supporting iNaturalist Chile will have access to your email address and access to the true coordinates for observations that are publicly obscured or private. Please do not experimentally change your affiliation if you have more than 1000 observations. Would you like to change your affiliation?</string>
+    <string name="alert_message_use_inaturalistcr">Naturalista Costa Rica is a member of the iNaturalist Network in Costa Rica. Local institutions supporting Naturalista Costa Rica will have access to your email address and access to the true coordinates for observations that are publicly obscured or private. Please do not experimentally change your affiliation if you have more than 1000 observations. Would you like to change your affiliation?</string>
+    <string name="alert_message_use_inaturalistecuador">Το iNaturalist Ecuador είναι μέλος του Δικτύου iNaturalist στο Εκουαδόρ. Τα τοπικά ιδρύματα που υποστηρίζουν το iNaturalist Ecuador θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_inaturalistfi">Το iNaturalist Finland είναι μέλος του Δικτύου iNaturalist στη Φινλανδία. Τα τοπικά ιδρύματα που υποστηρίζουν το iNaturalist Finland θα έχουν πρόσβαση στη διεύθυνση email σας και πρόσβαση στις πραγματικές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάξετε πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_inaturalistgr">iNaturalist Greece is a member of the iNaturalist Network in Greece. Local institutions supporting iNaturalist Greece will have access to your email address and access to the true coordinates for observations that are publicly obscured or private. Please do not experimentally change your affiliation if you have more than 1000 observations. Would you like to change your affiliation?</string>
+    <string name="alert_message_use_inaturalistgt">iNaturalist Guatemala is a member of the iNaturalist Network in Guatemala. Local institutions supporting iNaturalist Guatemala will have access to your email address and access to the true coordinates for observations that are publicly obscured or private. Please do not experimentally change your affiliation if you have more than 1000 observations. Would you like to change your affiliation?</string>
+    <string name="alert_message_use_inaturalistil">Το iNaturalist Israel είναι μέλος του Δικτύου iNaturalist στο Ισραήλ. Τα τοπικά ιδρύματα που υποστηρίζουν το iNaturalist Ισραήλ θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή ιδιωτικές. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_inaturalistlu">iNaturalist Luxembourg is a member of the iNaturalist Network in Luxembourg. Local institutions supporting iNaturalist Luxembourg will have access to your email address and access to the true coordinates for observations that are publicly obscured or private. Please do not experimentally change your affiliation if you have more than 1000 observations. Would you like to change your affiliation?</string>
+    <string name="alert_message_use_inaturalistpanama">Το iNaturalist Panamá είναι μέλος του Δικτύου iNaturalist στον Παναμά. Τα τοπικά ιδρύματα που υποστηρίζουν το iNaturalist Panamá θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_inaturalistse">iNaturalist Sweden is a member of the iNaturalist Network in Sweden. Local institutions supporting iNaturalist Sweden will have access to your email address and access to the true coordinates for observations that are publicly obscured or private. Please do not experimentally change your affiliation if you have more than 1000 observations. Would you like to change your affiliation?</string>
+    <string name="alert_message_use_inaturalistuk">iNaturalist United Kingdom is a member of the iNaturalist Network in United Kingdom. Local institutions supporting iNaturalist United Kingdom will have access to your email address and access to the true coordinates for observations that are publicly obscured or private. Please do not experimentally change your affiliation if you have more than 1000 observations. Would you like to change your affiliation?</string>
+    <string name="alert_message_use_naturalista">Το NaturaLista είναι μέλος του Δικτύου iNaturalist στο Μεξικό. Τα τοπικά ιδρύματα που υποστηρίζουν το NaturaLista θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_naturalistacolombia">Το Naturalista είναι μέλος του Δικτύου iNaturalist στην Κολομβία. Τα τοπικά ιδρύματα που υποστηρίζουν το Naturalista θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_message_use_naturewatchnz">Το iNaturalist NZ είναι μέλος του Δικτύου iNaturalist στην Νέα Ζηλανδία. Τα τοπικά ιδρύματα που υποστηρίζουν το iNaturalist NZ θα έχουν πρόσβαση στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας και πρόσβαση στις αληθινές συντεταγμένες για παρατηρήσεις που είναι δημοσίως δυσδιάκριτες ή απόρρητες. Μην αλλάζεται πειραματικά το δίκτυό σας εάν έχετε περισσότερες από 1000 παρατηρήσεις. Θέλετε να αλλάξετε το δίκτυό σας;</string>
+    <string name="alert_sign_out">Είστε βέβαιοι ότι θέλετε να αποσυνδεθείτε; Αυτό θα διαγράψει όλες τις παρατηρήσεις σας σε αυτή τη συσκευή. Δεν θα επηρεάσει τυχόν παρατηρήσεις που έχετε στείλει στο iNaturalist.</string>
+    <string name="alert_unsupported_audio_type">Λυπούμαστε, αλλά παρουσιάστηκε πρόβλημα κατά τη φόρτωση του ήχου από αυτήν την πηγή</string>
+    <string name="alert_unsupported_media_type">Λυπούμαστε, αλλά παρουσιάστηκε πρόβλημα κατά τη φόρτωση της φωτογραφίας από αυτήν την πηγή</string>
+    <string name="all_guides">Όλα</string>
+    <string name="all_guides_all_caps">ΟΛΟΙ</string>
+    <string name="all_messages">All Messages</string>
+    <string name="already_have_account">Έχεις ήδη λογαριασμό;</string>
+    <string name="amphibians">Αμφίβια</string>
+    <string name="animals">Animals</string>
+    <string name="annotation_name">Χαρακτηριστικό Σημείωσης</string>
+    <string name="annotation_name_alive_or_dead">Ζωντανό ή Νεκρό</string>
+    <string name="annotation_name_evidence_of_presence">Evidence of Presence</string>
+    <string name="annotation_name_life_stage">Στάδιο βιολογικού κύκλου</string>
+    <string name="annotation_name_plant_phenology">Φαινολογία Φυτού</string>
+    <string name="annotation_name_sex">Φύλο</string>
+    <string name="annotation_value_adult">Ενήλικος</string>
+    <string name="annotation_value_alive">Ζωντανό</string>
+    <string name="annotation_value_bone">Bone</string>
+    <string name="annotation_value_budding">Budding</string>
+    <string name="annotation_value_cannot_be_determined">Δε μπορεί να προσδιοριστεί</string>
+    <string name="annotation_value_dead">Νεκρό</string>
+    <string name="annotation_value_egg">Αυγό</string>
+    <string name="annotation_value_feather">Feather</string>
+    <string name="annotation_value_female">Θηλυκό</string>
+    <string name="annotation_value_flower_budding">Flower Budding</string>
+    <string name="annotation_value_flowering">Ανθοφορία</string>
+    <string name="annotation_value_fruiting">Καρποφορία</string>
+    <string name="annotation_value_juvenile">Νεαρό</string>
+    <string name="annotation_value_larva">Προνύμφη</string>
+    <string name="annotation_value_male">Αρσενικό</string>
+    <string name="annotation_value_molt">Molt</string>
+    <string name="annotation_value_no_evidence_of_flowering">No Evidence of Flowering</string>
+    <string name="annotation_value_nymph">Νύμφη</string>
+    <string name="annotation_value_organism">Organism</string>
+    <string name="annotation_value_pupa">Pupa</string>
+    <string name="annotation_value_scat">Scat</string>
+    <string name="annotation_value_subimago">Subimago</string>
+    <string name="annotation_value_teneral">Teneral</string>
+    <string name="annotation_value_track">Track</string>
+    <string name="annotations">Σημειώσεις</string>
+    <string name="any">Όλα</string>
+    <string name="app_version_copied_to_clipboard">App version copied to clipboard</string>
+    <string name="app_you_shared_blocked">Η εφαρμογή από την οποία κοινοποιήσατε δημιουργεί φωτογραφίες οι οποίες δεν είναι κατάλληλες για παρατηρήσεις επειδή δεν αντιπροσωπεύουν αποδεικτικά στοιχεία της εμπειρίας σας με άλλον οργανισμό, επειδή περιλαμβάνουν ακατάλληλο εμπορικό σήμα ή εμπορικό περιεχόμενο ή επειδή παραβιάζουν τους Όρους της Υπηρεσίας με άλλους τρόπους.</string>
+    <string name="apply_filters">Εφαρμογή φίλτρου</string>
+    <string name="arachnids">Αραχνίδια</string>
+    <string name="are_you_sure">Είσαι σίγουρος/η;</string>
+    <string name="are_you_sure_you_want_to_delete_logs">Είστε σίγουροι ότι θέλετε να διαγράψετε τα αρχεία αποσφαλμάτωσης; Πατήστε \'Ναι\' μόνο εάν θέλετε να καθαρίσετε το χώρο αποθήκευσης του τηλεφώνου σας</string>
+    <string name="are_you_sure_you_want_to_flag_as_captive">Είστε βέβαιοι ότι θέλετε να επισημάνετε αυτήν την παρατήρηση ως αιχμαλωσία / καλλιέργεια; (Πατώντας ναι θα κλείσει το παράθυρο προβολής παρατήρησης)</string>
+    <string name="are_you_sure_you_want_to_remove_date">Are you sure you want to remove the date &amp; time observed?</string>
+    <string name="are_you_sure_you_want_to_remove_location">Are you sure you want to remove the location?</string>
+    <string name="are_you_sure_you_want_to_remove_photo">Είστε βέβαιοι ότι θέλετε να διαγράψετε τη φωτογραφία σας;</string>
+    <string name="are_you_sure_you_want_to_remove_time">Are you sure you want to remove the time observed?</string>
+    <string name="are_you_sure_you_want_to_save_obs_without_coords">Είστε σίγουροι ότι θέλετε να αποθηκεύσετε την παρατήρηση χωρίς συντεταγμένες;</string>
+    <string name="article">Άρθρο</string>
+    <string name="ask_for_g_plus_permissions">Η Google απαιτεί να ζητήσουμε άδεια πρόσβασης στις επαφές σας για να χρησιμοποιήσετε το Λογαριασμό σας στην Google, παρόλο που δεν θα έχουμε πρόσβαση στις επαφές σας για οποιονδήποτε λόγο. Εάν αρνηθείτε αυτήν την άδεια, θα πρέπει να εγγραφείτε ή να συνδεθείτε με ένα όνομα χρήστη και ένα κωδικό πρόσβασης.</string>
+    <string name="assessment_passes">Assessment passes</string>
+    <string name="attribute">Χαρακτηριστικό</string>
+    <string name="auto_upload_description">Αυτόματη αποστολή νέων παρατηρήσεων και επεξεργασία των παρατηρήσεων</string>
+    <string name="automatic_upload">Αυτόματη Αποστολή (Αυτόματος Συγχρονισμός)</string>
+    <string name="based_on_evidence_can_community_id_be_confirmed">Με βάση τα στοιχεία, μπορεί η αναγνώριση της Κοινότητας να επιβεβαιωθεί ή να βελτιωθεί;</string>
+    <string name="be_the_first_to_fave_this_obs">Γίνεται ο πρώτος που θα δηλώσει στα αγαπημένα αυτήν την παρατήρηση...</string>
+    <string name="birds">Πουλιά</string>
+    <string name="body">Body</string>
+    <string name="bottomsheet_action_expand_halfway">Ανάπτυξη μέχρι τη μέση</string>
+    <string name="browse_by_category">Αναζήτηση Ανά Κατηγορία</string>
+    <string name="by_using_inat_terms"><![CDATA[Χρησιμοποιώντας το iNaturalist συμφωνείτε με τους <b><a href="https://www.inaturalist.org/pages/terms">Όρους Χρήσης της Υπηρεσίας</a></b> και <b><a href="https://www.inaturalist.org/pages/privacy">την Πολιτική Απορρήτου</a></b>]]></string>
+    <string name="california_academy_of_sciences">California Academy of Sciences</string>
+    <string name="california_academy_of_sciences_and_national_geographic">California Academy of Sciences and National Geographic</string>
+    <string name="camera">Λήψη Φωτογραφίας</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="cancel_multiple_obs_selection">Cancel multiple observation selection</string>
+    <string name="cant_play_soundcloud"><![CDATA[Για να ακούσετε τους ήχους του Soundcloud, δείτε τον <a href="%1$s">ιστότοπο</a>.]]></string>
+    <string name="canton">Καντόνι</string>
+    <string name="casual_grade">Άτυπη </string>
+    <string name="casual_grade_add_date"><![CDATA[Πρόσθεσε <b>ημερομηνία</b> για να προωθηθεί ή παρατήρηση στο status «Χρειάζεται προσδιορισμό».]]></string>
+    <string name="casual_grade_add_location"><![CDATA[Πρόσθεσε <b>τοποθεσία</b> για να προωθηθεί ή παρατήρηση στο status «Χρειάζεται προσδιορισμό».]]></string>
+    <string name="casual_grade_add_photo"><![CDATA[Πρόσθεσε <b>φωτογραφία</b> για να προωθηθεί ή παρατήρηση στο status «Χρειάζεται προσδιορισμό»]]></string>
+    <string name="casual_grade_captive"><![CDATA[ Η παρατήρηση είναι Άτυπη επειδή αυτό το είδος είναι <b>σε αιχμαλωσία/καλλιεργείται</b>. ]]></string>
+    <string name="change_existing_licenses">Change Existing Licenses</string>
+    <string name="change_geoprivacy">Change geoprivacy</string>
+    <string name="change_licenses_for_all_existing_observations">Change licenses for all existing observations</string>
+    <string name="change_licenses_for_all_existing_photos">Change licenses for all existing photos</string>
+    <string name="change_licenses_for_all_existing_sounds">Change licenses for all existing sounds</string>
+    <string name="change_licenses_for_existing_observations">Change licenses for existing observations, photos and sounds</string>
+    <string name="change_licenses_for_observations_confirmation"><![CDATA[Change the licenses of <b>%1$d</b> existing observations to <b>%2$s</b>?]]></string>
+    <string name="change_licenses_for_photos_confirmation"><![CDATA[Change the licenses of existing photos to <b>%1$s</b>?]]></string>
+    <string name="change_licenses_for_sounds_confirmation"><![CDATA[Change the licenses of existing sounds to <b>%1$s</b>?]]></string>
+    <string name="change_map_layers">Change map layers (terrain vs. satellite)</string>
+    <string name="change_observation_licenses">Change Observation Licenses</string>
+    <string name="change_password">Αλλαγή κωδικού πρόσβασης</string>
+    <string name="change_photo_licenses">Change Photo Licenses</string>
+    <string name="change_sound_licenses">Change Sound Licenses</string>
+    <string name="change_the_source_of_the_suggestions">Change the source of the suggestions</string>
+    <string name="change_user_profile_photo">Change user profile photo</string>
+    <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
+    <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
+    <string name="choose_location">Επιλογή τοποθεσίας</string>
+    <string name="choose_months">Επιλογή μήνα(-ών)</string>
+    <string name="choose_pinned_location">Επιλογή Καρφιτσωμένης Τοποθεσίας</string>
+    <string name="choose_this_option">Choose this option</string>
+    <string name="choosing_specific_language_warning">Η επιλογή μιας συγκεκριμένης γλώσσας για τον λογαριασμό σας απαιτεί σύνδεση στο Διαδίκτυο</string>
+    <string name="chromista">Kelp, Diatoms, and Allies</string>
+    <string name="city_building">Κτίριο Πόλης</string>
+    <string name="cleaning_up">Εκκαθάριση...</string>
+    <string name="clear_all_debug_logs">Διαγραφή Όλων των Αρχείων Αποσφαλμάτωσης</string>
+    <string name="clear_species_guess">Clear species guess</string>
+    <string name="clear_text">Clear text</string>
+    <string name="clear_text_end_icon_content_description">Διαγραφή κειμένου</string>
+    <string name="clears_up_storage_room_on_your_phone">Καθαρίζει τον χώρο αποθήκευσης στο τηλέφωνό σας</string>
+    <string name="close">Close</string>
+    <string name="collection_and_umbrella_projects">Πρότζεκτ Συλλογής και Ομπρέλας</string>
+    <string name="colloquial">καθομιλουμένη</string>
+    <string name="com_facebook_choose_friends">Διάλεξε φίλους</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Πηγαίνετε στη διεύθυνση &lt;b>facebook.com/device&lt;/b> και εισαγάγετε τον παραπάνω κωδικό.</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">ΟΚ</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Παρουσιάστηκε μη αναμενόμενο σφάλμα κατά τη λήψη μιας εικόνας.</string>
+    <string name="com_facebook_internet_permission_error_message">Η σύνδεση μέσω WebView απαιτεί την άδεια INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Σφάλμα AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Σας αρέσει</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Μου αρέσει!</string>
+    <string name="com_facebook_loading">Φόρτωση...</string>
+    <string name="com_facebook_loginview_cancel_action">Ακύρωση</string>
+    <string name="com_facebook_loginview_log_in_button">Είσοδος</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Συνέχεια με το Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Συνδεθείτε μέσω Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Αποσύνδεση</string>
+    <string name="com_facebook_loginview_log_out_button">Αποσύνδεση</string>
+    <string name="com_facebook_loginview_logged_in_as">Συνδεδεμένος/η ως: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Συνδεδεμένος/η μέσω Facebook</string>
+    <string name="com_facebook_logo_content_description">Λογότυπο του Facebook</string>
+    <string name="com_facebook_nearby">Σε κοντινή απόσταση</string>
+    <string name="com_facebook_picker_done_button_text">Ολοκληρώθηκε</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d ήταν εδώ</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d ήταν εδώ</string>
+    <string name="com_facebook_requesterror_password_changed">Ο κωδικός σου στο Facebook άλλαξε. Παρακαλώ συνδέσου ξανά στην εφαρμογή για να επανασυνδεθείς με τον λογαριασμό σου στο Facebook.</string>
+    <string name="com_facebook_requesterror_permissions">Αυτή η εφαρμογή δεν έχει άδεια για να κάνει αυτό. Για να αλλάξετε τις άδειες κάντε ξανά είσοδο στην εφαρμογή.</string>
+    <string name="com_facebook_requesterror_reconnect">Παρακαλούμε συνδεθείτε σε αυτήν την εφαρμογή να συνδέσετε ξανά το λογαριασμό σας στο Facebook.</string>
+    <string name="com_facebook_requesterror_relogin">Παρακαλώ συνδέσου σε αυτήν την εφαρμογή να συνδεθείς ξανά με το λογαριασμό σου στο Facebook.</string>
+    <string name="com_facebook_requesterror_web_login">Ο λογαρισμός σου στο Facebook είναι κλειδωμένος. Συνδέσου στο www.facebook.com για να συνεχίσεις.</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Αποστολή</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Κοινοποιήστε</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Για να συνδέσετε το λογαριασμό σας, ανοίξτε την εφαρμογή Facebook στη φορητή συσκευή σας και ελέγξτε για ειδοποιήσεις.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- Ή -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Δεν είστε εσείς;</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Συνέχεια ως %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Επιβεβαίωση σύνδεσης</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Εσείς έχετε τον έλεγχο - επιλέξτε ποιες πληροφορίες θέλετε να κοινοποιείτε στις εφαρμογές.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Συνδέσου…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Συνδεδεμένος/η</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Δεν είσαι συνδεδεμένος/η</string>
+    <string name="comment">Σχόλιο</string>
+    <string name="comment_count">Comment count</string>
+    <string name="comment_title">%1$s • %2$s</string>
+    <string name="comments_ids_title">Comments and Identifications</string>
+    <string name="commercial_solicitation">Commercial solicitation, links to nowhere, etc.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ενεργοποίηση"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> δεν θα λειτουργήσει εάν δεν έχετε ενεργοποιήσει τις υπηρεσίες Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ενεργοποίηση υπηρεσιών Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Εγκατάσταση"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> δεν μπορεί να εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες λείπουν από τη συσκευή σας."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Λήψη υπηρεσιών Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Διαθεσιμότητα υπηρεσιών Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Σφάλμα Υπηρεσιών Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> αντιμετωπίζει κάποιο πρόβλημα με τις υπηρεσίες Google Play. Προσπαθήστε ξανά."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες δεν υποστηρίζονται από τη συσκευή σας."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Ενημέρωση"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> θα εκτελεστεί αφού ενημερώσετε τις Υπηρεσίες Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Ενημέρωση υπηρεσιών Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Η εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g> δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες ενημερώνονται αυτήν τη στιγμή."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Απαιτείται νέα έκδοση των υπηρεσιών Google Play. Θα ενημερωθεί σύντομα."</string>
+    <string name="common_names_place"><![CDATA[Τοποθεσία κοινών ονομάτων: <b>%1$s</b>]]></string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Άνοιγμα σε τηλέφωνο"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Σύνδεση"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Συνδεθείτε με το Google"</string>
+    <string name="commune">Κοινότητα</string>
+    <string name="community_id_at_species_level_or_lower">Αναγνώριση κοινότητας σε επίπεδο είδους ή χαμηλότερο</string>
+    <string name="compare">Σύγκριση</string>
+    <string name="compare_observation_with_this_option">Compare observation with this option</string>
+    <string name="conservation_source"><![CDATA[<b>Πηγή:</b> <i>%1$s</i>]]></string>
+    <string name="conservation_status_critically_endangered">Κρισίμως Κινδυνεύοντα</string>
+    <string name="conservation_status_endangered">Κινδυνεύοντα</string>
+    <string name="conservation_status_extinct">Εξαφανισθέντα</string>
+    <string name="conservation_status_extinct_in_the_wild">Εξαφανισθέντα στη Φύση</string>
+    <string name="conservation_status_least_concern">Ελάχιστης Ανησυχίας</string>
+    <string name="conservation_status_near_threatened">Εγγύς Απειλούμενα</string>
+    <string name="conservation_status_vulnerable">Εύτρωτα</string>
+    <string name="constituency">Εκλογική περιφέρεια</string>
+    <string name="contact_support">Τεχνική Υποστήριξη</string>
+    <string name="contact_support_with_link"><![CDATA[<a href="mailto:help@inaturalist.org">Επικοινωνήστε με την υποστήριξη</a>]]></string>
+    <string name="content">Περιεχόμενο</string>
+    <string name="content_hidden">Κρυμμένο Περιεχόμενο</string>
+    <string name="content_hidden_because">Το περιεχόμενο κρυμμένο από @%1$s στο %2$s επειδή: \"%3$s\"</string>
+    <string name="content_licensing">Άδεια χρήσης περιεχομένου</string>
+    <string name="content_licensing_description">Τσεκάρετε το κουτί αν θέλετε να διανέμονται οι φωτογραφίες σας με την άδεια Creative Commons Αναφορά Δημιουργού-Μη Εμπορική Χρήση. Μπορείτε στο μέλλον να διαλέξετε διαφορετική άδεια ή να την αφαιρέσετε, αλλά η συγκεκριμένη είναι η καλύτερα άδεια για την επιστημονική χρήση των παρατηρήσεων σας.</string>
+    <string name="continent">Ήπειρος</string>
+    <string name="continue_text">Continue</string>
+    <string name="coordinates_acc">Ακρίβεια</string>
+    <string name="coordinates_copied_to_clipboard">Coordinates copied to clipboard</string>
+    <string name="coordinates_lat">Γεωγρ. πλάτος:</string>
+    <string name="coordinates_lon">Γεωγρ. μήκος:</string>
+    <string name="copy_coordinates">Copy coordinates</string>
+    <string name="could_not_download_observations">Αδυναμία λήψης των πιο πρόσφατων παρατηρήσεων - προόβλημα σύνδεσης. Δοκίμασε ξανά αργότερα.</string>
+    <string name="could_not_follow_observation">Could not follow this observation</string>
+    <string name="could_not_play_sound">Δεν ήταν δυνατή η αναπαραγωγή ήχου - πιθανώς ένα πρόβλημα δικτύου</string>
+    <string name="could_not_register_user">Αποτυχία εγγραφής χρήστη</string>
+    <string name="could_not_retrieve_guide">Δεν ήταν δυνατή η ανάκτηση των λεπτομερειών του οδηγού - πιθανώς ένα σφάλμα δικτύου.</string>
+    <string name="could_not_send_message">Couldn\'t send message: %1$s</string>
+    <string name="could_not_unfollow_observation">Could not unfollow this observation</string>
+    <string name="couldnt_duplicate_photo">Δεν ήταν δυνατή η αντιγραφή της φωτογραφίας!</string>
+    <string name="couldnt_duplicate_sound">Couldn\'t duplicate sound!</string>
+    <string name="couldnt_edit_photo">Δεν ήταν δυνατή η επεξεργασία της φωτογραφίας!</string>
+    <string name="couldnt_load_nearby_observations">Δεν είναι δυνατή η φόρτωση παρατηρήσεων σε κοντινή απόσταση: %1$s</string>
+    <string name="couldnt_load_project_details">Δεν ήταν δυνατή η φόρτωση των λεπτομερειών του πρότζεκτ: %1$s</string>
+    <string name="couldnt_load_project_news">Δεν ήταν δυνατή η φόρτωση των νέων του πρότζεκτ: %1$s</string>
+    <string name="couldnt_load_recommended_missions">Δεν ήταν δυνατή η φόρτωση προτεινόμενων αποστολών: %1$s</string>
+    <string name="couldnt_load_results">Δεν ήταν δυνατή η φόρτωση των αποτελεσμάτων: %1$s</string>
+    <string name="couldnt_load_user_details">Δεν ήταν δυνατή η φόρτωση των στοιχείων του χρήστη: %1$s</string>
+    <string name="couldnt_retrieve_sound">Δεν ήταν δυνατή η ανάκτηση του ήχου από την προεπιλεγμένη συσκευή εγγραφής - αντί αυτού προσπαθήστε να εισαγάγετε τον ήχο</string>
+    <string name="country">Χώρα</string>
+    <string name="county">Νομός</string>
+    <string name="credits">Σχεδιάστηκε και αναπτύχθηκε από το iNaturalist.org με υποστήριξη από την Ακαδημία Επιστημών της Καλιφόρνια</string>
+    <string name="credits_title">Συντελεστές</string>
+    <string name="currently_logged_in_as_html"><![CDATA[Currently logged in as <b>%1$s</b>]]></string>
+    <string name="data_quality">Ποιότητα παρατήρησης</string>
+    <string name="data_quality_assessment">Αξιολόγηση ποιότητας δεδομένων</string>
+    <string name="date_day">%d μ</string>
+    <string name="date_hour">%d ώ</string>
+    <string name="date_is_accurate">Η ημερομηνία είναι ακριβής</string>
+    <string name="date_minute">%d λ</string>
+    <string name="date_observed">Ημερομηνία παρατήρησης</string>
+    <string name="date_short">MM/dd/yy</string>
+    <string name="date_short_this_year">MMM d</string>
+    <string name="date_specified">Ημερομηνία καθορισμένη</string>
+    <string name="date_week">%d ε</string>
+    <string name="debug_settings">Ρυθμίσεις Αποσφαλμάτωσης</string>
+    <string name="default_licenses">Default Licenses</string>
+    <string name="default_licenses_description"><![CDATA[Licensing your content gives anyone the legal right to use it without asking your permission if they abide by the terms of the license. In addition, iNat includes your Creative Commons-licensed content in regularly-updated archives produced for select partner organizations interested in our data. For example, we include No Copyright (CC0), Attribution (CC BY), and Attribution-NonCommercial (CC BY-NC) records in the archive we generate for the <a href="https://www.gbif.org/">Global Biodiversity Information Facility (GBIF)</a>, an international, inter-governmental organization that compiles and distributes biodiversity information from around the world.]]></string>
+    <string name="default_observation_action">Default Observation Action</string>
+    <string name="default_observation_license">Default Observation License</string>
+    <string name="default_photo_license">Default Photo License</string>
+    <string name="default_sound_license">Default Sound License</string>
+    <string name="delegation">Αντιπρόσωποι</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="delete_account_message"><![CDATA[Με τη διαγραφή του λογαριασμού σας θα καταργήσετε:<br/><br/><ul><li> Όλες τις παρατηρήσεις σας, συμπεριλαμβανομένου του έργου όλων των ανθρώπων που σας βοήθησαν με τις αναγνωρίσεις.</li><li> Όλες οι αναγνωρίσεις που προσθέσατε στις παρατηρήσεις άλλων ανθρώπων, οι οποίες ενδέχεται να επηρεάσουν την ποιότητα των δεδομένων αυτών των παρατηρήσεων.</li><li> Όλα τα σχόλια που έχετε προσθέσει.</li></ul><br/>Επιπλέον, αυτή η ενέργεια δεν μπορεί να ανακληθεί. Αν αλλάξετε γνώμη αργότερα, δεν παίρνετε πίσω αυτό το περιεχόμενο.<br/><br/>Εάν η υπηρεσία αυτή δημιουργεί πάρα πολλές ειδοποιήσεις, σκεφτείτε <a href="https://www.inaturalist.org/users/edit">την επεξεργασία των ρυθμίσεών σας στον ιστότοπο</a> για να εξαιρεθείτε από ορισμένες ειδοποιήσεις ή να σταματήσετε να λαμβάνετε μηνύματα ηλεκτρονικού ταχυδρομείου από εμάς. Εάν αντιμετωπίζετε προβλήματα με ένα συγκεκριμένο άτομο, σκεφτείτε <a href="https://www.inaturalist.org/users/edit">τη σίγαση τους</a> αντί να διαγράψετε το λογαριασμό σας.<br/><br/>Εάν είστε ακόμα βέβαιοι ότι θέλετε να διαγράψετε το λογαριασμό σας, εισαγάγετε<b>\"%1$s\"</b> στην παρακάτω φόρμα και κάντε κλικ στο κουμπί για να διαγράψετε το λογαριασμό σας και όλα τα δεδομένα σας.]]></string>
+    <string name="delete_attribute_value">Delete attribute value</string>
+    <string name="delete_comment">Διαγραφή σχολίου</string>
+    <string name="delete_comment_message">Είσαι σίγουρος/η ότι θέλεις να διαγράψεις αυτό το σχόλιο;</string>
+    <string name="delete_confirmation">Είσαι σίγουρος/η ότι θέλεις να διαγράψεις αυτήν την παρατήρηση;</string>
+    <string name="delete_download">Διαγραφή λήψεων</string>
+    <string name="delete_id">Απόσυρση Αναγνώρισης</string>
+    <string name="delete_id_message">Είσαι σίγουρος/η ότι θέλεις να διαγράψεις αυτόν τον προσδιορισμό;</string>
+    <string name="delete_observation">Διέγραψε παρατήρηση</string>
+    <string name="delete_observations">Delete observations</string>
+    <string name="delete_photo">Διαγραφή φωτογραφίας</string>
+    <string name="delete_this_pinned_location">Διαγραφή αυτής της καρφιτσωμένης τοποθεσίας;</string>
+    <string name="delete_your_account">Διαγραφή Του Λογαριασμού σας</string>
+    <string name="deleted_photos_from_cache_error">Φαίνεται ότι διαγράψατε μια φωτογραφία διαγράφοντας την προσωρινή μνήμη της εφαρμογής πριν την αποστολή. Θα χρειαστεί να προσθέσετε την φωτογραφία πίσω στην παρατήρηση σας από την γκαλερί σας. Στο μέλλον, βεβαιωθείτε ότι έχετε ανεβάσει όλες τις φωτογραφίες σας προτού εκκαθαρίσετε την προσωρινή μνήμη της εφαρμογής.</string>
+    <string name="deleted_sounds_from_cache_error">Φαίνεται ότι διαγράψατε έναν ήχο διαγράφοντας την προσωρινή μνήμη της εφαρμογής πριν την αποστολή. Θα χρειαστεί να προσθέσετε τον ήχο πίσω στην παρατήρηση σας από την γκαλερί σας. Στο μέλλον, βεβαιωθείτε ότι έχετε ανεβάσει όλους τους ήχους σας πριν καθαρίσετε την προσωρινή μνήμη της εφαρμογής.</string>
+    <string name="deleted_user">Deleted User</string>
+    <string name="deleting_observations">Διαγράφονται οι παρατηρήσεις...</string>
+    <string name="department_segment">Κομμάτι Τμήματος</string>
+    <string name="description">Περιγραφή</string>
+    <string name="description_all_caps">ΠΕΡΙΓΡΑΦΗ</string>
+    <string name="details">Λεπτομέρειες</string>
+    <string name="disable_third_party_data_sharing">Απενεργοποίηση Κοινής Χρήσης Δεδομένων Τρίτων</string>
+    <string name="disable_third_party_sharing_restart">Για να απενεργοποιήσετε αμέσως την κοινή χρήση δεδομένων τρίτων, πρέπει να γίνει επανεκκίνηση της εφαρμογής.</string>
+    <string name="disabled">Απενεργοποιημένο</string>
+    <string name="disagree">Διαφωνώ</string>
+    <string name="disagree_assessment_passes">Disagree assessment passes</string>
+    <string name="discard_changes">Είσαι σίγουρος/η ότι θέλεις να απορρίψεις τις αλλαγές;</string>
+    <string name="discard_comment">Είσαι σίγουρος/η ότι θέλεις να απορρίψεις αυτό το σχόλιο;</string>
+    <string name="discard_location_changes">Είσαι σίγουρος/η ότι θέλεις να απορρίψεις τις αλλαγές;</string>
+    <string name="district">Περιφέρεια</string>
+    <string name="division">Διαίρεση</string>
+    <string name="do_not_collect_third_party_data">Μη συλλέγετε δεδομένα σταθερότητας και χρήσης χρησιμοποιώντας υπηρεσίες τρίτων</string>
+    <string name="do_you_agree_to_the_following">Συμφωνείς με τα εξής;</string>
+    <string name="do_you_think_this_could_be"><![CDATA[Τα αποδεικτικά στοιχεία είναι επαρκή για να επιβεβαιώσουν ότι αυτό είναι <b>%1$s</b>;]]></string>
+    <string name="does_not_pass_assessment">Does not pass assessment</string>
+    <string name="donate_to_inaturalist">Δωρεά στο iNaturalist</string>
+    <string name="done">Ολοκληρώθηκε</string>
+    <string name="download">Λήψη</string>
+    <string name="download_for_offline_use">Λήψη για χρήση χωρίς σύνδεση</string>
+    <string name="download_guide_alert">Κατεβάζει %1$s των δεδομένων για χρήση του οδηγού χωρίς σύνδεση στο διαδίκτυο.</string>
+    <string name="download_not_available">Η λήψη δεν είναι διαθέσιμη</string>
+    <string name="downloaded">Λήφθηκε</string>
+    <string name="downloading">Γίνεται λήψη...</string>
+    <string name="downloading_observations">Λήψη παρατηρήσεων...</string>
+    <string name="drainage">Απορροή</string>
+    <string name="duplicate">Αντιγραφή</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="edit_locality_notes">Επεξεργασία Σημειώσεων Τοποθεσίας</string>
+    <string name="edit_location">Επεξεργασία τοποθεσίας</string>
+    <string name="edit_observation">Επεξεργασία παρατήρησης</string>
+    <string name="edit_observation_license">Edit Observation License</string>
+    <string name="edit_photo_license">Edit Photo License</string>
+    <string name="edit_profile">Επεξεργασία προφίλ</string>
+    <string name="editor">Συντάκτης</string>
+    <string name="email">E-mail</string>
+    <string name="email_address">Διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="email_must_look_like_email_address">Email must look like an email address</string>
+    <string name="enabled">Ενεργοποιημένο</string>
+    <string name="end">Τέλος</string>
+    <string name="enlarge">Μεγέθυνση</string>
+    <string name="enter_taxon_name">Ονομασία του είδους</string>
+    <string name="equals_sign">=</string>
+    <string name="error">Σφάλμα</string>
+    <string name="error_deleting_account">Παρουσιάστηκε σφάλμα κατά τη διαγραφή του λογαριασμού σας - ελέγξτε τη σύνδεση στο Internet</string>
+    <string name="error_icon_content_description">Σφάλμα</string>
+    <string name="estate">Κτήμα</string>
+    <string name="evidence_of_organism">Στοιχεία του οργανισμού</string>
+    <string name="exact_date">Ακριβής ημερομηνία</string>
+    <string name="existing_observation_licenses_have_been_updated">All existing observation licenses have been changed to %1$s.</string>
+    <string name="existing_photo_licenses_have_been_updated">All existing photo licenses have been changed to %1$s.</string>
+    <string name="existing_sound_licenses_have_been_updated">All existing sound licenses have been changed to %1$s.</string>
+    <string name="expand_annotation_to_agree_or_disagree">Expand annotation to agree or disagree</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Σύνθετες"</string>
+    <string name="expand_list">Expand list</string>
+    <string name="expanding_your_search_area">Διεύρυνση της περιοχής αναζήτησης...</string>
+    <string name="explore">Εξερευνήστε</string>
+    <string name="exploring_all">Εξερεύνηση όλων</string>
+    <string name="exposed_dropdown_menu_content_description">Εμφάνιση αναπτυσσόμενου μενού</string>
+    <string name="extracting">Εξαγωγή...</string>
+    <string name="facebook">Facebook</string>
+    <string name="failed_flagging_conversation">Failed flagging conversation!</string>
+    <string name="failed_muting_user">Failed muting user!</string>
+    <string name="failed_to_add_obs_to_project">Απέτυχε η προσθήκη της παρατήρησης \'%1$s\' στο πρότζεκτ \'%2$s\': %3$s</string>
+    <string name="failed_to_add_to_project">Σφάλμα στην προσθήκη στο πρότζεκτ \'%1$s\': %2$s</string>
+    <string name="failed_to_download_guide">Σφάλμα στη λήψης του οδηγού</string>
+    <string name="failed_unmuting_user">Failed unmuting user!</string>
+    <string name="fave_this_observation">Δηλώστε στα αγαπημένα αυτήν την παρατήρηση</string>
+    <string name="faved">Αγαπημένα</string>
+    <string name="faves">Faves</string>
+    <string name="featured_projects">﻿Προτεινόμενα</string>
+    <string name="featured_projects_all_caps">FEATURED</string>
+    <string name="field_value">Field Value</string>
+    <string name="filter_observations_by_a_date_range">Filter observations by a date range</string>
+    <string name="filter_observations_by_an_exact_date">Filter observations by an exact date</string>
+    <string name="filter_observations_by_months">Filter observations by months</string>
+    <string name="filters">Φίλτρα</string>
+    <string name="finding_current_location">Εντοπισμός τρέχουσας τοποθεσίας...</string>
+    <string name="first">1ος</string>
+    <string name="fish">Ψάρια</string>
+    <string name="flag_as_captive">Επισήμανση ως αιχμαλωτισμένο/καλλιεργούμενο</string>
+    <string name="flag_conversation">Flag conversation</string>
+    <string name="flag_this_conversation">Flag this conversation</string>
+    <string name="flagging_conversation">Flagging conversation...</string>
+    <string name="follow_this_observation">Follow this Observation</string>
+    <string name="following">Ακολουθεί</string>
+    <string name="forbidden">Απαγορεύεται</string>
+    <string name="forgot">Ξεχάσατε τον κωδικό σας;</string>
+    <string name="fungi">Μύκητες</string>
+    <string name="future_observed_on_date_error">Η παρατήρησή σας δημιουργήθηκε (και υποβλήθηκε) στις %1$s, αλλά προσπαθείτε να ορίστε μια ημερομηνία παρατήρησης η οποία είναι μεταγενέστερη από αυτή: %2$s</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Διάφορα"</string>
+    <string name="geoprivacy">Γεωαπόρρητο</string>
+    <string name="geoprivacy_explanation"><![CDATA[ Το Γεωαπόρρητο είναι μια ρύθμιση που μπορείτε να κάνετε στις παρατηρήσεις σας που ελέγχει τον τρόπο εμφάνισης των χωρικών συντεταγμένων (γεωγραφικό πλάτος και μήκος). Εδώ είναι οι επιλογές:<br/><b>ανοιχτές</b> - Όλοι μπορούν να δουν τις συντεταγμένες αν το taxon δεν είναι απειλούμενο<br/><b>δυσδιάκριτες</b> - Οι δημόσιες συντεταγμένες εμφανίζονται ως τυχαίο σημείο σε μια περιοχή 0,2 επί 0,2 μοιρών που περιέχει τις πραγματικές συντεταγμένες, η οποία λειτουργεί σε περίπου 22x22 km τετραγωνική περιοχή αβεβαιότητας στον ισημερινό, μειώνεται καθώς πλησιάζετε στους πόλους. Οι πραγματικές συντεταγμένες είναι ορατές μόνο σε εσάς και στους επιμελητές πρότζεκτ στα οποία προσθέτετε την παρατήρηση. <br/><b>ιδιωτικές</b> - Συντεταγμένες εντελώς κρυμμένες από δημόσιους χάρτες, πραγματικές συντεταγμένες ορατές μόνο σε εσάς και στους επιμελητές των πρότζεκτ στα οποία προσθέτετε την παρατήρηση.<br/><br/>Λάβετε υπόψη ότι οι επιμελητές μεμονωμένων πρότζεκτ μπορούν πάντοτε να βλέπουν τις συντεταγμένες ανεξάρτητα από το γεωαπόρρητό σας, οπότε αν ανησυχείτε για το ποιος έχει πρόσβαση στις συντεταγμένες, πρέπει να είστε βέβαιοι ότι εμπιστεύεστε τους επιμελητές των πρότζεκτ στα οποία συμμετέχετε. ]]></string>
+    <string name="geoprivacy_with_value">Γεωαπόρρητο: %1$s</string>
+    <string name="get_current_location">Αναζήτηση τρέχουσας τοποθεσίας</string>
+    <string name="global">Παγκόσμια</string>
+    <string name="go_back">Go back</string>
+    <string name="go_to_my_location">Go to my current location</string>
+    <string name="go_to_settings">Μετάβαση στις ρυθμίσεις</string>
+    <string name="got_it">Το κατάλαβα!</string>
+    <string name="got_it_all_caps">ΤΟ ΚΑΤΑΛΑΒΑ!</string>
+    <string name="governorate">Kυβερνείο</string>
+    <string name="gplus">Google</string>
+    <string name="guide_editor_must_enable_this_feature">Ο συντάκτης του οδηγού πρέπει να ενεργοποιήσει αυτή την λειτουργία.</string>
+    <string name="guides">Οδηγοί</string>
+    <string name="has_id_supported_by_two_or_more">Έχει αναγνωριστεί από δύο ή περισσότερους</string>
+    <string name="has_photos">Έχει Φωτογραφίες</string>
+    <string name="has_photos_or_sounds">Έχει Φωτογραφίες ή Ήχους</string>
+    <string name="has_sounds">Έχει Ήχους</string>
+    <string name="have_been_seen_here">Έχει Παρατηρηθεί Εδώ</string>
+    <string name="help">Βοήθεια</string>
+    <string name="hide_my_observations">Hide My Observations</string>
+    <string name="historical_county">Ιστορική Κομητεία</string>
+    <string name="historical_state">Ιστορικό Κράτος</string>
+    <string name="historical_town">Ιστορική πόλη</string>
+    <string name="hours">ώρες</string>
+    <string name="i_agree_to_tos_and_privacy"><![CDATA[I agree to the <a href="https://www.inaturalist.org/terms">Terms of Service</a> and <a href="https://www.inaturalist.org/privacy">Privacy Policy</a>, and I have reviewed the <a href="https://www.inaturalist.org/pages/community+guidelines">Community Guidelines</a>.]]></string>
+    <string name="i_consent_process_personal_info"><![CDATA[I consent to allow iNaturalist to store and process limited kinds of personal information about me in order to manage my account. <b>Learn More</b>]]></string>
+    <string name="i_dont_know_but"><![CDATA[Δεν ξέρω αλλά είμαι σίγουρος/η ότι αυτό είναι <b>%1$s</b>.]]></string>
+    <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
+    <string name="id">ID</string>
+    <string name="id_count">Identification count</string>
+    <string name="id_title">%1$sΗ ταυτότητα του • %2$s</string>
+    <string name="identifications">Αναγνωρίσεις</string>
+    <string name="identifications_all_caps">ΑΝΑΓΝΩΡΙΣΕΙΣ</string>
+    <string name="identifiers_all_caps">ΑΤΟΜΑ ΠΟΥ ΚΑΝΟΥΝ ΤΙΣ ΑΝΑΓΝΩΡΙΣΕΙΣ</string>
+    <string name="importing_photos">Εισαγωγή φωτογραφίας(-ών)...</string>
+    <string name="importing_sounds">Εισαγωγή ήχου(-ων)...</string>
+    <string name="inactive_taxon">Ανενεργό Taxon</string>
+    <string name="inat_about_title">Το iNaturalist είναι μια κοινή πρωτοβουλία από την Ακαδημία Επιστημών της Καλιφόρνια και του National Geographic Society.</string>
+    <string name="inat_credits"><![CDATA[Το iNaturalist υπάρχει χάρη σε κάθε άτομο που συμμετέχει στην κοινότητά μας. Οι άνθρωποι που κατασκευάζουν το λογισμικό, σχεδιάζουν το περιβάλλον, διατηρούν την υποδομή μας, υποστηρίζουν την κοινότητα και ενθαρρύνουν τις συνεργασίες είναι οι Yaron Budowski, Amanda Bullington, Tony Iwane, Patrick Leary, Scott Loarie, Abhas Misraraj, Carrie Seltzer, Alex Shepard και ο Ken-ichi Ueda.<br/><br/>H CalTech και η Cornell Tech βοήθησαν στην ανάπτυξη του συστήματος μηχανικής όρασης που προτείνει αναγνωρίσεις από φωτογραφίες. Ευχαριστούμε τους Grant Van Horn, Serge Belongie και τον Pietro Perona για την προώθηση της έρευνας στον τομέα της μηχανικής όρασης.  Περισσότερες πληροφορίες μπορείτε να βρείτε στο <a href="http://www.visipedia.org">visipedia.org</a>. Ιδιαίτερες ευχαριστίες στην NVIDIA για την πρόσθετη βοήθεια.]]></string>
+    <string name="inat_credits_networks_pre"><![CDATA[Το διεθνές Δίκτυο iNaturalist υποστηρίζει τοπικούς, πλήρως ενοποιημένους ιστότοπους βασισμένους στο iNaturalist στις ακόλουθες χώρες, χάρη στην υποστήριξη των συνδεδεμένων συνεργαζόμενων οργανισμών.]]></string>
+    <string name="inat_credits_post"><![CDATA[Το iNaturalist είναι βαθύτατα ευγνώμων στους προγραμματιστές ανοιχτού κώδικα οι οποίοι έχουν δώσει τόσα πολλά στο λογισμικό που εμείς βασιζόμαστε κάθε μέρα. Δείτε <a href="https://github.com/inaturalist/iNaturalistAndroid">https://github.com/inaturalist/iNaturalistAndroid</a> για συνεισφορές ανοιχτού κώδικα .<br/> Είμαστε ευγνώμονες για τη βοήθεια μετάφρασης που παρέχεται από εθελοντές στην κοινότητα του crowdin.com, ειδικά οι Eduardo Martínez, Lin Cheng-Tao, KestrelLam, cgalindo, vilseskog, NCAA, ldacosta, radana, Mykola Pukhalskyi, danieleseglie, and katunchik. <br/>Τοποθεσίες της κατηγορίας II του IUCN και του UNEP-WCMC (2015), Η Παγκόσμια Βάση Δεδομένων για τις Προστατευόμενες Περιοχές (WDPA) [On-line], [11/2014], το Cambridge, UK: UNEP-WCMC. Διαθέσιμο στο: <a href="http://www.protectedplanet.net">www.protectedplanet.net</a>]]></string>
+    <string name="inat_network">Δίκτυο iNaturalist</string>
+    <string name="inat_network_description">Το iNaturalist Network είναι ένα πλαίσιο για την τοπικοποίηση της κοινότητας του iNaturalist. Οι δικτυακοί τόποι υποστηρίζονται από τοπικούς φορείς που έχουν υπογράψει συμφωνία με το iNaturalist για να ενθαρρύνουν την τοπική χρήση και να ωφελήσουν την τοπική βιοποικιλότητα.</string>
+    <string name="inat_support_email_subject">Βοήθεια για το iNaturalist (έκδοση %1$s - %2$s; ID χρήστη - %3$s)</string>
+    <string name="include_suggestions_not_seen_nearby">Include suggestions not seen nearby</string>
+    <string name="insects">Έντομα</string>
+    <string name="internet_connection_seems_to_be_offline">Η σύνδεση στο διαδίκτυο φαίνεται να είναι offline.</string>
+    <string name="intersection">Διασταύρωση</string>
+    <string name="introducing_auto_sync">Εισαγωγή Αυτόματου Συγχρονισμού!</string>
+    <string name="introducing_missions">Εισαγωγή Αποστολών!</string>
+    <string name="invalid_audio_extension">Σφάλμα κατά την εισαγωγή ήχου (-ων): Μπορεί να εισαχθούν μόνο αρχεία ήχων με επεκτάσεις WAV/MP3/AMR</string>
+    <string name="invalid_photo">Photo format not supported</string>
+    <string name="invalid_photo_extension">Σφάλμα κατά την εισαγωγή φωτογραφίας(-ών): Μπορεί να εισαχθούν μόνο αρχεία φωτογραφιών με επεκτάσεις JPG/JPEG/PNG</string>
+    <string name="invalid_project_field">Παρακαλώ εισάγετε τιμή για το πεδίο \"%1s\"</string>
+    <string name="is_captive">Είναι σε αιχμαλωσία / καλλιεργούμενο</string>
+    <string name="island">Νησί</string>
+    <string name="issue_with_updating_photos">There was a problem updating the photos in this observation that has recently been fixed. Please sign out and sign in again to resolve this issue.</string>
+    <string name="item_view_role_description">Καρτέλα</string>
+    <string name="join">Γίνετε μέλος</string>
+    <string name="join_all_caps">ΕΓΓΡΑΦΗ</string>
+    <string name="joined_projects">Εγγεγραμμένος/η</string>
+    <string name="joined_projects_all_caps">ΕΓΓΕΓΡΑΜΕΝΟΣ</string>
+    <string name="just_so_you_know">Απλώς Για Να Γνωρίζετε...</string>
+    <string name="land_feature">Χαρακτηριστικό Γης</string>
+    <string name="language">Γλώσσα</string>
+    <string name="leave">Αποχώρηση</string>
+    <string name="leave_a_comment">Γράψε ένα σχόλιο ή πρότεινε έναν προσδιορισμό...</string>
+    <string name="leave_comment">Άφησε ένα σχόλιο...</string>
+    <string name="leave_project">Αποχώρηση από το πρότζεκτ</string>
+    <string name="leave_project_confirmation">Είστε βέβαιος/η ότι θέλετε να αποχωρήσετε από αυτό το πρότζεκτ;</string>
+    <string name="lets_get_started">Ας αρχίσουμε!</string>
+    <string name="license">Άδεια</string>
+    <string name="license_description_cc0">This license releases your work into the public domain, so others can copy, modify, distribute and perform your work, even for commercial purposes, all without asking permission or giving you credit. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.</string>
+    <string name="license_description_cc_by">This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation.</string>
+    <string name="license_description_cc_by_nc">This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don\'t have to license their derivative works on the same terms.</string>
+    <string name="license_description_cc_by_nc_nd">This license is the most restrictive of the six main licenses, only allowing others to download your works and share them with others as long as they credit you, but they can\'t change them in any way or use them commercially.</string>
+    <string name="license_description_cc_by_nc_sa">This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.</string>
+    <string name="license_description_cc_by_nd">This license allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to you.</string>
+    <string name="license_description_cc_by_sa">This license lets others remix, adapt, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.</string>
+    <string name="license_description_no_license">You retain full copyright over your content aside from those rights granted to iNaturalist in our Terms of Service.</string>
+    <string name="license_name_cc0">Public Domain</string>
+    <string name="license_name_cc_by">Attribution</string>
+    <string name="license_name_cc_by_nc">Attribution-NonCommercial</string>
+    <string name="license_name_cc_by_nc_nd">Attribution-NonCommercial-NoDerivs</string>
+    <string name="license_name_cc_by_nc_sa">Attribution-NonCommercial-ShareAlike</string>
+    <string name="license_name_cc_by_nd">Attribution-NoDerivs</string>
+    <string name="license_name_cc_by_sa">Attribution-ShareAlike</string>
+    <string name="license_name_no_license">All rights reserved</string>
+    <string name="license_none">Με την επιφύλαξη παντός δικαιώματος</string>
+    <string name="list_observation_checkbox_description">Πλαίσιο ελέγχου για επιλογή παρατήρησης σε λειτουργία πολλαπλής επιλογής</string>
+    <string name="loading">Φορτώνει...</string>
+    <string name="loading_projects">Φόρτωση πρότζεκτ...</string>
+    <string name="local_administrative_area">Τοπική Διοικητική Περιοχή</string>
+    <string name="local_authority">Τοπική αρχή</string>
+    <string name="locale_eu">Βασκικά</string>
+    <string name="locale_gl">Γαλικιανά</string>
+    <string name="location">Τοποθεσία</string>
+    <string name="location_coords">Γεωγρ. πλάτος: %1$s Γεωγρ. μήκος: %2$s Aκρίβεια %3$s</string>
+    <string name="location_coords_no_acc">Γεωγρ. πλάτος: %1$s Γεωγρ. μήκος: %2$s</string>
+    <string name="location_is">Τοποθεσία</string>
+    <string name="location_is_accurate">Η τοποθεσία είναι ακριβής</string>
+    <string name="location_lat_lng">Location: %1$f, %2$f</string>
+    <string name="location_not_found">Η τοποθεσία ή το μέρος που αναζητήσατε δεν βρίσκεται στη βάση δεδομένων μας. Επιλέξτε μια θέση από τη λίστα επιλογών κάτω από το πεδίο αναζήτησης της τοποθεσίας ή διαγράψτε το πεδίο αναζήτησης.</string>
+    <string name="location_pinned_successfully">Η Τρέχουσα Τοποθεσία Καρφιτσώθηκε με Επιτυχία</string>
+    <string name="location_search_hint">π.χ. πόλη, πολιτεία, πάρκο, χώρα...</string>
+    <string name="location_specified">Τοποθεσία καθορισμένη</string>
+    <string name="location_visibility">Ορατότητα Τοποθεσίας</string>
+    <string name="log_in">Είσοδος</string>
+    <string name="log_out">Αποσύνδεση</string>
+    <string name="logged_in_as_html"><![CDATA[Συνδεδεμένος ως <b>%1$s</b>]]></string>
+    <string name="login_in_to_add_comments_ids">Συνδέσου για να γράψεις ένα σχόλιο ή να προτείνεις έναν προσδιορισμό...</string>
+    <string name="login_in_to_fav">Συνδεθείτε ή Εγγραφείτε για να δείτε τα αγαπημένα ή να δηλώστε στα αγαπημένα αυτήν την παρατήρηση...</string>
+    <string name="login_or_sign_up">Log In or Sign Up</string>
+    <string name="login_signup">Σύνδεση/Εγγραφή</string>
+    <string name="login_with">Συνδέσου με</string>
+    <string name="make_an_observation">Κάντε μια παρατήρηση</string>
+    <string name="make_first">Κάντε την 1η </string>
+    <string name="mammals">Θηλαστικά</string>
+    <string name="map">Χάρτης</string>
+    <string name="map_area">Περιοχή χάρτη</string>
+    <string name="map_of_observations">Χάρτης παρατηρήσεων</string>
+    <string name="mark_all_as_viewed">Σήμανση όλων ως προβεβλημένα</string>
+    <string name="material_clock_toggle_content_description">Επιλέξτε π.μ. ή μ.μ.</string>
+    <string name="material_hour_selection">Επιλογή ώρας</string>
+    <string name="material_hour_suffix">%1$s ακριβώς</string>
+    <string name="material_minute_selection">Επιλογή λεπτών</string>
+    <string name="material_minute_suffix">%1$s λεπτά</string>
+    <string name="material_timepicker_am">ΠΜ</string>
+    <string name="material_timepicker_clock_mode_description">Κάντε εναλλαγή στη λειτουργία ρολογιού, για την εισαγωγή της ώρας.</string>
+    <string name="material_timepicker_hour">Ώρα</string>
+    <string name="material_timepicker_minute">Λεπτό</string>
+    <string name="material_timepicker_pm">ΜΜ</string>
+    <string name="material_timepicker_select_time">Επιλέξτε ώρα</string>
+    <string name="material_timepicker_text_input_mode_description">Κάντε εναλλαγή στη λειτουργία εισαγωγής κειμένου, για την εισαγωγή της ώρας.</string>
+    <string name="menu">Μενού</string>
+    <string name="message_is_flagged">Message is flagged</string>
+    <string name="messages">Messages</string>
+    <string name="metadata">Metadata</string>
+    <string name="min_6_chars">Τουλάχιστον 6 χαρακτήρες</string>
+    <string name="minutes">λεπτά</string>
+    <string name="miscellaneous">Διάφορα</string>
+    <string name="misleading_or_illegal_content">Misleading or illegal content, racial or ethnic slurs, etc. For more on our definition of \"appropriate,\" see the FAQ.</string>
+    <string name="missions">Αποστολές</string>
+    <string name="missions_onboarding_description">Οι αποστολές είναι συστάσεις σε πραγματικό χρόνο για το τι πρέπει να ψάξετε γύρω σας. Με αυτόν τον τρόπο μπορείτε να ανακαλύψετε είδη νέα για εσάς! (Απαιτείται συνδεσιμότητα)</string>
+    <string name="mollusks">Μαλάκια</string>
+    <string name="months">Μήνες</string>
+    <string name="more_bio"><![CDATA[<b><font color="#ffffff">Περισσότερα »</font></b>]]></string>
+    <string name="more_info">Περισσότερες πληροφορίες</string>
+    <string name="more_info_on_inat">Περισσότερες πληροφορίες στο iNaturalist.org</string>
+    <string name="most_observed_options_matching_filters">Most-observed options matching filters:</string>
+    <string name="mtrl_badge_numberless_content_description">Νέα ειδοποίηση</string>
+    <string name="mtrl_chip_close_icon_content_description">Κατάργηση %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Πάνω από %1$d νέες ειδοποιήσεις</string>
+    <string name="mtrl_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="mtrl_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
+    <string name="mtrl_picker_announce_current_selection">Τρέχουσα επιλογή: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Επιλογή ημερομηνίας</string>
+    <string name="mtrl_picker_date_header_unselected">Επιλεγμένη ημερομηνία</string>
+    <string name="mtrl_picker_day_of_week_column_header">Στήλη ημερών: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Μη έγκυρη μορφή.</string>
+    <string name="mtrl_picker_invalid_format_example">Παράδειγμα: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Χρησιμοποιήστε: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Μη έγκυρο εύρος.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Πλοήγηση στο έτος %1$s</string>
+    <string name="mtrl_picker_out_of_range">Εκτός εύρους: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ημερομηνία έναρξης – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Επιλογή εύρους</string>
+    <string name="mtrl_picker_range_header_unselected">Ημερομηνία έναρξης – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_save">Αποθήκευση</string>
+    <string name="mtrl_picker_text_input_date_hint">Ημερομηνία</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ημερομηνία έναρξης</string>
+    <string name="mtrl_picker_text_input_day_abbr">η</string>
+    <string name="mtrl_picker_text_input_month_abbr">μ</string>
+    <string name="mtrl_picker_text_input_year_abbr">ε</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Εναλλαγή στη λειτουργία εισαγωγής ημερολογίου</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Πατήστε για εναλλαγή για την επιλογή ημέρας</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Εναλλαγή στη λειτουργία εισαγωγής κειμένου</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Πατήστε για εναλλαγή για την επιλογή έτους</string>
+    <string name="multi_select_description">Εισάγετε πολλές φωτογραφίες πατώντας παρατεταμένα σε μία φωτογραφία</string>
+    <string name="multi_select_sound_description">Εισάγεται πολλούς ήχους πατώντας παρατεταμένα σε έναν ήχο</string>
+    <string name="municipality">Δήμος</string>
+    <string name="must_be_connected_to_load_more_obs">Πρέπει να είσαι συνδεδεμένος/η στο διαδίκτυο για τη φόρτωση περισσότερων παρατηρήσεων</string>
+    <string name="mute">Mute</string>
+    <string name="mute_this_user">Mute this user</string>
+    <string name="mute_this_user_question">Mute this user?</string>
+    <string name="muting_user">Muting user...</string>
+    <string name="my_content">Το περιεχόμενό μου</string>
+    <string name="my_guides">Τα δικά σου</string>
+    <string name="my_guides_all_caps">ΔΙΚΗ ΣΑΣ</string>
+    <string name="my_location">Η τοποθεσία μου</string>
+    <string name="name">Όνομα</string>
+    <string name="national_geographic">National Geographic</string>
+    <string name="nationality">Εθνικότητα</string>
+    <string name="nearby">Σε κοντινή απόσταση</string>
+    <string name="nearby_guides">Σε κοντινή απόσταση</string>
+    <string name="nearby_guides_all_caps">ΣΕ ΚΟΝΤΙΝΗ ΑΠΟΣΤΑΣΗ</string>
+    <string name="nearby_missions">Αποστολές σε Κοντινή Απόσταση</string>
+    <string name="nearby_observations">Κοντινές παρατηρήσεις</string>
+    <string name="nearby_projects">Σε κοντινή απόσταση</string>
+    <string name="nearby_projects_all_caps">ΣΕ ΚΟΝΤΙΝΗ ΑΠΟΣΤΑΣΗ</string>
+    <string name="needs_id">Χρειάζεται Ταυτοποίηση</string>
+    <string name="needs_id_more_ids"><![CDATA[ Η παρατήρηση χρειάζεται <b>περισσότερες αναγνωρίσεις</b> από την κοινότητα για να γίνει "Επιστημονικά Βαθμονομημένη"]]></string>
+    <string name="needs_your_attention">Χρειάζεται την προσοχή σου...</string>
+    <string name="network_credit_argentinat"><![CDATA[Αργεντινή: Το Fundación Vida Silvestre Argentina υποσηρίζει το ArgentiNat (<a href="https://www.argentinat.org">www.argentinat.org</a>)]]></string>
+    <string name="network_credit_biodiversity4all"><![CDATA[Πορτογαλία: Η Associação Biodiversidade Para Todos λειτουργεί το Biodiversity4All (<a href="https://biodiversity4all.org">Biodiversity4All.org</a>)]]></string>
+    <string name="network_credit_inaturalistaustralia"><![CDATA[Αυστραλία: Ο Άτλαντας της  Ζωντανής Αυστραλίας υποστηρίζει το iNaturalist Australia (<a href="https://inaturalist.ala.org.au">inaturalist.ala.org.au</a>)]]></string>
+    <string name="network_credit_inaturalistcanada"><![CDATA[Καναδάς: Η Canadian Wildlife Federation, το Βασιλικό Μουσείο του Οντάριο, το NatureServe καναδα, και το Parks Canada λειτουργούν το iNaturalist Canada (<a href="https://inaturalist.ca">inaturalist.ca</a>)]]></string>
+    <string name="network_credit_inaturalistcl"><![CDATA[Chile: Ministerio del Medio Ambiente supporting iNaturalist Chile (<a href="https://inaturalist.mma.gob.cl/">inaturalist.mma.gob.cl</a>)]]></string>
+    <string name="network_credit_inaturalistcr"><![CDATA[Costa Rica: Comisión Nacional para la Gestión de la Biodiversidad (CONAGEBIO) supporting Naturalista Costa Rica (<a href="costarica.inaturalist.org">costarica.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistecuador"><![CDATA[Εκουαδόρ: Το Instituto Nacional de Biodiversidad (INABIO) υποστηρίζει το iNaturalist Ecuador (<a href="https://ecuador.inaturalist.org">ecuador.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistfi"><![CDATA[Φινλανδία: Το Μουσείο της Φυσικής Ιστορίας της Φινλανδίας (LUOMUS) υποστηρίζει το iNaturalist Finland (<a href="https://inaturalist.laji.fi/">inaturalist.laji.fi</a>)]]></string>
+    <string name="network_credit_inaturalistgr"><![CDATA[Greece: iSea supporting iNaturalist Greece (<a href="https://greece.inaturalist.org">greece.iNaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistgt"><![CDATA[Guatemala: Consejo Nacional de Áreas Protegidas (CONAP) supporting iNaturalist Guatemala (<a href="guatemala.inaturalist.org">guatemala.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistil"><![CDATA[Ισραήλ: Το Πανεπιστήμιο της Χάιφα υποστηρίζει το iNaturalist Israel (<a href="https://israel.inaturalist.org">israel.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistlu"><![CDATA[Luxembourg: Luxembourg National Museum of Natural History (MnhnL) supporting iNaturalist Luxembourg (<a href="https://inaturalist.lu">inaturalist.lu</a>)]]></string>
+    <string name="network_credit_inaturalistpanama"><![CDATA[Παναμάς: Το Ministerio de Ambient λειτουργεί το iNaturalistPa (<a href="https://panama.inaturalist.org">panama.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistse"><![CDATA[Sweden: SLU Swedish Species Information Centre supporting iNaturalist Sweden (<a href="www.inaturalist.se">www.inaturalist.se</a>)]]></string>
+    <string name="network_credit_inaturalistuk"><![CDATA[United Kingdom: National Biodiversity Network Trust supporting iNaturalist United Kingdom (<a href="https://uk.inaturalist.org">uk.inaturalist.org</a>)]]></string>
+    <string name="network_credit_naturalista"><![CDATA[Μεξικό: Η Comisión nacional para el conocimiento y uso de la biodiversidad (CONABIO) λειτουργεί το NaturaLista (<a href="https://naturalista.mx">NaturaLista.mx</a>)]]></string>
+    <string name="network_credit_naturalistacolombia"><![CDATA[Κολομβία: Το Instituto Humboldt λειτουργεί το Naturalista (<a href="https://colombia.inaturalist.org">colombia.inaturalist.org</a>)]]></string>
+    <string name="network_credit_naturewatchnz"><![CDATA[Νέα Ζηλανδία: Το Δίκτυο Καταγραφής Βιοποικιλότητας της Νέας Ζηλανδίας λειτουργεί το iNaturalist NZ — Mātaki Taiao  (<a href="https://inaturalist.nz">inaturalist.nz</a>)]]></string>
+    <string name="new_all_caps">ΝΕΟ</string>
+    <string name="new_message">New Message</string>
+    <string name="new_message_to">New Message to %1$s</string>
+    <string name="new_observation">Νέα παρατήρηση</string>
+    <string name="new_to_inat_sign_up_now"><![CDATA[Πρώτη φορά στο %1$s; <b>Εγγραφείτε τώρα!</b>]]></string>
+    <string name="news">Νέα</string>
+    <string name="news_all_caps">ΝΕΑ</string>
+    <string name="next_option">Next Option</string>
+    <string name="no">Όχι</string>
+    <string name="no_annotation">Χωρίς Σημειώσεις</string>
+    <string name="no_as_good_as_it_can_be">Όχι, είναι όσο το δυνατόν καλύτερη</string>
+    <string name="no_but_it_is_a_member_of_taxon"><![CDATA[Όχι αλλά ανήκει στα <b>%1$s</b>.]]></string>
+    <string name="no_check_list">Δεν υπάρχουν Taxa στην Λίστα Ελέγχου!</string>
+    <string name="no_comments">Δεν υπάρχουν σχόλια/ταυτοποιήσεις ακόμα</string>
+    <string name="no_connectivity">Δεν υπάρχει σύνδεση</string>
+    <string name="no_guides">Δεν βρέθηκαν οδηγοί!</string>
+    <string name="no_identifications_found">Παρακολούθηση αναγνωρίσεων που προτείνετε για παρατηρήσεις άλλων εδώ.</string>
+    <string name="no_identifications_yet">No identifications yet.</string>
+    <string name="no_internet_guides">Οι οδηγοί απαιτούν σύνδεση στο διαδίκτυο</string>
+    <string name="no_internet_projects">Τα πρότζεκτ απαιτούν σύνδεση στο διαδίκτυο</string>
+    <string name="no_location">Χωρίς τοποθεσία</string>
+    <string name="no_log_files_found">Δεν βρέθηκαν αρχεία καταγραφής για αυτό το εύρος ημερομηνιών - Προσπαθήστε προγενέστερη ημερομηνία;</string>
+    <string name="no_messages">You currently have no messages. You can send a new message with the green button, or message them from their profile page.</string>
+    <string name="no_messages_found">No messages found.</string>
+    <string name="no_more_photos_allowed">Οι παρατηρήσεις  μπορούν να έχουν %1$d φωτογραφίες. Για να προσθέσετε περισσότερες θα χρειαστεί να αφαιρέσετε μερικές.</string>
+    <string name="no_news_found">Δεν βρέθηκαν νέα είδη</string>
+    <string name="no_news_yet">Δεν υπάρχουν ακόμα νέα. Μείνετε συντονισμένοι!</string>
+    <string name="no_observations_found">Δεν υπάρχουν παρατηρήσεις ακόμα</string>
+    <string name="no_observations_found_new">Παρατηρήσεις είναι καταγραφές των συναντήσεών σας με μεμονωμένους οργανισμούς σε συγκεκριμένες ώρες και τοποθεσίες.</string>
+    <string name="no_observations_yet">Δεν υπάρχουν παρατηρήσεις ακόμα!</string>
+    <string name="no_observations_yet2">No observations yet.</string>
+    <string name="no_people_found">Δεν βρέθηκαν άτομα</string>
+    <string name="no_photo">No Media</string>
+    <string name="no_projects">Δε βρέθηκαν πρότζεκτ!</string>
+    <string name="no_recommended_missions">Φαίνεται ότι δεν υπάρχουν προτάσεις σε αυτόν τον τομέα. Δοκιμάστε να μετακινηθείτε σε μια νέα τοποθεσία.</string>
+    <string name="no_recorder_found">Δεν βρέθηκε προεπιλεγμένη συσκευή εγγραφής!</string>
+    <string name="no_results_found">Δέν βρέθηκαν αποτελέσματα...</string>
+    <string name="no_species_found">Αυτή είναι μια λίστα με τα είδη που παρατηρήσατε περισσότερο.\n\n\Ενημερωτικά: Υπάρχουν περίπου 9 εκατομμύρια είδη στον πλανήτη, βγείτε έξω και παρατηρήστε τα!</string>
+    <string name="no_species_yet">No species yet.</string>
+    <string name="no_subject">No Subject</string>
+    <string name="no_taxa">Δεν βρέθηκαν ταξινομικές ομάδες για αυτόν τον οδηγό!</string>
+    <string name="no_taxon">Λυπούμαστε, το taxon δεν βρέθηκε</string>
+    <string name="no_thanks">Όχι ευχαριστώ</string>
+    <string name="no_updates_yet">Δεν υπάρχουν ακόμη ενημερώσεις. Μείνετε συντονισμένοι!</string>
+    <string name="none">Κανένα</string>
+    <string name="not_connected">Πρέπει να είστε συνδεδεμένοι στο διαδίκτυο για να κάνετε αυτό!</string>
+    <string name="not_logged_in">Δεν είσαι συνδεδεμένος/η</string>
+    <string name="notes">Σημειώσεις</string>
+    <string name="number_of_days_to_store_logs">Αριθμός ημερών για την αποθήκευση των αρχείων καταγραφής</string>
+    <string name="observation">Παρατήρηση</string>
+    <string name="observation_deleted">Η παρατήρηση διεγράφη</string>
+    <string name="observation_flagged_as_captive">Η παρατήρηση έχει επισημανθεί ως σε αιχμαλωσία / καλλιεργούμενο</string>
+    <string name="observation_has_sounds">Observation has sounds</string>
+    <string name="observation_license">Observation License</string>
+    <string name="observation_licenses_updated">Observation Licenses Updated</string>
+    <string name="observation_list_item_iconic_pic_description">Μικρογραφία φωτογραφίας για το taxon παρατήρησης</string>
+    <string name="observation_list_item_obs_pic_description">Μικρογραφία φωτογραφίας για την παρατήρηση</string>
+    <string name="observation_photos">Φωτογραφίες παρατήρησης</string>
+    <string name="observation_rules">Κανόνες παρατήρησης</string>
+    <string name="observation_selected">Observation selected</string>
+    <string name="observation_sound">Ήχος Παρατήρησης</string>
+    <string name="observations">Οι παρατηρήσεις μου</string>
+    <string name="observations_all_caps">ΠΑΡΑΤΗΡΗΣΕΙΣ</string>
+    <string name="observations_regular">Παρατηρήσεις</string>
+    <string name="observe">Παρατηρήστε</string>
+    <string name="observers">Παρατηρητές</string>
+    <string name="observers_all_caps">ΠΑΡΑΤΗΡΗΤΕΣ</string>
+    <string name="offensive_inappropriate">Offensive/Inappropriate</string>
+    <string name="oh_no">Ωχ όχι! %1$s</string>
+    <string name="ok">εντάξει</string>
+    <string name="ok_got_it">Εντάξει, κατάλαβα!</string>
+    <string name="onboarding_species_name">Ονομάστε αυτό που είδατε αν μπορείτε, ακόμα κι αν αυτό είναι απλώς \"έντομο\" ή \"πουλί\", ή απλά αφήστε το κενό. Άλλοι μπορεί να σας βοηθήσουν να το αναγνωρίσετε!</string>
+    <string name="onboarding_upload_description">Επιστρέψτε σύντομα για σχόλια και προσδιορισμούς στις παρατηρήσεις σας.</string>
+    <string name="only_view_nearby_suggestions">Only view nearby suggestions</string>
+    <string name="open_menu_for_more_options">Open menu for more options</string>
+    <string name="open_space">Ανοιχτός χώρος</string>
+    <string name="opt_in_to_community_taxon">Εξαίρεση από το Taxon της Κοινότητας</string>
+    <string name="opt_out_message">Η εξαίρεση από την Κοινοτική Ταξινομική Μονάδα αναγκάζει αυτήν την παρατήρηση να συσχετιστεί με την ταξινομική μονάδα από την τρέχουσα ταυτοποίησή σας,  που δεν είναι μια ταξινομική μονάδα που προέρχεται από όλες τις αναγνωρίσεις που έχουν προστεθεί σε αυτήν την παρατήρηση. Εάν διαφωνούν αρκετοί από αυτούς που έχουν κάνει τις αναγνωρίσεις, η παρατήρησή σας θα χαρακτηριστεί Άτυπη. Θα πρέπει να εξαιρεθείτε μόνο εάν είστε βέβαιοι ότι η ταυτοποίησή σας είναι σωστή και οι άλλες αναγνωρίσεις δεν είναι σωστές.</string>
+    <string name="opt_out_of_community_taxon">Εξαίρεση από το Taxon Κοινότητας</string>
+    <string name="or">ή</string>
+    <string name="or_login_with">Εναλλακτική είσοδος με:</string>
+    <string name="organism_is_wild">Ο οργανισμός είναι άγριος</string>
+    <string name="other">Other</string>
+    <string name="parish">Parish</string>
+    <string name="password">Κωδικός πρόσβασης</string>
+    <string name="password_changed">Ο κωδικός πρόσβασης που χρησιμοποιείται από την εφαρμογή δεν είναι πια σωστός - αλλάξατε τον κωδικό σας στην ιστοσελίδα; Παρακαλώ εισάγετε τον νέο κωδικό σας εδώ</string>
+    <string name="password_toggle_content_description">Εμφάνιση κωδικού πρόσβασης</string>
+    <string name="password_too_short">Password must be at least six characters long</string>
+    <string name="people_all_caps">ΑΤΟΜΑ</string>
+    <string name="permission_required">Απαιτείται άδεια</string>
+    <string name="personal_information_notes"><![CDATA[We store personal information like usernames and email addresses in order to manage accounts on this site, and to comply with privacy laws, we need you to check this box to indicate that you consent to this use of personal information. To learn more about what information we collect and how we use it, please see our <a href="https://www.inaturalist.org/privacy">Privacy Policy</a> and our <a href="https://www.inaturalist.org/terms">Terms of Service</a>.]]></string>
+    <string name="photo"><![CDATA[Φωτογραφία: <b><a href="%1$s">%2$s</a></b>]]></string>
+    <string name="photo_attr"><![CDATA[Φωτογραφία: <b>%1$s</b>]]></string>
+    <string name="photo_license">Photo License</string>
+    <string name="photo_licenses_updated">Photo Licenses Updated</string>
+    <string name="photo_not_specified">Δεν ορίστηκε φωτογραφία</string>
+    <string name="photos"><![CDATA[<b>Φωτογραφίες:</b> %1$s]]></string>
+    <string name="pin_current_location">Καρφιτσώστε την Tρέχουσα Tοποθεσία</string>
+    <string name="place">Place:</string>
+    <string name="places_autocomplete_clear_button">Διαγραφή αναζήτησης</string>
+    <string name="places_autocomplete_label">Επιλογή μέρους</string>
+    <string name="places_autocomplete_no_results_for_query">Δεν υπάρχουν αποτελέσματα για %1$s</string>
+    <string name="places_autocomplete_search_hint">Αναζήτηση</string>
+    <string name="places_cancel">Ακύρωση</string>
+    <string name="places_powered_by_google">Με την υποστήριξη της Google</string>
+    <string name="places_search_error">Δεν είναι δυνατή η φόρτωση των αποτελεσμάτων αναζήτησης.</string>
+    <string name="places_try_again">Επανάληψη</string>
+    <string name="plants">Φυτά</string>
+    <string name="play_pause_sound">Play or pause sound</string>
+    <string name="please_enable_location_services">Παρακαλούμε ενεργοποιήστε τις υπηρεσίες τοποθεσίας για να βρείτε την τρέχουσα τοποθεσία σας...</string>
+    <string name="please_select_taxon">Παρακαλώ επιλέξτε ένα έγκυρο taxon από την λίστα (ή διαγράψτε το πεδίο taxon).</string>
+    <string name="please_sign_in">Παρακαλώ συνδεθείτε</string>
+    <string name="please_sign_in_description">Παρακαλούμε συνδεθείτε στο λογαριασμό σας στο iNaturalist ή εγγραφείτε για ένα νέο.</string>
+    <string name="please_sign_in_for_messages">You must be logged in to view your messages.</string>
+    <string name="please_sign_in_for_updates">Πρέπει να εισέλθετε για να δείτε τις της ειδοποιήσεις σας.</string>
+    <string name="please_sign_in_via_settings">Πρέπει να συνδεθείτε να δείτε τα πρότζεκτ στα οποία είστε μέλος.</string>
+    <string name="please_sign_in_via_settings_for_guides">Πρέπει να εισέλθετε για να δείτε τις τους οδηγούς σας.</string>
+    <string name="please_try_again_in_a_few_hours">Παρακαλώ προσπαθήστε ξανά σε λίγες ώρες.</string>
+    <string name="please_try_again_in_x">Παρακαλώ προσπαθήστε ξανά σε %1$d %2$s.</string>
+    <string name="poblacion">Πληθυσμός</string>
+    <string name="point_of_interest">Σημείο ενδιαφέροντος</string>
+    <string name="potential_disagreement">Πιθανή διαφωνία</string>
+    <string name="prefecture">Νομός</string>
+    <string name="prefecture_city">Πόλη του νομού</string>
+    <string name="prefers_scientific_name_first">Εμφάνιση επιστημονικών ονομάτων πρώτα</string>
+    <string name="prefers_scientific_name_first_description">Εμφάνιση επιστημονικών ονομάτων πριν από τις κοινές ονομασίες.</string>
+    <string name="preparing">Προετοιμασία...</string>
+    <string name="preparing_photo">Προετοιμασία φωτογραφίας...</string>
+    <string name="pretty_sure_class">We\'re pretty sure it\'s in this class:</string>
+    <string name="pretty_sure_complex">We\'re pretty sure it\'s in this complex:</string>
+    <string name="pretty_sure_epifamily">We\'re pretty sure it\'s in this epifamily:</string>
+    <string name="pretty_sure_family">We\'re pretty sure it\'s in this family:</string>
+    <string name="pretty_sure_form">We\'re pretty sure it\'s in this form:</string>
+    <string name="pretty_sure_genus">We\'re pretty sure it\'s in this genus:</string>
+    <string name="pretty_sure_genushybrid">We\'re pretty sure it\'s in this genushybrid:</string>
+    <string name="pretty_sure_hybrid">We\'re pretty sure it\'s in this hybrid:</string>
+    <string name="pretty_sure_infraclass">We\'re pretty sure it\'s in this infraclass:</string>
+    <string name="pretty_sure_infrahybrid">We\'re pretty sure it\'s in this infrahybrid:</string>
+    <string name="pretty_sure_infraorder">We\'re pretty sure it\'s in this infraorder:</string>
+    <string name="pretty_sure_kingdom">We\'re pretty sure it\'s in this kingdom:</string>
+    <string name="pretty_sure_order">We\'re pretty sure it\'s in this order:</string>
+    <string name="pretty_sure_parvorder">We\'re pretty sure it\'s in this parvorder:</string>
+    <string name="pretty_sure_phylum">We\'re pretty sure it\'s in this phylum:</string>
+    <string name="pretty_sure_rank">Είμαστε πολύ σίγουροι ότι είναι σε αυτό %1$s:</string>
+    <string name="pretty_sure_section">We\'re pretty sure it\'s in this section:</string>
+    <string name="pretty_sure_species">We\'re pretty sure it\'s in this species:</string>
+    <string name="pretty_sure_subclass">We\'re pretty sure it\'s in this subclass:</string>
+    <string name="pretty_sure_subfamily">We\'re pretty sure it\'s in this subfamily:</string>
+    <string name="pretty_sure_subgenus">We\'re pretty sure it\'s in this subgenus:</string>
+    <string name="pretty_sure_subkingdom">We\'re pretty sure it\'s in this subkingdom:</string>
+    <string name="pretty_sure_suborder">We\'re pretty sure it\'s in this suborder:</string>
+    <string name="pretty_sure_subphylum">We\'re pretty sure it\'s in this subphylum:</string>
+    <string name="pretty_sure_subsection">We\'re pretty sure it\'s in this subsection:</string>
+    <string name="pretty_sure_subspecies">We\'re pretty sure it\'s in this subspecies:</string>
+    <string name="pretty_sure_subterclass">We\'re pretty sure it\'s in this subterclass:</string>
+    <string name="pretty_sure_subtribe">We\'re pretty sure it\'s in this subtribe:</string>
+    <string name="pretty_sure_superclass">We\'re pretty sure it\'s in this superclass:</string>
+    <string name="pretty_sure_superfamily">We\'re pretty sure it\'s in this superfamily:</string>
+    <string name="pretty_sure_superorder">We\'re pretty sure it\'s in this superorder:</string>
+    <string name="pretty_sure_supertribe">We\'re pretty sure it\'s in this supertribe:</string>
+    <string name="pretty_sure_tribe">We\'re pretty sure it\'s in this tribe:</string>
+    <string name="pretty_sure_variety">We\'re pretty sure it\'s in this variety:</string>
+    <string name="pretty_sure_zoosection">We\'re pretty sure it\'s in this zoosection:</string>
+    <string name="pretty_sure_zoosubsection">We\'re pretty sure it\'s in this zoosubsection:</string>
+    <string name="previous_option">Previous Option</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="project">Πρότζεκτ</string>
+    <string name="project_identifiers">Προσδιορίστηκε από</string>
+    <string name="project_observations">Παρατηρήσεις</string>
+    <string name="project_people">Άτομα</string>
+    <string name="project_selected">Project Selected</string>
+    <string name="project_species">Είδος</string>
+    <string name="project_unselected">Project Unselected</string>
+    <string name="projects">Πρότζεκτ</string>
+    <string name="protozoans">Protozoans</string>
+    <string name="province">Επαρχία</string>
+    <string name="pull_to_refresh">Τραβήξτε για ανανέωση...</string>
+    <string name="quality_grade">Βαθμός Ποιότητας</string>
+    <string name="quantity">Ποσότητα</string>
+    <string name="quantity_all_caps">Ποσότητα</string>
+    <string name="rank">Κατάταξη</string>
+    <string name="rank_class">Class</string>
+    <string name="rank_complex">Complex</string>
+    <string name="rank_epifamily">Epifamily</string>
+    <string name="rank_family">Family</string>
+    <string name="rank_form">Form</string>
+    <string name="rank_genus">Genus</string>
+    <string name="rank_genushybrid">Genushybrid</string>
+    <string name="rank_hybrid">Hybrid</string>
+    <string name="rank_infraclass">Infraclass</string>
+    <string name="rank_infrahybrid">Infrahybrid</string>
+    <string name="rank_infraorder">Infraorder</string>
+    <string name="rank_kingdom">Kingdom</string>
+    <string name="rank_leaves">Leaves</string>
+    <string name="rank_order">Order</string>
+    <string name="rank_parvorder">Parvorder</string>
+    <string name="rank_phylum">Phylum</string>
+    <string name="rank_section">Section</string>
+    <string name="rank_species">Species</string>
+    <string name="rank_state_of_matter">State of matter</string>
+    <string name="rank_subclass">Subclass</string>
+    <string name="rank_subfamily">Subfamily</string>
+    <string name="rank_subgenus">Subgenus</string>
+    <string name="rank_subkingdom">Subkingdom</string>
+    <string name="rank_suborder">Suborder</string>
+    <string name="rank_subphylum">Subphylum</string>
+    <string name="rank_subsection">subsection</string>
+    <string name="rank_subspecies">Subspecies</string>
+    <string name="rank_subterclass">Subterclass</string>
+    <string name="rank_subtribe">Subtribe</string>
+    <string name="rank_superclass">Superclass</string>
+    <string name="rank_superfamily">Superfamily</string>
+    <string name="rank_superorder">Superorder</string>
+    <string name="rank_supertribe">Supertribe</string>
+    <string name="rank_tribe">Tribe</string>
+    <string name="rank_variety">Variety</string>
+    <string name="rank_zoosection">Zoosection</string>
+    <string name="rank_zoosubsection">Zoosubsection</string>
+    <string name="re_download">Κατεβάστε ξανά</string>
+    <string name="recent_evidence_of_an_organism">Πρόσφατα στοιχεία ενός οργανισμού</string>
+    <string name="recommended_for_you">Προτεινόμενα για εσάς</string>
+    <string name="recommended_next_step">Προτεινόμενο επόμενο βήμα</string>
+    <string name="record_sound">Εγγραφή Ήχου</string>
+    <string name="redo_observation_search">Redo observation search in this map area</string>
+    <string name="refreshing">Ανανέωση...</string>
+    <string name="regency">Αντιβασιλεία</string>
+    <string name="region">Περιοχή</string>
+    <string name="registering">Γίνετε εγγραφή...</string>
+    <string name="release_to_refresh">Απελευθερώστε για ανανέωση...</string>
+    <string name="reload">Επαναφόρτωση</string>
+    <string name="remarks">Παρατηρήσεις...</string>
+    <string name="remove">Αφαίρεση;</string>
+    <string name="remove_date_observed">Remove date &amp; time observed</string>
+    <string name="remove_filters">Remove Filters</string>
+    <string name="remove_identification">Remove identification</string>
+    <string name="remove_location">Remove location</string>
+    <string name="remove_observer_filter">Remove observer filter</string>
+    <string name="remove_photo">Κατάργηση φωτογραφίας</string>
+    <string name="remove_project_filter">Remove project filter</string>
+    <string name="remove_time_observed">Remove time observed</string>
+    <string name="reptiles">Ερπετά</string>
+    <string name="republic">Δημοκρατία</string>
+    <string name="required">* Απαραίτητα</string>
+    <string name="research_grade">Ερευνητικού Επιπέδου</string>
+    <string name="research_grade_initials">ΕΒ</string>
+    <string name="research_grade_observations">Research Grade Observations</string>
+    <string name="research_grade_observations_description">Instead of visually similar suggestions, iNaturalist will suggest species observed in a specific place and within a specific taxonomic group.</string>
+    <string name="research_grade_qualification">Πιστοποίηση Επιστημονικής Βαθμονόμησης</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="restart_app">Επανεκκίνηση της Εφαρμογής</string>
+    <string name="restore">Επαναφορά</string>
+    <string name="restricted_to_current_map_area">Περιορισμός στην τρέχουσα περιοχή του χάρτη</string>
+    <string name="resume">Συνέχεια</string>
+    <string name="running_in_background_notfication">Εκτέλεση στο παρασκήνιο για να μπορούμε να εργαστούμε χωρίς διακοπή</string>
+    <string name="satellite">Δορυφόρος</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="save_observation">Αποθήκευση παρατήρησης</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="search_for_inaturalist_users">Search for iNaturalist users</string>
+    <string name="search_guides">Αναζήτηση οδηγών...</string>
+    <string name="search_map_area">Αναζήτηση στην Περιοχή του Χάρτη</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Αναζήτηση"</string>
+    <string name="search_messages">Search messages</string>
+    <string name="search_observations">Αναζήτηση παρατηρήσεων...</string>
+    <string name="search_places">Αναζήτηση Τόπων</string>
+    <string name="search_projects">Αναζήτηση πρότζεκτ...</string>
+    <string name="search_projects_youve_joined">Αναζήτηση στα πρότζεκτ στα οποία έχετε εγγραφεί...</string>
+    <string name="search_taxa">Αναζήτηση ταξινομικών ομάδων...</string>
+    <string name="search_users">Αναζήτηση Χρηστών...</string>
+    <string name="searching_your_area">Αναζητώντας στην περιοχή σου...</string>
+    <string name="seasonality">Εποχικότητα</string>
+    <string name="seconds">%1$.1f δευτ.</string>
+    <string name="seconds_value">δευτερόλεπτα</string>
+    <string name="see_more_identifications">Προβολή περισσότερων αναγνωρίσεων</string>
+    <string name="see_more_observations">Προβολή περισσότερων παρατηρήσεων</string>
+    <string name="see_more_species">Προβολή περισσότερων ειδών</string>
+    <string name="seen_nearby">Εθεάθη σε κοντινή απόσταση</string>
+    <string name="select">Επιλογή</string>
+    <string name="select_google_account">Ποιο λογαριασμό Google;</string>
+    <string name="select_network">Επιλογή Δικτύου</string>
+    <string name="select_projects">Επιλέξτε από τα πρότζεκτ σας</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="send_debug_logs_by_email">Αποστολή αρχείων αποσφαλμάτωσης με email (από την καθορισμένη ημερομηνία έναρξης)</string>
+    <string name="send_debug_logs_from_start_date">Αποστολή Αρχείων Αποσφαλμάτωσης Από Την Ημερομηνία Έναρξης</string>
+    <string name="send_email">Αποστολή email...</string>
+    <string name="sending_message">Sending message...</string>
+    <string name="service_temporarily_unavailable">Η υπηρεσία προσωρινά μη διαθέσιμη.</string>
+    <string name="set_date">Ημερομηνία</string>
+    <string name="set_date2">Set date</string>
+    <string name="set_location">Τοποθεσία</string>
+    <string name="set_time">Ώρα</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="share">Μοίρασε</string>
+    <string name="share_hidden_location">Share Hidden Location</string>
+    <string name="share_location">Share Location</string>
+    <string name="share_observation">Share observation</string>
+    <string name="shire">Κομητεία</string>
+    <string name="shop_the_inat_store">Αγοράστε από το iNat Kατάστημα</string>
+    <string name="show_common_names">Show common names</string>
+    <string name="show_common_names_description">Disable if you only want to view scientific names.</string>
+    <string name="show_hidden_content">Eμφάνιση Kρυμμένου Περιεχομένου</string>
+    <string name="show_my_observations">Show my observations</string>
+    <string name="show_only_my_observations">Προβολή των παρατηρήσεών μου</string>
+    <string name="show_options">Show Options</string>
+    <string name="sign_up">Εγγραφή</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="sign_up_with">Εγγραφή με</string>
+    <string name="signed_in">Συνδεθήκατε!</string>
+    <string name="signed_out">Αποσύνδεση</string>
+    <string name="signing_in">Γίνεται σύνδεση...</string>
+    <string name="skip">Παράλειψη  ›</string>
+    <string name="skip_for_now">Παράλειψη για τώρα</string>
+    <string name="some_other_reason">Some other reason you can explain.</string>
+    <string name="something_went_wrong">Να πάρει, κάτι πήγε λάθος: %1$s</string>
+    <string name="sorry">Sorry</string>
+    <string name="sorry_no_location">Λυπούμαστε, η τοποθεσία δεν βρέθηκε</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sorted_by_full">Sorted by %1$s (%2$s)</string>
+    <string name="sound_format_not_supported">That audio encoding is not supported by Android.</string>
+    <string name="sound_license">Sound License</string>
+    <string name="sound_licenses_updated">Sound Licenses Updated</string>
+    <string name="soundcloud">Soundcloud</string>
+    <string name="source_wikipedia">(Πηγή: Wikipedia)</string>
+    <string name="sources_and_attribution">Πηγές και Απόδοση</string>
+    <string name="spam">Spam</string>
+    <string name="species_all_caps">ΕΙΔΗ</string>
+    <string name="species_guess_hint">Ονομασία του είδους...</string>
+    <string name="species_search">Αναζήτηση ειδών</string>
+    <string name="start">Έναρξη</string>
+    <string name="state">Κράτος</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">Διακοπή</string>
+    <string name="street">Χάρτης</string>
+    <string name="street_segment">Τμήμα Oδού</string>
+    <string name="subdivision">Υποδιαίρεση</string>
+    <string name="subject">Subject</string>
+    <string name="submit">Υποβολή</string>
+    <string name="suggest_id">Πρόταση προσδιορισμού</string>
+    <string name="suggest_species">Πρόταση Ειδών</string>
+    <string name="suggest_species_description">Πρόταση ειδών βάσει της οπτικής ομοιότητας με τις φωτογραφίες.</string>
+    <string name="suggestions_based_on">Suggestions based on observations and identifications provided by the iNaturalist community, including %1$s, %2$s, %3$s, and many others.</string>
+    <string name="suggestions_source">Suggestions Source</string>
+    <string name="sum">Σουμ (Περιφέρειες της Μογγολίας)</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="supername">Supername</string>
+    <string name="swipe">Σύρσιμο</string>
+    <string name="swipe_indicator">›</string>
+    <string name="switch_to_grid_view">Switch to grid view</string>
+    <string name="switch_to_list_view">Switch to list view</string>
+    <string name="sync_obs_to_add_comments_ids">Συγχρονίστε αυτήν την παρατήρηση για να αφήσετε ένα σχόλιο ή να προτείνετε μια αναγνώριση...</string>
+    <string name="sync_obs_to_see_favs">Συγχρονίστε αυτήν την παρατήρηση για να δείτε τα αγαπημένα...</string>
+    <string name="sync_observations">Συγχρονισμός παρατηρήσεων</string>
+    <string name="sync_required">Απαιτείται συγχρονισμός</string>
+    <string name="sync_required_message">%1$d παρατηρήσεις, %2$d φωτογραφίες για συγχρονισμό</string>
+    <string name="syncing">Γίνεται συγχρονισμός...</string>
+    <string name="syncing_observation_fields">Γίνεται συγχρονισμός των παρατηρήσεων...</string>
+    <string name="syncing_observations">Γίνεται συγχρονισμός των παρατηρήσεων...</string>
+    <string name="syncing_paused">Σε παύση</string>
+    <string name="take_picture">Λήψη εικόνας</string>
+    <string name="tap_to_prioritize_common_names">Πατήστε για να δώσετε προτεραιότητα σε κοινά ονόματα από συγκεκριμένο τόπο.</string>
+    <string name="taxon">Taxon:</string>
+    <string name="taxon_has_no_photos">Αυτό το taxon δεν έχει φωτογραφίες.</string>
+    <string name="taxon_name"><![CDATA[<b>%1$s</b>]]></string>
+    <string name="taxon_search_hint">π.χ. πουλιά, μονάρχης</string>
+    <string name="taxonomy">Ταξινομία</string>
+    <string name="taxonomy_info">Αυτοί είναι οι δεσμοί με τους προγόνους αυτού του συγκεκριμένου taxon. Είναι σε σειρά από τους πιο πρωτόγονους έως τους πιο εκλεπτυσμένους. Χρησιμοποιήστε αυτούς τους συνδέσμους για να μετακινηθείτε πάνω και κάτω στο Δέντρο της Ζωής. Για παράδειγμα, αν δεν ξέρετε τι είναι ένας οργανισμός, αλλά ξέρετε σε ποια ομάδα ανήκει, πατήστε σε μια ταξινομική κατηγορία από τη λίστα για να δείτε περισσότερες πληροφορίες σχετικά με αυτό.</string>
+    <string name="tell_us_about_yourself">Πείτε μας για τον εαυτό σας...</string>
+    <string name="terms">Όροι</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="terrain">Έδαφος</string>
+    <string name="territory">Έδαφος</string>
+    <string name="text"><![CDATA[<b>Κείμενο:</b> %1$s]]></string>
+    <string name="thank_you_for_submitting_the_flag">Thank you for submitting the flag!</string>
+    <string name="there_was_a_problem_updating_profile">Παρουσιάστηκε πρόβλημα κατά την ενημέρωση του προφίλ σας!</string>
+    <string name="there_was_a_problem_updating_profile_params">Παρουσιάστηκε πρόβλημα κατά την ενημέρωση του προφίλ σας: %1$s</string>
+    <string name="third_party_data_sharing">Κοινή Χρήση Δεδομένων Τρίτων</string>
+    <string name="third_party_data_sharing_notes1"><![CDATA[Χρησιμοποιούμε μια ποικιλία υπηρεσιών τρίτων για την παρακολούθηση της σταθερότητας και τη διάγνωση σφαλμάτων και προβλημάτων στο λογισμικό μας. Αυτά τα τρίτα μέρη περιλαμβάνουν:<br/><ul><li>το Google (<a href="https://analytics.google.com/">το Google Analytics</a>, <a href="https://firebase.google.com/products/crashlytics/">το Firebase Crashlytics</a>)</li><li><a href="https://newrelic.com/">το New Relic</a></li></ul>]]></string>
+    <string name="third_party_data_sharing_notes2"><![CDATA[Oι πληροφορίες που μοιραζόμαστε με αυτά τα τρίτα μέρη περιλαμβάνουν: <br/><ul><li> τις διευθύνσεις IP (οι οποίες μπορούν να χρησιμοποιηθούν για την εξαγωγή τοποθεσίας σε ανάλυση επιπέδου πόλης και για να σας ακολουθήσουν σε διαφορετικούς ιστότοπους και υπηρεσίες· σημειώστε ότι έχουμε ενεργοποιήσει <a href="https://support.google.com/analytics/answer/2763052">την ανώνυμη IP </a> στο Google Analytics και<a href="https://firebase.google.com/support/privacy">στο Firebase Crashlytics</a> δεν καταγράφεται η διεύθυνση IP εν γνώση μας)</li><li>τις λεπτομέρειες του προγράμματος περιήγησης, όπως μάρκα, μοντέλο και έκδοση</li><li>τις λεπτομέρειες κατάρρευσης, όπως ακριβώς την γραμμή του κώδικα που προκάλεσε την κατάρρευση</li><li>τις λεπτομέρειες της συσκευής, όπως μάρκα και μοντέλο κινητού τηλεφώνου</li></ul>]]></string>
+    <string name="third_party_data_sharing_notes3"><![CDATA[<b>Αυτές οι υπηρεσίες τρίτων προσφέρουν τεράστια αξία σε εμάς</b> στη διατήρηση της σταθερότητας και της χρηστικότητας του iNaturalist με το σχετικά μικρό προσωπικό μας. Σε κινητές συσκευές, δεν υπάρχει σχεδόν κανένας άλλος τρόπος να μπορέσουμε να κατανοήσουμε τα προβλήματα που προκύπτουν από τη στιγμή που το λογισμικό τρέχει σε συσκευές που δεν ελέγχουμε. Μερικές φορές δεν γνωρίζουμε καν ότι τέτοια προβλήματα συμβαίνουν μέχρι να τα δούμε στα δεδομένα που παρέχουν αυτές οι υπηρεσίες. <b>Με την κοινοποίηση αυτών των πληροφοριών, μας βοηθάτε να εξυπηρετήσουμε εσάς και ολόκληρη την κοινότητα του iNaturalist.</b>]]></string>
+    <string name="third_party_data_sharing_notes4"><![CDATA[Λάβετε υπόψη ότι αυτή η επιλογή ισχύει μόνο για στοιχεία ανάλυσης και δεδομένα κατάρρευσης που αποστέλλουμε ρητά σε αυτές τις εταιρείες. Όλοι οι διακομιστές iNaturalist παρέχονται και φιλοξενούνται από τη Microsoft, όλες οι εικόνες του iNaturalist φιλοξενούνται από την Amazon και σχεδόν όλοι οι χάρτες του iNaturalist εξυπηρετούνται από την Google, πράγμα που σημαίνει ότι κάθε φορά που κοιτάζετε μια παρατήρηση στο iNaturalist, συνδέεστε με υπηρεσίες που παρέχονται από αυτές τις εταιρείες και εκθέτοντας την IP διεύθυνση σας σε αυτούς, το λιγότερο (στην εφαρμογή iPhone χρησιμοποιούμε τους χάρτες της Apple). Το iNaturalist πιθανότατα δεν θα υπήρχε χωρίς τις υπηρεσίες που παρέχουν αυτές οι εταιρείες και ενώ μπορούμε να περιορίσουμε το ποσό και τα είδη δεδομένων που μοιράζεστε μαζί τους ενώ χρησιμοποιείτε το iNat, δεν μπορούμε να σταματήσουμε πλήρως τη ροή των δεδομένων.]]></string>
+    <string name="thumbnail_photo_for_suggested_taxon">Thumbnail photo for suggested taxon</string>
+    <string name="time_short_12_hour">hh:mma</string>
+    <string name="time_short_24_hour">HH:mm</string>
+    <string name="to">έως</string>
+    <string name="to_access_your_location">Για να αποκτήσετε πρόσβαση στην τοποθεσία σας πρέπει να παραχωρήσετε άδεια πρόσβασης της τοποθεσίας σε αυτήν την εφαρμογή.</string>
+    <string name="top_suggestions">Top suggestions</string>
+    <string name="town">Πόλη</string>
+    <string name="turn_on">Ενεργοποιήστε</string>
+    <string name="turn_on_auto_sync">Ενεργοποιήστε τον Αυτόματο Συγχρονισμό στις Ρυθμίσεις και οι παρατηρήσεις σας θα αποστέλλονται αυτόματα στο iNaturalist.</string>
+    <string name="type_your_message_here">Type your message here</string>
+    <string name="type_your_username">Πληκτρολογήστε το όνομα χρήστη</string>
+    <string name="ucrop_brightness">Φωτεινότητα</string>
+    <string name="ucrop_contrast">Αντίθεση</string>
+    <string name="ucrop_crop">Περικοπή</string>
+    <string name="ucrop_label_edit_photo">Επεξεργασία Φωτογραφίας</string>
+    <string name="ucrop_label_free">Ελεύθερη</string>
+    <string name="ucrop_label_original">Αρχική</string>
+    <string name="ucrop_rotate">Περιστροφή</string>
+    <string name="ucrop_saturation">Κορεσμός</string>
+    <string name="ucrop_scale">Προσαρμογή</string>
+    <string name="ucrop_sharpness">Οξύτητα</string>
+    <string name="unable_to_acquire_location">Δεν βρέθηκε η τοποθεσία</string>
+    <string name="undefined">Μη ορισμένο</string>
+    <string name="unfollow_this_observation">Unfollow this Observation</string>
+    <string name="unknown">Άγνωστο</string>
+    <string name="unknown_location">Unknown location</string>
+    <string name="unknown_species">Άγνωστο είδος</string>
+    <string name="unmute_this_user">Unmute this user</string>
+    <string name="unmuting_user">Unmuting user...</string>
+    <string name="update_comment">Ενημέρωση σχολίου</string>
+    <string name="update_id_description">Ενημέρωση της περιγραφής αναγνώρισης</string>
+    <string name="updating_profile">Αποθήκευση προφίλ...</string>
+    <string name="upload">Αποστολή</string>
+    <string name="upload_complete">Αποστολή Ολοκληρώθηκε!</string>
+    <string name="upload_photo">Επιλογή εικόνας</string>
+    <string name="upload_sound">Επιλογή Ήχου</string>
+    <string name="uploading">Αποστολή...</string>
+    <string name="url">URL</string>
+    <string name="use_device_language_settings">Ρυθμίσεις γλώσσας της συσκευής</string>
+    <string name="use_my_license"><![CDATA[Yes, license my content so scientists can use my data (recommended). <b>Learn More</b>]]></string>
+    <string name="user">Χρήστης</string>
+    <string name="user_activity_comment"><![CDATA[<b>%1$s</b> σχόλιασε: &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_id"><![CDATA[<b>%1$s</b> πρότεινε προσδιορισμό: %2$s <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_is_muted">User is muted</string>
+    <string name="username">Όνομα χρήστη</string>
+    <string name="username_invalid">Λανθασμένος κωδικός πρόσβασης, παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="username_must_begin_with">Username must begin with a letter, contain no spaces, and use only letters, numbers, dashes, and underscores</string>
+    <string name="username_or_email">Όνομα χρήστη ή email</string>
+    <string name="users_identification">%1$s Η αναγνώρισή του: %2$s</string>
+    <string name="uuid">UUID</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ΑΝΕΝΕΡΓΗ"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ΕΝΕΡΓΗ"</string>
+    <string name="value">Τιμή</string>
+    <string name="verifiable">Επαληθεύσιμο</string>
+    <string name="verify_your_password">Eπαληθεύστε Tον Kωδικό σας</string>
+    <string name="version">Έκδοση</string>
+    <string name="view_all">Προβολή όλων</string>
+    <string name="view_all_all_caps">ΠΡΟΒΟΛΗ ΟΛΩΝ</string>
+    <string name="view_children">View Children</string>
+    <string name="view_image">View image</string>
+    <string name="view_in_browser">Άνοιγμα στο browser</string>
+    <string name="view_license">View License</string>
+    <string name="view_nearby_observations">Δείτε τις Παρατηρήσεις που Βρίσκονται σε Κοντινή Απόσταση</string>
+    <string name="view_observations">View Observations</string>
+    <string name="view_observations_on_grid">View observations on grid</string>
+    <string name="view_observations_on_map">View observations on map</string>
+    <string name="view_on_inat">Δες το στο iNaturalist.org</string>
+    <string name="view_on_wikipedia">Αρθρο στη Βικιπαίδεια</string>
+    <string name="view_profile">Προβολή του προφίλ</string>
+    <string name="view_suggestions">Προβολή Προτάσεων</string>
+    <string name="village_block">Village block</string>
+    <string name="visually_similar">Οπτικά Παρόμοια</string>
+    <string name="visually_similar_description">iNaturalist will provide suggestions based on how visually similar the images are to those of species observed near this location at this time of year.</string>
+    <string name="visually_similar_seen_nearby">Οπτικά Παρόμοια/Εθεάθη σε Κοντινή Απόσταση</string>
+    <string name="waiting_to_upload">Αναμονή για αποστολή...</string>
+    <string name="warning_multiple_photos">Αν προσθέτετε φωτογραφίες από δοαφορετικά είδη οργανισμών σε αυτήν την παρατήρηση ή το ίδιο είδος σε διαφορετικούς χρόνους και τόπους, θα πρέπει να αφαιρέσετε αυτές τις φωτογραφίες και να τις προσθέσετε ως ξεχωριστές παρατηρήσεις. Μια παρατήρηση μπορεί να έχει μόνο %1$d φωτογραφίες.</string>
+    <string name="were_not_confident_enough">We\'re not confident enough to make a recommendation, but here are our top suggestions:</string>
+    <string name="were_not_confident_enough_no_suggestions">We\'re not confident enough to make a recommendation.</string>
+    <string name="what_did_you_see">Τι είδες;</string>
+    <string name="what_to_look_for">Τι ψάχνετε</string>
+    <string name="who_would_you_like_to_send_a_message_to">Who would you like to send a message to?</string>
+    <string name="why_are_you_flagging_this_item">Why are you flagging this item?</string>
+    <string name="with_annotation">Με Σημείωση</string>
+    <string name="withdraw">Απόσυρση</string>
+    <string name="yes">Ναι</string>
+    <string name="you_must_enter_username_in_the_form_to_delete_account">Πρέπει να εισαγάγετε\'%1$s\' στη φόρμα για να διαγράψετε το λογαριασμό σας</string>
+    <string name="you_must_have_three_observations">You must have three verifiable observations or three identifications for others in order to do that.</string>
+    <string name="you_will_no_longer_receive_messages">You will no longer receive any notifications about activity from this user, including messages, comments, identifications, and mentions.</string>
+    <string name="you_will_only_receive_updates_when_creating">(Θα ενημερώνεσαι μόνο όταν έχεις δημιουργήσει παρατηρήσεις)</string>
+    <string name="you_will_only_receive_updates_when_following">(Θα ενημερώνεσαι μόνο όταν ακολουθείς παρατηρήσεις)</string>
+    <string name="your_account_has_been_deleted">Ο λογαριασμός σας έχει διαγραφεί</string>
+    <string name="your_identification">Το ID σας είναι: %1$s</string>
+    <string name="zone">Ζώνη</string>
+</resources>

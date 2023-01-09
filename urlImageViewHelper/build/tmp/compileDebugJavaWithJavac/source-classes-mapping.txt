@@ -1,0 +1,41 @@
+com/koushikdutta/urlimageviewhelper/UrlImageViewCallback.java
+ com.koushikdutta.urlimageviewhelper.UrlImageViewCallback
+com/koushikdutta/urlimageviewhelper/ContactContentUrlDownloader.java
+ com.koushikdutta.urlimageviewhelper.ContactContentUrlDownloader
+ com.koushikdutta.urlimageviewhelper.ContactContentUrlDownloader$1
+com/koushikdutta/urlimageviewhelper/FileUrlDownloader.java
+ com.koushikdutta.urlimageviewhelper.FileUrlDownloader
+ com.koushikdutta.urlimageviewhelper.FileUrlDownloader$1
+com/koushikdutta/urlimageviewhelper/ContentUrlDownloader.java
+ com.koushikdutta.urlimageviewhelper.ContentUrlDownloader
+ com.koushikdutta.urlimageviewhelper.ContentUrlDownloader$1
+com/koushikdutta/urlimageviewhelper/LruCache.java
+ com.koushikdutta.urlimageviewhelper.LruCache
+com/koushikdutta/urlimageviewhelper/UrlImageViewHelper.java
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$1
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$2
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$3
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$Loader
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$RequestPropertiesCallback
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$ZombieDrawable
+ com.koushikdutta.urlimageviewhelper.UrlImageViewHelper$ZombieDrawable$Brains
+com/koushikdutta/urlimageviewhelper/LruBitmapCache.java
+ com.koushikdutta.urlimageviewhelper.LruBitmapCache
+com/koushikdutta/urlimageviewhelper/AssetUrlDownloader.java
+ com.koushikdutta.urlimageviewhelper.AssetUrlDownloader
+ com.koushikdutta.urlimageviewhelper.AssetUrlDownloader$1
+com/koushikdutta/urlimageviewhelper/HttpUrlDownloader.java
+ com.koushikdutta.urlimageviewhelper.HttpUrlDownloader
+ com.koushikdutta.urlimageviewhelper.HttpUrlDownloader$1
+com/koushikdutta/urlimageviewhelper/UrlDownloader.java
+ com.koushikdutta.urlimageviewhelper.UrlDownloader
+ com.koushikdutta.urlimageviewhelper.UrlDownloader$UrlDownloaderCallback
+com/koushikdutta/urlimageviewhelper/Constants.java
+ com.koushikdutta.urlimageviewhelper.Constants
+com/koushikdutta/urlimageviewhelper/DrawableCache.java
+ com.koushikdutta.urlimageviewhelper.DrawableCache
+com/koushikdutta/urlimageviewhelper/BuildConfig.java
+ com.koushikdutta.urlimageviewhelper.BuildConfig
+com/koushikdutta/urlimageviewhelper/SoftReferenceHashTable.java
+ com.koushikdutta.urlimageviewhelper.SoftReferenceHashTable

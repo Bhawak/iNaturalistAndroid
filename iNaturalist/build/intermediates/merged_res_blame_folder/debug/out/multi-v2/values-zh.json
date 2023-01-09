@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/library/build/intermediates/packaged_res/debug/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,116,183",
+                        "endColumns": "60,66,64",
+                        "endOffsets": "111,178,243"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "94,155,222",
+                        "endColumns": "60,66,64",
+                        "endOffsets": "150,217,282"
+                    }
+                },
+                {
+                    "source": "/Users/bhawak/.gradle/caches/transforms-2/files-2.1/1b57789a9af679575ca3ba451dcd6f82/jetified-bottomsheet-1.4.0/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "38",
+                        "endOffsets": "89"
+                    }
+                },
+                {
+                    "source": "/Users/bhawak/.gradle/caches/transforms-2/files-2.1/e073286c9e5c8809d5dc372694d5761f/jetified-uCrop-n-Edit-v2.2.4f-inaturalist/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    },
+                    "to": {
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "287,341,395",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "336,390,437"
+                    }
+                }
+            ]
+        }
+    ]
+}

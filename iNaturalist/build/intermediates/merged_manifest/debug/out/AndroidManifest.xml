@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.inaturalist.android"
+    android:installLocation="auto"
+    android:versionCode="508"
+    android:versionName="1.23.19" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <permission
+        android:name="org.inaturalist.android.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="org.inaturalist.android.permission.MAPS_RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="org.inaturalist.android.INaturalistApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_title"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/iNatAppTheme" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="org.inaturalist.android.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/gmaps2_api_key" />
+
+        <activity
+            android:name="org.inaturalist.android.TutorialActivity"
+            android:configChanges="orientation"
+            android:label="iNaturalist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ObservationListActivity" />
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.DataQualityAssessment"
+            android:configChanges="orientation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ObservationViewerActivity" />
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.GuideDetails"
+            android:configChanges="orientation"
+            android:label="@string/guides" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuidesActivity" />
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.UserActivity"
+            android:configChanges="orientation"
+            android:label="iNaturalist" />
+        <activity
+            android:name="org.inaturalist.android.GuideTaxonActivity"
+            android:configChanges="orientation"
+            android:label="iNaturalist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuideDetails" />
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.UserProfile"
+            android:configChanges="orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowActionBar="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*.inaturalist.org"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.naturalista.mx"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.inaturalist.nz"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.nz"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.inaturalist.ca"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.biodiversity4all.org"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.ala.org.au"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.argentinat.org"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.laji.fi"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.naturalist.se"
+                    android:pathPattern="/people/.*"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.ProjectDetails"
+            android:configChanges="orientation"
+            android:label="@string/projects"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowActionBar="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectsActivity" />
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.ProjectsActivity"
+            android:configChanges="orientation"
+            android:label="@string/projects" />
+        <activity
+            android:name="org.inaturalist.android.GuidesActivity"
+            android:configChanges="orientation"
+            android:label="@string/guides" />
+        <activity
+            android:name="org.inaturalist.android.ProjectSelectorActivity"
+            android:configChanges="orientation"
+            android:label="iNaturalist"
+            android:theme="@style/iNatAppThemeCustomActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="org.inaturalist.android.IdentificationActivity"
+            android:configChanges="orientation"
+            android:label="@string/add_id" />
+        <activity
+            android:name="org.inaturalist.android.TaxonSearchActivity"
+            android:configChanges="orientation"
+            android:label="iNaturalist" />
+        <activity
+            android:name="org.inaturalist.android.LoginSignupActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="org.inaturalist.android.ObservationViewerActivity"
+            android:configChanges="orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*.inaturalist.org"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.naturalista.mx"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.inaturalist.nz"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.nz"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.inaturalist.ca"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.biodiversity4all.org"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.ala.org.au"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.argentinat.org"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.laji.fi"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.naturalist.se"
+                    android:pathPattern="/observations/.*"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.OnboardingActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.inaturalist.android.ObservationListActivity"
+            android:configChanges="orientation"
+            android:label="iNaturalist" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistse"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistse"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistgt"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistgt"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistcr"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistcr"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.argentinat"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_argentinat"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistil"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistil"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistuk"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistuk"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistlu"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistlu"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistgr"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistgr"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistcl"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistcl"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistfi"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistfi"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistaustralia"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistaustralia"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistecuador"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistecuador"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistpanama"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistpanama"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.biodiversity4all"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_biodiversity4all"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.naturewatchnz"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_naturewatchnz"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.naturalista"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="iNaturalist"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.naturalistacolombia"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="iNaturalist"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalistcanada"
+            android:configChanges="orientation"
+            android:enabled="false"
+            android:label="@string/network_inaturalistcanada"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="org.inaturalist.android.ObservationListActivity.inaturalist"
+            android:configChanges="orientation"
+            android:enabled="true"
+            android:label="iNaturalist"
+            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="org.inaturalist.android.ObservationEditor"
+            android:configChanges="orientation"
+            android:label="iNaturalist"
+            android:theme="@style/iNatAppThemeCustomActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ObservationListActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.INSERT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation_photo" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation_photo" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation_sound" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation_sound" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.inatproject" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.inatproject" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.google.projectobservation" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.google.projectobservation" />
+            </intent-filter>
+
+            <!-- Share image(s) with iNaturalist -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <!-- Share sound(s) with iNaturalist -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.LocationChooserActivity"
+            android:configChanges="orientation"
+            android:label="@string/choose_location"
+            android:theme="@style/LocationChooserActionBar" />
+        <activity
+            android:name="org.inaturalist.android.WebActivity"
+            android:configChanges="orientation"
+            android:label="@string/activity" />
+        <activity
+            android:name="org.inaturalist.android.ObservationPhotosViewer"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.TaxonTagPhotosViewer"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.LocationDetailsActivity"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.ObservationProjectsViewer"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.ProjectDetailsAbout"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.ProjectNews"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.NewsArticle"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.ProfilePhotoViewer"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.ItemSearchActivity"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.SettingsActivity"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.AboutActivity"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.DebugSettingsActivity"
+            android:configChanges="orientation" />
+
+        <provider
+            android:name="org.inaturalist.android.ObservationProvider"
+            android:authorities="org.inaturalist.android.observation;org.inaturalist.android.observation_sound;org.inaturalist.android.observation_photo;org.inaturalist.android.project;org.inaturalist.android.project_observation;org.inaturalist.android.project_field;org.inaturalist.android.project_field_value" />
+
+        <activity
+            android:name="org.inaturalist.android.ProfileEditor"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.NetworkSettings"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.CreditsActivity"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.ObservationSearchActivity"
+            android:configChanges="orientation" />
+        <activity
+            android:name="org.inaturalist.android.MissionsActivity"
+            android:configChanges="orientation"
+            android:label="@string/missions" />
+        <activity
+            android:name="org.inaturalist.android.MissionsGridActivity"
+            android:configChanges="orientation"
+            android:label="@string/missions" />
+        <activity
+            android:name="org.inaturalist.android.MissionDetails"
+            android:configChanges="orientation"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="org.inaturalist.android.MissionDetailsMapActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.MissionsOnboardingActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.TaxonActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.TaxonMapActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.TaxonSuggestionsActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.CompareSuggestionActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.ExploreActivity"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.ExploreSearchActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.ExploreFiltersActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.ObservationSoundViewer"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.RecordSoundActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.PinnedLocationSearchActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.ObservationPhotoEditor"
+            android:configChanges="orientation"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowActionBar="false" />
+        <activity
+            android:name="org.inaturalist.android.DeleteAccount"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.ThirdPartyDataSharingActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.PlaceSearchActivity"
+            android:configChanges="orientation"
+            android:label="" />
+        <activity
+            android:name="org.inaturalist.android.MessagesActivity"
+            android:configChanges="orientation"
+            android:label="@string/all_messages" />
+        <activity
+            android:name="org.inaturalist.android.MessagesThreadActivity"
+            android:configChanges="orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*.inaturalist.org"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.naturalista.mx"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.inaturalist.nz"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.nz"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.inaturalist.ca"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.biodiversity4all.org"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.ala.org.au"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.argentinat.org"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="inaturalist.laji.fi"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+                <data
+                    android:host="*.naturalist.se"
+                    android:pathPattern="/messages/.*"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.inaturalist.android.NewMessageActivity"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="org.inaturalist.android.NewMessageSelectUserActivity"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="org.inaturalist.android.AboutLicensesActivity"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="org.inaturalist.android.DefaultLicensesActivity"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="org.inaturalist.android.PastLicensesActivity"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service android:name="org.inaturalist.android.INaturalistService" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="7baaee0ca8a376b3d129b908c1e03be6ecbe5786" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteOverlay"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="cct.org.inaturalist.android"
+                    android:scheme="fbconnect" />
+            </intent-filter>
+        </activity>
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="org.inaturalist.android.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="org.inaturalist.android.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

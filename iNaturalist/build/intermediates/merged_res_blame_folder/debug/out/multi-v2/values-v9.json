@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v9/values-v9.xml",
+            "map": [
+                {
+                    "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/values-v9/themes_inatapptheme.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "2",
+                        "startOffsets": "169",
+                        "endLines": "14",
+                        "endColumns": "10",
+                        "endOffsets": "679"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "10",
+                        "endOffsets": "565"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/values-v11/styles_inatapptheme.xml",
+                    "from": {
+                        "startLines": "13,9,17,26,21,31,4",
+                        "startColumns": "2,2,2,2,2,2,3",
+                        "startOffsets": "541,363,674,1151,862,1491,169",
+                        "endLines": "15,11,19,29,24,33,7",
+                        "endColumns": "10,10,10,10,10,10,11",
+                        "endOffsets": "670,537,858,1487,1147,1674,359"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,14,18,22,62",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,189,368,730,1071,1361,3440",
+                        "endLines": "4,7,10,17,21,24,65",
+                        "endColumns": "10,10,10,10,10,10,11",
+                        "endOffsets": "184,363,552,1066,1356,1544,3630"
+                    }
+                },
+                {
+                    "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/values-v11/themes_inatapptheme.xml",
+                    "from": {
+                        "startLines": "8,12,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "255,429,171",
+                        "endLines": "10,48,5",
+                        "endColumns": "12,12,62",
+                        "endOffsets": "423,2315,229"
+                    },
+                    "to": {
+                        "startLines": "11,25,66",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "557,1549,3635",
+                        "endLines": "13,61,66",
+                        "endColumns": "12,12,62",
+                        "endOffsets": "725,3435,3693"
+                    }
+                },
+                {
+                    "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/values-v11/themes_inatapptheme_custom_actionbar.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "171",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "312"
+                    },
+                    "to": {
+                        "startLines": "67",
+                        "startColumns": "4",
+                        "startOffsets": "3698",
+                        "endLines": "69",
+                        "endColumns": "12",
+                        "endOffsets": "3839"
+                    }
+                }
+            ]
+        }
+    ]
+}

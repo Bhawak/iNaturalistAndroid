@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/taxon_page.xml",
+        "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/layout/taxon_page.xml"
+    },
+    {
+        "merged": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/observation_confirmation.xml",
+        "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/layout/observation_confirmation.xml"
+    },
+    {
+        "merged": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/annotation.xml",
+        "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/layout/annotation.xml"
+    },
+    {
+        "merged": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/explore_search.xml",
+        "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/layout/explore_search.xml"
+    },
+    {
+        "merged": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/comment_id_item_obs_viewer.xml",
+        "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/layout/comment_id_item_obs_viewer.xml"
+    },
+    {
+        "merged": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/explore_filters.xml",
+        "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/layout/explore_filters.xml"
+    },
+    {
+        "merged": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/observation_viewer.xml",
+        "source": "/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/res/layout/observation_viewer.xml"
+    }
+]

@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml:7:22-64
+uses-sdk
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+		ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+		ADDED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/urlImageViewHelper/src/main/AndroidManifest.xml

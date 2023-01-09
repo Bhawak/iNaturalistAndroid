@@ -1,0 +1,1685 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.inaturalist.android"
+4    android:installLocation="auto"
+5    android:versionCode="508"
+6    android:versionName="1.23.19" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:9:5-67
+12-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:9:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:10:5-81
+13-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:11:5-79
+14-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:11:22-76
+15    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+15-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:12:5-74
+15-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:12:22-71
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:13:5-81
+16-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:13:22-78
+17    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+17-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:14:5-80
+17-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:14:22-77
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:15:5-79
+18-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:15:22-76
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:16:5-65
+19-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:16:22-62
+20    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+20-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:17:5-71
+20-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:17:22-68
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:18:5-71
+21-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:18:22-68
+22    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+22-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:19:5-98
+22-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:19:22-95
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:20:5-77
+23-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:20:22-74
+24
+25    <uses-feature android:name="android.hardware.location.gps" />
+25-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:22:5-66
+25-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:22:19-63
+26
+27    <permission
+27-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:24:5-26:47
+28        android:name="org.inaturalist.android.permission.MAPS_RECEIVE"
+28-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:25:9-71
+29        android:protectionLevel="signature" />
+29-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:26:9-44
+30
+31    <uses-permission android:name="org.inaturalist.android.permission.MAPS_RECEIVE" />
+31-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:28:5-87
+31-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:28:22-84
+32
+33    <uses-feature
+33-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:30:5-32:35
+34        android:glEsVersion="0x00020000"
+34-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:31:9-41
+35        android:required="true" />
+35-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:32:9-32
+36
+37    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+37-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:10:5-76
+37-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:10:22-73
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/c86110769f720dfeed0ce0329e978c85/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:23:5-82
+38-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/c86110769f720dfeed0ce0329e978c85/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:23:22-79
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.android.installreferrer:installreferrer:1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d193b280b8a83b7737ab4b9f388948cc/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+39-->[com.android.installreferrer:installreferrer:1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d193b280b8a83b7737ab4b9f388948cc/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+40
+41    <application
+41-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:34:5-756:19
+42        android:name="org.inaturalist.android.INaturalistApp"
+42-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:35:9-39
+43        android:allowBackup="true"
+43-->[:smoothrescale] /Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/smoothrescale/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/532e0836269e612d51320b52f08ea347/core-1.5.0/AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/app_icon"
+47-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:38:9-40
+48        android:label="@string/app_title"
+48-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:37:9-42
+49        android:largeHeap="true"
+49-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:39:9-33
+50        android:requestLegacyExternalStorage="true"
+50-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:41:9-52
+51        android:supportsRtl="true"
+51-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:40:9-35
+52        android:testOnly="true"
+53        android:theme="@style/iNatAppTheme" >
+53-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:42:9-44
+54        <uses-library
+54-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:44:9-88
+55            android:name="org.apache.http.legacy"
+55-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:44:23-60
+56            android:required="false" />
+56-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:44:61-85
+57
+58        <provider
+59            android:name="androidx.core.content.FileProvider"
+59-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:47:13-62
+60            android:authorities="org.inaturalist.android.fileProvider"
+60-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:48:13-64
+61            android:exported="false"
+61-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:49:13-37
+62            android:grantUriPermissions="true" >
+62-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:50:13-47
+63            <meta-data
+63-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:51:13-53:64
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:52:17-67
+65                android:resource="@xml/file_paths" />
+65-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:53:17-51
+66        </provider>
+67
+68        <meta-data
+68-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:56:9-58:37
+69            android:name="firebase_crashlytics_collection_enabled"
+69-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:57:13-67
+70            android:value="false" />
+70-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:58:13-34
+71        <meta-data
+71-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:60:9-62:69
+72            android:name="com.google.android.gms.version"
+72-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:61:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:62:13-66
+74        <meta-data
+74-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:63:9-65:54
+75            android:name="com.google.android.maps.v2.API_KEY"
+75-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:64:13-62
+76            android:value="@string/gmaps2_api_key" />
+76-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:65:13-51
+77
+78        <activity
+78-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:67:9-74:20
+79            android:name="org.inaturalist.android.TutorialActivity"
+79-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:68:13-45
+80            android:configChanges="orientation"
+80-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:69:13-48
+81            android:label="iNaturalist" >
+81-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:70:13-40
+82            <meta-data
+82-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:71:13-73:60
+83                android:name="android.support.PARENT_ACTIVITY"
+83-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:72:17-63
+84                android:value=".ObservationListActivity" />
+84-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:73:17-57
+85        </activity>
+86        <activity
+86-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:75:9-81:20
+87            android:name="org.inaturalist.android.DataQualityAssessment"
+87-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:76:13-50
+88            android:configChanges="orientation" >
+88-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:77:13-48
+89            <meta-data
+89-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:71:13-73:60
+90                android:name="android.support.PARENT_ACTIVITY"
+90-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:72:17-63
+91                android:value=".ObservationViewerActivity" />
+91-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:73:17-57
+92        </activity>
+93        <activity
+93-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:82:9-89:20
+94            android:name="org.inaturalist.android.GuideDetails"
+94-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:83:13-41
+95            android:configChanges="orientation"
+95-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:84:13-48
+96            android:label="@string/guides" >
+96-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:85:13-43
+97            <meta-data
+97-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:71:13-73:60
+98                android:name="android.support.PARENT_ACTIVITY"
+98-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:72:17-63
+99                android:value=".GuidesActivity" />
+99-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:73:17-57
+100        </activity>
+101        <activity
+101-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:90:9-93:52
+102            android:name="org.inaturalist.android.UserActivity"
+102-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:91:13-41
+103            android:configChanges="orientation"
+103-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:92:13-48
+104            android:label="iNaturalist" />
+104-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:93:13-40
+105        <activity
+105-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:94:9-101:20
+106            android:name="org.inaturalist.android.GuideTaxonActivity"
+106-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:95:13-47
+107            android:configChanges="orientation"
+107-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:96:13-48
+108            android:label="iNaturalist" >
+108-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:97:13-40
+109            <meta-data
+109-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:71:13-73:60
+110                android:name="android.support.PARENT_ACTIVITY"
+110-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:72:17-63
+111                android:value=".GuideDetails" />
+111-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:73:17-57
+112        </activity>
+113        <activity
+113-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:102:9-155:20
+114            android:name="org.inaturalist.android.UserProfile"
+114-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:103:13-40
+115            android:configChanges="orientation"
+115-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:104:13-48
+116            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+116-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:105:13-69
+117            android:windowActionBar="false" >
+117-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:106:13-44
+118            <intent-filter>
+118-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:107:13-153:29
+119                <action android:name="android.intent.action.VIEW" />
+119-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:17-68
+119-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:25-66
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+121-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+122                <category android:name="android.intent.category.BROWSABLE" />
+122-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:17-77
+122-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:27-75
+123
+124                <data
+124-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+125                    android:host="*.inaturalist.org"
+125-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+126                    android:pathPattern="/people/.*"
+126-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+127                    android:scheme="https" />
+127-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+128                <data
+128-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+129                    android:host="*.naturalista.mx"
+129-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+130                    android:pathPattern="/people/.*"
+130-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+131                    android:scheme="https" />
+131-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+132                <data
+132-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+133                    android:host="*.inaturalist.nz"
+133-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+134                    android:pathPattern="/people/.*"
+134-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+135                    android:scheme="https" />
+135-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+136                <data
+136-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+137                    android:host="inaturalist.nz"
+137-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+138                    android:pathPattern="/people/.*"
+138-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+139                    android:scheme="https" />
+139-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+140                <data
+140-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+141                    android:host="*.inaturalist.ca"
+141-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+142                    android:pathPattern="/people/.*"
+142-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+143                    android:scheme="https" />
+143-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+144                <data
+144-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+145                    android:host="*.biodiversity4all.org"
+145-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+146                    android:pathPattern="/people/.*"
+146-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+147                    android:scheme="https" />
+147-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+148                <data
+148-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+149                    android:host="inaturalist.ala.org.au"
+149-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+150                    android:pathPattern="/people/.*"
+150-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+151                    android:scheme="https" />
+151-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+152                <data
+152-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+153                    android:host="*.argentinat.org"
+153-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+154                    android:pathPattern="/people/.*"
+154-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+155                    android:scheme="https" />
+155-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+156                <data
+156-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+157                    android:host="inaturalist.laji.fi"
+157-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+158                    android:pathPattern="/people/.*"
+158-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+159                    android:scheme="https" />
+159-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+160                <data
+160-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+161                    android:host="*.naturalist.se"
+161-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+162                    android:pathPattern="/people/.*"
+162-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+163                    android:scheme="https" />
+163-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:156:9-165:20
+167            android:name="org.inaturalist.android.ProjectDetails"
+167-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:157:13-43
+168            android:configChanges="orientation"
+168-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:158:13-48
+169            android:label="@string/projects"
+169-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:159:13-45
+170            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+170-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:160:13-69
+171            android:windowActionBar="false" >
+171-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:161:13-44
+172            <meta-data
+172-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:71:13-73:60
+173                android:name="android.support.PARENT_ACTIVITY"
+173-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:72:17-63
+174                android:value=".ProjectsActivity" />
+174-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:73:17-57
+175        </activity>
+176        <activity
+176-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:166:9-169:57
+177            android:name="org.inaturalist.android.ProjectsActivity"
+177-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:167:13-45
+178            android:configChanges="orientation"
+178-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:168:13-48
+179            android:label="@string/projects" />
+179-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:169:13-45
+180        <activity
+180-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:170:9-173:55
+181            android:name="org.inaturalist.android.GuidesActivity"
+181-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:171:13-43
+182            android:configChanges="orientation"
+182-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:172:13-48
+183            android:label="@string/guides" />
+183-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:173:13-43
+184        <activity
+184-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:174:9-179:67
+185            android:name="org.inaturalist.android.ProjectSelectorActivity"
+185-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:175:13-52
+186            android:configChanges="orientation"
+186-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:176:13-48
+187            android:label="iNaturalist"
+187-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:177:13-40
+188            android:theme="@style/iNatAppThemeCustomActionBar"
+188-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:178:13-63
+189            android:windowSoftInputMode="adjustResize" />
+189-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:179:13-55
+190        <activity
+190-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:180:9-183:55
+191            android:name="org.inaturalist.android.IdentificationActivity"
+191-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:181:13-51
+192            android:configChanges="orientation"
+192-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:182:13-48
+193            android:label="@string/add_id" />
+193-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:183:13-43
+194        <activity
+194-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:184:9-187:52
+195            android:name="org.inaturalist.android.TaxonSearchActivity"
+195-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:185:13-48
+196            android:configChanges="orientation"
+196-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:186:13-48
+197            android:label="iNaturalist" />
+197-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:187:13-40
+198        <activity
+198-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:188:9-192:68
+199            android:name="org.inaturalist.android.LoginSignupActivity"
+199-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:189:13-48
+200            android:configChanges="orientation"
+200-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:190:13-48
+201            android:screenOrientation="portrait"
+201-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:191:13-49
+202            android:windowSoftInputMode="adjustNothing" />
+202-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:192:13-56
+203        <activity
+203-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:193:9-243:20
+204            android:name="org.inaturalist.android.ObservationViewerActivity"
+204-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:194:13-54
+205            android:configChanges="orientation" >
+205-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:195:13-48
+206            <intent-filter>
+206-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:196:13-242:29
+207                <action android:name="android.intent.action.VIEW" />
+207-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:17-68
+207-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:25-66
+208
+209                <category android:name="android.intent.category.DEFAULT" />
+209-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+209-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+210                <category android:name="android.intent.category.BROWSABLE" />
+210-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:17-77
+210-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:27-75
+211
+212                <data
+212-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+213                    android:host="*.inaturalist.org"
+213-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+214                    android:pathPattern="/observations/.*"
+214-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+215                    android:scheme="https" />
+215-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+216                <data
+216-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+217                    android:host="*.naturalista.mx"
+217-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+218                    android:pathPattern="/observations/.*"
+218-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+219                    android:scheme="https" />
+219-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+220                <data
+220-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+221                    android:host="*.inaturalist.nz"
+221-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+222                    android:pathPattern="/observations/.*"
+222-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+223                    android:scheme="https" />
+223-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+224                <data
+224-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+225                    android:host="inaturalist.nz"
+225-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+226                    android:pathPattern="/observations/.*"
+226-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+227                    android:scheme="https" />
+227-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+228                <data
+228-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+229                    android:host="*.inaturalist.ca"
+229-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+230                    android:pathPattern="/observations/.*"
+230-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+231                    android:scheme="https" />
+231-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+232                <data
+232-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+233                    android:host="*.biodiversity4all.org"
+233-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+234                    android:pathPattern="/observations/.*"
+234-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+235                    android:scheme="https" />
+235-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+236                <data
+236-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+237                    android:host="inaturalist.ala.org.au"
+237-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+238                    android:pathPattern="/observations/.*"
+238-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+239                    android:scheme="https" />
+239-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+240                <data
+240-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+241                    android:host="*.argentinat.org"
+241-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+242                    android:pathPattern="/observations/.*"
+242-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+243                    android:scheme="https" />
+243-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+244                <data
+244-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+245                    android:host="inaturalist.laji.fi"
+245-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+246                    android:pathPattern="/observations/.*"
+246-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+247                    android:scheme="https" />
+247-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+248                <data
+248-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+249                    android:host="*.naturalist.se"
+249-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+250                    android:pathPattern="/observations/.*"
+250-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+251                    android:scheme="https" />
+251-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+252            </intent-filter>
+253        </activity>
+254        <activity
+254-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:244:9-247:61
+255            android:name="org.inaturalist.android.OnboardingActivity"
+255-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:245:13-47
+256            android:configChanges="orientation"
+256-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:246:13-48
+257            android:screenOrientation="portrait" />
+257-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:247:13-49
+258        <activity
+258-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:248:9-255:20
+259            android:name="org.inaturalist.android.ObservationListActivity"
+259-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:249:13-52
+260            android:configChanges="orientation"
+260-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:250:13-48
+261            android:label="iNaturalist" >
+261-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:251:13-40
+262            <intent-filter>
+262-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:252:13-254:29
+263                <category android:name="android.intent.category.LAUNCHER" />
+263-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+263-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+264            </intent-filter>
+265        </activity>
+266
+267        <activity-alias
+267-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:454:9-464:26
+268            android:name="org.inaturalist.android.ObservationListActivity.inaturalistse"
+268-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:455:13-66
+269            android:configChanges="orientation"
+269-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:457:13-48
+270            android:enabled="false"
+270-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:458:13-36
+271            android:label="@string/network_inaturalistse"
+271-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:459:13-58
+272            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+272-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:456:13-62
+273            <intent-filter>
+273-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+274                <action android:name="android.intent.action.MAIN" />
+274-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+274-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+275
+276                <category android:name="android.intent.category.LAUNCHER" />
+276-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+276-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+277            </intent-filter>
+278        </activity-alias>
+279        <activity-alias
+279-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:443:9-453:26
+280            android:name="org.inaturalist.android.ObservationListActivity.inaturalistgt"
+280-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:444:13-66
+281            android:configChanges="orientation"
+281-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:446:13-48
+282            android:enabled="false"
+282-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:447:13-36
+283            android:label="@string/network_inaturalistgt"
+283-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:448:13-58
+284            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+284-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:445:13-62
+285            <intent-filter>
+285-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+286                <action android:name="android.intent.action.MAIN" />
+286-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+286-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+287
+288                <category android:name="android.intent.category.LAUNCHER" />
+288-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+288-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+289            </intent-filter>
+290        </activity-alias>
+291        <activity-alias
+291-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:432:9-442:26
+292            android:name="org.inaturalist.android.ObservationListActivity.inaturalistcr"
+292-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:433:13-66
+293            android:configChanges="orientation"
+293-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:435:13-48
+294            android:enabled="false"
+294-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:436:13-36
+295            android:label="@string/network_inaturalistcr"
+295-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:437:13-58
+296            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+296-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:434:13-62
+297            <intent-filter>
+297-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+298                <action android:name="android.intent.action.MAIN" />
+298-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+298-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+299
+300                <category android:name="android.intent.category.LAUNCHER" />
+300-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+300-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+301            </intent-filter>
+302        </activity-alias>
+303        <activity-alias
+303-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:421:9-431:26
+304            android:name="org.inaturalist.android.ObservationListActivity.argentinat"
+304-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:422:13-63
+305            android:configChanges="orientation"
+305-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:424:13-48
+306            android:enabled="false"
+306-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:425:13-36
+307            android:label="@string/network_argentinat"
+307-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:426:13-55
+308            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+308-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:423:13-62
+309            <intent-filter>
+309-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+310                <action android:name="android.intent.action.MAIN" />
+310-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+310-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+311
+312                <category android:name="android.intent.category.LAUNCHER" />
+312-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+312-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+313            </intent-filter>
+314        </activity-alias>
+315        <activity-alias
+315-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:410:9-420:26
+316            android:name="org.inaturalist.android.ObservationListActivity.inaturalistil"
+316-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:411:13-66
+317            android:configChanges="orientation"
+317-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:413:13-48
+318            android:enabled="false"
+318-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:414:13-36
+319            android:label="@string/network_inaturalistil"
+319-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:415:13-58
+320            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+320-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:412:13-62
+321            <intent-filter>
+321-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+322                <action android:name="android.intent.action.MAIN" />
+322-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+322-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+323
+324                <category android:name="android.intent.category.LAUNCHER" />
+324-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+324-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+325            </intent-filter>
+326        </activity-alias>
+327        <activity-alias
+327-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:399:9-409:26
+328            android:name="org.inaturalist.android.ObservationListActivity.inaturalistuk"
+328-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:400:13-66
+329            android:configChanges="orientation"
+329-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:402:13-48
+330            android:enabled="false"
+330-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:403:13-36
+331            android:label="@string/network_inaturalistuk"
+331-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:404:13-58
+332            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+332-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:401:13-62
+333            <intent-filter>
+333-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+334                <action android:name="android.intent.action.MAIN" />
+334-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+334-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+335
+336                <category android:name="android.intent.category.LAUNCHER" />
+336-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+336-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+337            </intent-filter>
+338        </activity-alias>
+339        <activity-alias
+339-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:388:9-398:26
+340            android:name="org.inaturalist.android.ObservationListActivity.inaturalistlu"
+340-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:389:13-66
+341            android:configChanges="orientation"
+341-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:391:13-48
+342            android:enabled="false"
+342-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:392:13-36
+343            android:label="@string/network_inaturalistlu"
+343-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:393:13-58
+344            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+344-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:390:13-62
+345            <intent-filter>
+345-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+346                <action android:name="android.intent.action.MAIN" />
+346-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+346-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+347
+348                <category android:name="android.intent.category.LAUNCHER" />
+348-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+348-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+349            </intent-filter>
+350        </activity-alias>
+351        <activity-alias
+351-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:377:9-387:26
+352            android:name="org.inaturalist.android.ObservationListActivity.inaturalistgr"
+352-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:378:13-66
+353            android:configChanges="orientation"
+353-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:380:13-48
+354            android:enabled="false"
+354-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:381:13-36
+355            android:label="@string/network_inaturalistgr"
+355-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:382:13-58
+356            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+356-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:379:13-62
+357            <intent-filter>
+357-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+358                <action android:name="android.intent.action.MAIN" />
+358-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+358-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+359
+360                <category android:name="android.intent.category.LAUNCHER" />
+360-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+360-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+361            </intent-filter>
+362        </activity-alias>
+363        <activity-alias
+363-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:366:9-376:26
+364            android:name="org.inaturalist.android.ObservationListActivity.inaturalistcl"
+364-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:367:13-66
+365            android:configChanges="orientation"
+365-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:369:13-48
+366            android:enabled="false"
+366-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:370:13-36
+367            android:label="@string/network_inaturalistcl"
+367-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:371:13-58
+368            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+368-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:368:13-62
+369            <intent-filter>
+369-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+370                <action android:name="android.intent.action.MAIN" />
+370-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+370-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+371
+372                <category android:name="android.intent.category.LAUNCHER" />
+372-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+372-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+373            </intent-filter>
+374        </activity-alias>
+375        <activity-alias
+375-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:355:9-365:26
+376            android:name="org.inaturalist.android.ObservationListActivity.inaturalistfi"
+376-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:356:13-66
+377            android:configChanges="orientation"
+377-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:358:13-48
+378            android:enabled="false"
+378-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:359:13-36
+379            android:label="@string/network_inaturalistfi"
+379-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:360:13-58
+380            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+380-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:357:13-62
+381            <intent-filter>
+381-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+382                <action android:name="android.intent.action.MAIN" />
+382-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+382-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+383
+384                <category android:name="android.intent.category.LAUNCHER" />
+384-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+384-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+385            </intent-filter>
+386        </activity-alias>
+387        <activity-alias
+387-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:344:9-354:26
+388            android:name="org.inaturalist.android.ObservationListActivity.inaturalistaustralia"
+388-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:345:13-73
+389            android:configChanges="orientation"
+389-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:347:13-48
+390            android:enabled="false"
+390-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:348:13-36
+391            android:label="@string/network_inaturalistaustralia"
+391-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:349:13-65
+392            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+392-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:346:13-62
+393            <intent-filter>
+393-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+394                <action android:name="android.intent.action.MAIN" />
+394-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+394-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+395
+396                <category android:name="android.intent.category.LAUNCHER" />
+396-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+396-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+397            </intent-filter>
+398        </activity-alias>
+399        <activity-alias
+399-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:333:9-343:26
+400            android:name="org.inaturalist.android.ObservationListActivity.inaturalistecuador"
+400-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:334:13-71
+401            android:configChanges="orientation"
+401-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:336:13-48
+402            android:enabled="false"
+402-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:337:13-36
+403            android:label="@string/network_inaturalistecuador"
+403-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:338:13-63
+404            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+404-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:335:13-62
+405            <intent-filter>
+405-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+406                <action android:name="android.intent.action.MAIN" />
+406-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+406-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+407
+408                <category android:name="android.intent.category.LAUNCHER" />
+408-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+408-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+409            </intent-filter>
+410        </activity-alias>
+411        <activity-alias
+411-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:322:9-332:26
+412            android:name="org.inaturalist.android.ObservationListActivity.inaturalistpanama"
+412-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:323:13-70
+413            android:configChanges="orientation"
+413-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:325:13-48
+414            android:enabled="false"
+414-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:326:13-36
+415            android:label="@string/network_inaturalistpanama"
+415-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:327:13-62
+416            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+416-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:324:13-62
+417            <intent-filter>
+417-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+418                <action android:name="android.intent.action.MAIN" />
+418-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+418-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+419
+420                <category android:name="android.intent.category.LAUNCHER" />
+420-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+420-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+421            </intent-filter>
+422        </activity-alias>
+423        <activity-alias
+423-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:311:9-321:26
+424            android:name="org.inaturalist.android.ObservationListActivity.biodiversity4all"
+424-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:312:13-69
+425            android:configChanges="orientation"
+425-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:315:13-48
+426            android:enabled="false"
+426-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:314:13-36
+427            android:label="@string/network_biodiversity4all"
+427-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:316:13-61
+428            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+428-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:313:13-62
+429            <intent-filter>
+429-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+430                <action android:name="android.intent.action.MAIN" />
+430-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+430-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+431
+432                <category android:name="android.intent.category.LAUNCHER" />
+432-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+432-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+433            </intent-filter>
+434        </activity-alias>
+435        <activity-alias
+435-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:300:9-310:26
+436            android:name="org.inaturalist.android.ObservationListActivity.naturewatchnz"
+436-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:301:13-66
+437            android:configChanges="orientation"
+437-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:304:13-48
+438            android:enabled="false"
+438-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:303:13-36
+439            android:label="@string/network_naturewatchnz"
+439-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:305:13-58
+440            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+440-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:302:13-62
+441            <intent-filter>
+441-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+442                <action android:name="android.intent.action.MAIN" />
+442-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+442-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+443
+444                <category android:name="android.intent.category.LAUNCHER" />
+444-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+444-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+445            </intent-filter>
+446        </activity-alias>
+447        <activity-alias
+447-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:289:9-299:26
+448            android:name="org.inaturalist.android.ObservationListActivity.naturalista"
+448-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:290:13-64
+449            android:configChanges="orientation"
+449-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:292:13-48
+450            android:enabled="false"
+450-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:293:13-36
+451            android:label="iNaturalist"
+451-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:294:13-40
+452            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+452-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:291:13-62
+453            <intent-filter>
+453-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+454                <action android:name="android.intent.action.MAIN" />
+454-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+454-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+455
+456                <category android:name="android.intent.category.LAUNCHER" />
+456-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+456-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+457            </intent-filter>
+458        </activity-alias>
+459        <activity-alias
+459-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:278:9-288:26
+460            android:name="org.inaturalist.android.ObservationListActivity.naturalistacolombia"
+460-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:279:13-72
+461            android:configChanges="orientation"
+461-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:281:13-48
+462            android:enabled="false"
+462-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:282:13-36
+463            android:label="iNaturalist"
+463-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:283:13-40
+464            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+464-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:280:13-62
+465            <intent-filter>
+465-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+466                <action android:name="android.intent.action.MAIN" />
+466-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+466-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+467
+468                <category android:name="android.intent.category.LAUNCHER" />
+468-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+468-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+469            </intent-filter>
+470        </activity-alias>
+471        <activity-alias
+471-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:267:9-277:26
+472            android:name="org.inaturalist.android.ObservationListActivity.inaturalistcanada"
+472-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:268:13-70
+473            android:configChanges="orientation"
+473-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:270:13-48
+474            android:enabled="false"
+474-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:271:13-36
+475            android:label="@string/network_inaturalistcanada"
+475-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:272:13-62
+476            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+476-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:269:13-62
+477            <intent-filter>
+477-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+478                <action android:name="android.intent.action.MAIN" />
+478-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+478-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+479
+480                <category android:name="android.intent.category.LAUNCHER" />
+480-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+480-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+481            </intent-filter>
+482        </activity-alias>
+483        <activity-alias
+483-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:256:9-266:26
+484            android:name="org.inaturalist.android.ObservationListActivity.inaturalist"
+484-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:257:13-64
+485            android:configChanges="orientation"
+485-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:260:13-48
+486            android:enabled="true"
+486-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:259:13-35
+487            android:label="iNaturalist"
+487-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:261:13-40
+488            android:targetActivity="org.inaturalist.android.ObservationListActivity" >
+488-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:258:13-62
+489            <intent-filter>
+489-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:262:13-265:29
+490                <action android:name="android.intent.action.MAIN" />
+490-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:17-69
+490-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:263:25-66
+491
+492                <category android:name="android.intent.category.LAUNCHER" />
+492-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:17-77
+492-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:253:27-74
+493            </intent-filter>
+494        </activity-alias>
+495
+496        <activity
+496-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:465:9-521:20
+497            android:name="org.inaturalist.android.ObservationEditor"
+497-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:466:13-46
+498            android:configChanges="orientation"
+498-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:467:13-48
+499            android:label="iNaturalist"
+499-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:468:13-40
+500            android:theme="@style/iNatAppThemeCustomActionBar" >
+500-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:469:13-63
+501            <meta-data
+501-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:71:13-73:60
+502                android:name="android.support.PARENT_ACTIVITY"
+502-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:72:17-63
+503                android:value=".ObservationListActivity" />
+503-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:73:17-57
+504
+505            <intent-filter>
+505-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:474:13-491:29
+506                <action android:name="android.intent.action.VIEW" />
+506-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:17-68
+506-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:25-66
+507                <action android:name="android.intent.action.EDIT" />
+507-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:476:17-69
+507-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:476:25-66
+508                <action android:name="android.intent.action.INSERT" />
+508-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:477:17-71
+508-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:477:25-68
+509
+510                <category android:name="android.intent.category.DEFAULT" />
+510-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+510-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+511
+512                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation" />
+512-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+512-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+513                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation" />
+513-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+513-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+514                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation_photo" />
+514-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+514-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+515                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation_photo" />
+515-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+515-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+516                <data android:mimeType="vnd.android.cursor.item/vnd.google.observation_sound" />
+516-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+516-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+517                <data android:mimeType="vnd.android.cursor.dir/vnd.google.observation_sound" />
+517-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+517-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+518                <data android:mimeType="vnd.android.cursor.item/vnd.google.inatproject" />
+518-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+518-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+519                <data android:mimeType="vnd.android.cursor.dir/vnd.google.inatproject" />
+519-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+519-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+520                <data android:mimeType="vnd.android.cursor.item/vnd.google.projectobservation" />
+520-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+520-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+521                <data android:mimeType="vnd.android.cursor.dir/vnd.google.projectobservation" />
+521-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+521-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+522            </intent-filter>
+523
+524            <!-- Share image(s) with iNaturalist -->
+525            <intent-filter>
+525-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:494:13-500:29
+526                <action android:name="android.intent.action.SEND" />
+526-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:495:17-69
+526-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:495:25-66
+527
+528                <category android:name="android.intent.category.DEFAULT" />
+528-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+528-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+529
+530                <data android:mimeType="image/*" />
+530-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+530-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+531            </intent-filter>
+532            <intent-filter>
+532-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:501:13-507:29
+533                <action android:name="android.intent.action.SEND_MULTIPLE" />
+533-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:502:17-78
+533-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:502:25-75
+534
+535                <category android:name="android.intent.category.DEFAULT" />
+535-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+535-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+536
+537                <data android:mimeType="image/*" />
+537-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+537-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+538            </intent-filter>
+539            <!-- Share sound(s) with iNaturalist -->
+540            <intent-filter>
+540-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:509:13-514:29
+541                <action android:name="android.intent.action.SEND" />
+541-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:495:17-69
+541-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:495:25-66
+542
+543                <category android:name="android.intent.category.DEFAULT" />
+543-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+543-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+544
+545                <data android:mimeType="audio/*" />
+545-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+545-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+546            </intent-filter>
+547            <intent-filter>
+547-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:515:13-520:29
+548                <action android:name="android.intent.action.SEND_MULTIPLE" />
+548-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:502:17-78
+548-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:502:25-75
+549
+550                <category android:name="android.intent.category.DEFAULT" />
+550-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+550-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+551
+552                <data android:mimeType="audio/*" />
+552-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+552-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:481:23-88
+553            </intent-filter>
+554        </activity>
+555        <activity
+555-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:522:9-526:64
+556            android:name="org.inaturalist.android.LocationChooserActivity"
+556-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:523:13-52
+557            android:configChanges="orientation"
+557-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:524:13-48
+558            android:label="@string/choose_location"
+558-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:526:13-52
+559            android:theme="@style/LocationChooserActionBar" />
+559-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:525:13-60
+560        <activity
+560-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:527:9-530:57
+561            android:name="org.inaturalist.android.WebActivity"
+561-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:528:13-40
+562            android:configChanges="orientation"
+562-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:529:13-48
+563            android:label="@string/activity" />
+563-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:530:13-45
+564        <activity
+564-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:531:9-533:60
+565            android:name="org.inaturalist.android.ObservationPhotosViewer"
+565-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:532:13-52
+566            android:configChanges="orientation" />
+566-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:533:13-48
+567        <activity
+567-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:534:9-536:60
+568            android:name="org.inaturalist.android.TaxonTagPhotosViewer"
+568-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:535:13-49
+569            android:configChanges="orientation" />
+569-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:536:13-48
+570        <activity
+570-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:537:9-539:60
+571            android:name="org.inaturalist.android.LocationDetailsActivity"
+571-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:538:13-52
+572            android:configChanges="orientation" />
+572-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:539:13-48
+573        <activity
+573-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:540:9-542:60
+574            android:name="org.inaturalist.android.ObservationProjectsViewer"
+574-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:541:13-54
+575            android:configChanges="orientation" />
+575-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:542:13-48
+576        <activity
+576-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:543:9-545:60
+577            android:name="org.inaturalist.android.ProjectDetailsAbout"
+577-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:544:13-48
+578            android:configChanges="orientation" />
+578-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:545:13-48
+579        <activity
+579-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:546:9-548:60
+580            android:name="org.inaturalist.android.ProjectNews"
+580-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:547:13-40
+581            android:configChanges="orientation" />
+581-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:548:13-48
+582        <activity
+582-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:549:9-551:60
+583            android:name="org.inaturalist.android.NewsArticle"
+583-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:550:13-40
+584            android:configChanges="orientation" />
+584-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:551:13-48
+585        <activity
+585-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:552:9-554:60
+586            android:name="org.inaturalist.android.ProfilePhotoViewer"
+586-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:553:13-47
+587            android:configChanges="orientation" />
+587-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:554:13-48
+588        <activity
+588-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:555:9-557:60
+589            android:name="org.inaturalist.android.ItemSearchActivity"
+589-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:556:13-47
+590            android:configChanges="orientation" />
+590-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:557:13-48
+591        <activity
+591-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:558:9-560:60
+592            android:name="org.inaturalist.android.SettingsActivity"
+592-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:559:13-45
+593            android:configChanges="orientation" />
+593-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:560:13-48
+594        <activity
+594-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:561:9-563:60
+595            android:name="org.inaturalist.android.AboutActivity"
+595-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:562:13-42
+596            android:configChanges="orientation" />
+596-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:563:13-48
+597        <activity
+597-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:564:9-566:60
+598            android:name="org.inaturalist.android.DebugSettingsActivity"
+598-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:565:13-50
+599            android:configChanges="orientation" />
+599-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:566:13-48
+600
+601        <provider
+601-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:568:9-570:324
+602            android:name="org.inaturalist.android.ObservationProvider"
+602-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:569:13-48
+603            android:authorities="org.inaturalist.android.observation;org.inaturalist.android.observation_sound;org.inaturalist.android.observation_photo;org.inaturalist.android.project;org.inaturalist.android.project_observation;org.inaturalist.android.project_field;org.inaturalist.android.project_field_value" />
+603-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:570:13-312
+604
+605        <activity
+605-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:572:9-574:60
+606            android:name="org.inaturalist.android.ProfileEditor"
+606-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:573:13-42
+607            android:configChanges="orientation" />
+607-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:574:13-48
+608        <activity
+608-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:575:9-577:60
+609            android:name="org.inaturalist.android.NetworkSettings"
+609-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:576:13-44
+610            android:configChanges="orientation" />
+610-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:577:13-48
+611        <activity
+611-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:578:9-580:60
+612            android:name="org.inaturalist.android.CreditsActivity"
+612-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:579:13-44
+613            android:configChanges="orientation" />
+613-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:580:13-48
+614        <activity
+614-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:581:9-583:60
+615            android:name="org.inaturalist.android.ObservationSearchActivity"
+615-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:582:13-54
+616            android:configChanges="orientation" />
+616-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:583:13-48
+617        <activity
+617-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:584:9-587:57
+618            android:name="org.inaturalist.android.MissionsActivity"
+618-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:585:13-45
+619            android:configChanges="orientation"
+619-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:586:13-48
+620            android:label="@string/missions" />
+620-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:587:13-45
+621        <activity
+621-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:588:9-591:57
+622            android:name="org.inaturalist.android.MissionsGridActivity"
+622-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:589:13-49
+623            android:configChanges="orientation"
+623-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:590:13-48
+624            android:label="@string/missions" />
+624-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:591:13-45
+625        <activity
+625-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:592:9-596:81
+626            android:name="org.inaturalist.android.MissionDetails"
+626-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:593:13-43
+627            android:configChanges="orientation"
+627-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:594:13-48
+628            android:label=""
+628-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:595:13-29
+629            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+629-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:596:13-69
+630        <activity
+630-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:597:9-600:41
+631            android:name="org.inaturalist.android.MissionDetailsMapActivity"
+631-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:598:13-54
+632            android:configChanges="orientation"
+632-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:599:13-48
+633            android:label="" />
+633-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:600:13-29
+634        <activity
+634-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:601:9-604:41
+635            android:name="org.inaturalist.android.MissionsOnboardingActivity"
+635-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:602:13-55
+636            android:configChanges="orientation"
+636-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:603:13-48
+637            android:label="" />
+637-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:604:13-29
+638        <activity
+638-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:605:9-608:41
+639            android:name="org.inaturalist.android.TaxonActivity"
+639-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:606:13-42
+640            android:configChanges="orientation"
+640-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:607:13-48
+641            android:label="" />
+641-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:608:13-29
+642        <activity
+642-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:609:9-612:41
+643            android:name="org.inaturalist.android.TaxonMapActivity"
+643-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:610:13-45
+644            android:configChanges="orientation"
+644-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:611:13-48
+645            android:label="" />
+645-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:612:13-29
+646        <activity
+646-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:613:9-616:41
+647            android:name="org.inaturalist.android.TaxonSuggestionsActivity"
+647-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:614:13-53
+648            android:configChanges="orientation"
+648-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:615:13-48
+649            android:label="" />
+649-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:616:13-29
+650        <activity
+650-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:617:9-620:41
+651            android:name="org.inaturalist.android.CompareSuggestionActivity"
+651-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:618:13-54
+652            android:configChanges="orientation"
+652-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:619:13-48
+653            android:label="" />
+653-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:620:13-29
+654        <activity
+654-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:621:9-623:41
+655            android:name="org.inaturalist.android.ExploreActivity"
+655-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:622:13-44
+656            android:label="" />
+656-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:623:13-29
+657        <activity
+657-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:624:9-627:41
+658            android:name="org.inaturalist.android.ExploreSearchActivity"
+658-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:625:13-50
+659            android:configChanges="orientation"
+659-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:626:13-48
+660            android:label="" />
+660-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:627:13-29
+661        <activity
+661-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:628:9-631:41
+662            android:name="org.inaturalist.android.ExploreFiltersActivity"
+662-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:629:13-51
+663            android:configChanges="orientation"
+663-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:630:13-48
+664            android:label="" />
+664-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:631:13-29
+665        <activity
+665-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:632:9-635:41
+666            android:name="org.inaturalist.android.ObservationSoundViewer"
+666-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:633:13-51
+667            android:configChanges="orientation"
+667-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:634:13-48
+668            android:label="" />
+668-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:635:13-29
+669        <activity
+669-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:636:9-639:41
+670            android:name="org.inaturalist.android.RecordSoundActivity"
+670-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:637:13-48
+671            android:configChanges="orientation"
+671-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:638:13-48
+672            android:label="" />
+672-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:639:13-29
+673        <activity
+673-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:640:9-643:41
+674            android:name="org.inaturalist.android.PinnedLocationSearchActivity"
+674-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:641:13-57
+675            android:configChanges="orientation"
+675-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:642:13-48
+676            android:label="" />
+676-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:643:13-29
+677        <activity
+677-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:644:9-649:41
+678            android:name="org.inaturalist.android.ObservationPhotoEditor"
+678-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:645:13-51
+679            android:configChanges="orientation"
+679-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:648:13-48
+680            android:label=""
+680-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:649:13-29
+681            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+681-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:646:13-69
+682            android:windowActionBar="false" />
+682-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:647:13-44
+683        <activity
+683-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:650:9-653:41
+684            android:name="org.inaturalist.android.DeleteAccount"
+684-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:651:13-42
+685            android:configChanges="orientation"
+685-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:652:13-48
+686            android:label="" />
+686-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:653:13-29
+687        <activity
+687-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:654:9-657:41
+688            android:name="org.inaturalist.android.ThirdPartyDataSharingActivity"
+688-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:655:13-58
+689            android:configChanges="orientation"
+689-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:656:13-48
+690            android:label="" />
+690-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:657:13-29
+691        <activity
+691-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:658:9-661:41
+692            android:name="org.inaturalist.android.PlaceSearchActivity"
+692-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:659:13-48
+693            android:configChanges="orientation"
+693-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:660:13-48
+694            android:label="" />
+694-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:661:13-29
+695        <activity
+695-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:663:9-666:61
+696            android:name="org.inaturalist.android.MessagesActivity"
+696-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:664:13-45
+697            android:configChanges="orientation"
+697-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:665:13-48
+698            android:label="@string/all_messages" />
+698-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:666:13-49
+699        <activity
+699-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:668:9-719:20
+700            android:name="org.inaturalist.android.MessagesThreadActivity"
+700-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:669:13-51
+701            android:configChanges="orientation" >
+701-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:670:13-48
+702            <intent-filter>
+702-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:672:13-718:29
+703                <action android:name="android.intent.action.VIEW" />
+703-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:17-68
+703-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:25-66
+704
+705                <category android:name="android.intent.category.DEFAULT" />
+705-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+705-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+706                <category android:name="android.intent.category.BROWSABLE" />
+706-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:17-77
+706-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:27-75
+707
+708                <data
+708-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+709                    android:host="*.inaturalist.org"
+709-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+710                    android:pathPattern="/messages/.*"
+710-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+711                    android:scheme="https" />
+711-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+712                <data
+712-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+713                    android:host="*.naturalista.mx"
+713-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+714                    android:pathPattern="/messages/.*"
+714-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+715                    android:scheme="https" />
+715-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+716                <data
+716-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+717                    android:host="*.inaturalist.nz"
+717-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+718                    android:pathPattern="/messages/.*"
+718-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+719                    android:scheme="https" />
+719-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+720                <data
+720-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+721                    android:host="inaturalist.nz"
+721-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+722                    android:pathPattern="/messages/.*"
+722-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+723                    android:scheme="https" />
+723-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+724                <data
+724-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+725                    android:host="*.inaturalist.ca"
+725-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+726                    android:pathPattern="/messages/.*"
+726-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+727                    android:scheme="https" />
+727-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+728                <data
+728-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+729                    android:host="*.biodiversity4all.org"
+729-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+730                    android:pathPattern="/messages/.*"
+730-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+731                    android:scheme="https" />
+731-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+732                <data
+732-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+733                    android:host="inaturalist.ala.org.au"
+733-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+734                    android:pathPattern="/messages/.*"
+734-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+735                    android:scheme="https" />
+735-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+736                <data
+736-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+737                    android:host="*.argentinat.org"
+737-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+738                    android:pathPattern="/messages/.*"
+738-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+739                    android:scheme="https" />
+739-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+740                <data
+740-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+741                    android:host="inaturalist.laji.fi"
+741-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+742                    android:pathPattern="/messages/.*"
+742-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+743                    android:scheme="https" />
+743-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+744                <data
+744-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+745                    android:host="*.naturalist.se"
+745-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+746                    android:pathPattern="/messages/.*"
+746-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:115:21-53
+747                    android:scheme="https" />
+747-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+748            </intent-filter>
+749        </activity>
+750        <activity
+750-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:721:9-724:60
+751            android:name="org.inaturalist.android.NewMessageActivity"
+751-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:722:13-47
+752            android:configChanges="orientation"
+752-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:724:13-48
+753            android:windowSoftInputMode="adjustResize" />
+753-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:723:13-55
+754        <activity
+754-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:726:9-729:60
+755            android:name="org.inaturalist.android.NewMessageSelectUserActivity"
+755-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:727:13-57
+756            android:configChanges="orientation"
+756-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:729:13-48
+757            android:windowSoftInputMode="adjustResize" />
+757-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:728:13-55
+758        <activity
+758-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:731:9-734:60
+759            android:name="org.inaturalist.android.AboutLicensesActivity"
+759-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:732:13-50
+760            android:configChanges="orientation"
+760-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:734:13-48
+761            android:windowSoftInputMode="adjustResize" />
+761-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:733:13-55
+762        <activity
+762-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:736:9-739:60
+763            android:name="org.inaturalist.android.DefaultLicensesActivity"
+763-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:737:13-52
+764            android:configChanges="orientation"
+764-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:739:13-48
+765            android:windowSoftInputMode="adjustResize" />
+765-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:738:13-55
+766        <activity
+766-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:741:9-744:60
+767            android:name="org.inaturalist.android.PastLicensesActivity"
+767-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:742:13-49
+768            android:configChanges="orientation"
+768-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:744:13-48
+769            android:windowSoftInputMode="adjustResize" />
+769-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:743:13-55
+770        <activity
+770-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:746:9-749:72
+771            android:name="com.yalantis.ucrop.UCropActivity"
+771-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:747:13-60
+772            android:screenOrientation="portrait"
+772-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:748:13-49
+773            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+773-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:749:13-69
+774
+775        <service android:name="org.inaturalist.android.INaturalistService" />
+775-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:751:9-55
+775-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:751:18-52
+776
+777        <meta-data
+777-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:753:9-755:72
+778            android:name="com.crashlytics.ApiKey"
+778-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:754:13-50
+779            android:value="7baaee0ca8a376b3d129b908c1e03be6ecbe5786" />
+779-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:755:13-69
+780
+781        <service
+781-->[com.google.firebase:firebase-crashlytics:18.2.4] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c5f2732811517182792db76f8369cca/jetified-firebase-crashlytics-18.2.4/AndroidManifest.xml:15:9-21:19
+782            android:name="com.google.firebase.components.ComponentDiscoveryService"
+782-->[com.google.firebase:firebase-crashlytics:18.2.4] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c5f2732811517182792db76f8369cca/jetified-firebase-crashlytics-18.2.4/AndroidManifest.xml:16:13-84
+783            android:directBootAware="true"
+783-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/ea041d90c21ae8890b2f38fffd804bda/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+784            android:exported="false" >
+784-->[com.google.firebase:firebase-crashlytics:18.2.4] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c5f2732811517182792db76f8369cca/jetified-firebase-crashlytics-18.2.4/AndroidManifest.xml:17:13-37
+785            <meta-data
+785-->[com.google.firebase:firebase-crashlytics:18.2.4] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c5f2732811517182792db76f8369cca/jetified-firebase-crashlytics-18.2.4/AndroidManifest.xml:18:13-20:85
+786                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+786-->[com.google.firebase:firebase-crashlytics:18.2.4] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c5f2732811517182792db76f8369cca/jetified-firebase-crashlytics-18.2.4/AndroidManifest.xml:19:17-115
+787                android:value="com.google.firebase.components.ComponentRegistrar" />
+787-->[com.google.firebase:firebase-crashlytics:18.2.4] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c5f2732811517182792db76f8369cca/jetified-firebase-crashlytics-18.2.4/AndroidManifest.xml:20:17-82
+788            <meta-data
+788-->[com.google.firebase:firebase-installations:17.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/2e0640e50eb0cdaedbb3f605bd288be4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+789                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+789-->[com.google.firebase:firebase-installations:17.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/2e0640e50eb0cdaedbb3f605bd288be4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+790                android:value="com.google.firebase.components.ComponentRegistrar" />
+790-->[com.google.firebase:firebase-installations:17.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/2e0640e50eb0cdaedbb3f605bd288be4/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+791        </service>
+792
+793        <activity
+793-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:14:9-20:20
+794            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+794-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:15:13-91
+795            android:exported="false"
+795-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:16:13-37
+796            android:label="@string/places_autocomplete_label"
+796-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:17:13-62
+797            android:theme="@style/PlacesAutocompleteOverlay"
+797-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:18:13-61
+798            android:windowSoftInputMode="adjustResize" >
+798-->[com.google.android.libraries.places:places:2.5.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/423473d4c011b4204dae5ba0cdb55f40/jetified-places-2.5.0/AndroidManifest.xml:19:13-55
+799        </activity>
+800        <activity
+800-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:30:9-33:66
+801            android:name="com.facebook.FacebookActivity"
+801-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:31:13-57
+802            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+802-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:32:13-96
+803            android:theme="@style/com_facebook_activity_theme" />
+803-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:33:13-63
+804        <activity android:name="com.facebook.CustomTabMainActivity" />
+804-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:9-71
+804-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:19-68
+805        <activity
+805-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:35:9-49:20
+806            android:name="com.facebook.CustomTabActivity"
+806-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:36:13-58
+807            android:exported="true" >
+807-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:37:13-36
+808            <intent-filter>
+808-->[com.facebook.android:facebook-common:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8f48f49dcf3d397ff120e893f08c7fff/jetified-facebook-common-8.2.0/AndroidManifest.xml:39:13-48:29
+809                <action android:name="android.intent.action.VIEW" />
+809-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:17-68
+809-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:108:25-66
+810
+811                <category android:name="android.intent.category.DEFAULT" />
+811-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:17-75
+811-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:110:27-73
+812                <category android:name="android.intent.category.BROWSABLE" />
+812-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:17-77
+812-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:111:27-75
+813
+814                <data
+814-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:113:17-116:45
+815                    android:host="cct.org.inaturalist.android"
+815-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:114:21-53
+816                    android:scheme="fbconnect" />
+816-->/Volumes/G-DRIVE mobile SSD R-Series/Back UP/Documents/iNaturalistAndroid/iNaturalist/src/main/AndroidManifest.xml:116:21-43
+817            </intent-filter>
+818        </activity>
+819        <!--
+820         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+821         with the application context. This config is merged in with the host app's manifest,
+822         but there can only be one provider with the same authority activated at any given
+823         point; so if the end user has two or more different apps that use Facebook SDK, only the
+824         first one will be able to use the provider. To work around this problem, we use the
+825         following placeholder in the authority to identify each host application as if it was
+826         a completely different provider.
+827        -->
+828        <provider
+828-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:39:9-42:40
+829            android:name="com.facebook.internal.FacebookInitProvider"
+829-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:40:13-70
+830            android:authorities="org.inaturalist.android.FacebookInitProvider"
+830-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:41:13-72
+831            android:exported="false" />
+831-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:42:13-37
+832
+833        <receiver
+833-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:44:9-50:20
+834            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+834-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:45:13-86
+835            android:exported="false" >
+835-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:46:13-37
+836            <intent-filter>
+836-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:47:13-49:29
+837                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+837-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:17-95
+837-->[com.facebook.android:facebook-core:8.2.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/48406825c492263abebb5389e022bdea/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:25-92
+838            </intent-filter>
+839        </receiver>
+840
+841        <activity
+841-->[com.google.android.gms:play-services-base:17.2.1] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8028ab1bba9c776ffb3a58baa6c29073/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+842            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+842-->[com.google.android.gms:play-services-base:17.2.1] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8028ab1bba9c776ffb3a58baa6c29073/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+843            android:exported="false"
+843-->[com.google.android.gms:play-services-base:17.2.1] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8028ab1bba9c776ffb3a58baa6c29073/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+844            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+844-->[com.google.android.gms:play-services-base:17.2.1] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/8028ab1bba9c776ffb3a58baa6c29073/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+845
+846        <provider
+846-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/ea041d90c21ae8890b2f38fffd804bda/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+847            android:name="com.google.firebase.provider.FirebaseInitProvider"
+847-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/ea041d90c21ae8890b2f38fffd804bda/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+848            android:authorities="org.inaturalist.android.firebaseinitprovider"
+848-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/ea041d90c21ae8890b2f38fffd804bda/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+849            android:directBootAware="true"
+849-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/ea041d90c21ae8890b2f38fffd804bda/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+850            android:exported="false"
+850-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/ea041d90c21ae8890b2f38fffd804bda/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+851            android:initOrder="100" />
+851-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/ea041d90c21ae8890b2f38fffd804bda/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+852
+853        <service
+853-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d56bfd4e9d017f2b9951fda439865390/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+854            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+854-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d56bfd4e9d017f2b9951fda439865390/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+855            android:exported="false" >
+855-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d56bfd4e9d017f2b9951fda439865390/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+856            <meta-data
+856-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d56bfd4e9d017f2b9951fda439865390/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+857                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+857-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d56bfd4e9d017f2b9951fda439865390/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+858                android:value="cct" />
+858-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/d56bfd4e9d017f2b9951fda439865390/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+859        </service>
+860        <service
+860-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c2ecf673f3ac8316865d3f5c20104f3/jetified-transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+861            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+861-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c2ecf673f3ac8316865d3f5c20104f3/jetified-transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+862            android:exported="false"
+862-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c2ecf673f3ac8316865d3f5c20104f3/jetified-transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+863            android:permission="android.permission.BIND_JOB_SERVICE" >
+863-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c2ecf673f3ac8316865d3f5c20104f3/jetified-transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+864        </service>
+865
+866        <receiver
+866-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c2ecf673f3ac8316865d3f5c20104f3/jetified-transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+867            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+867-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c2ecf673f3ac8316865d3f5c20104f3/jetified-transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+868            android:exported="false" />
+868-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/bhawak/.gradle/caches/transforms-2/files-2.1/5c2ecf673f3ac8316865d3f5c20104f3/jetified-transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+869    </application>
+870
+871</manifest>
